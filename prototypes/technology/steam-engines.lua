@@ -21,7 +21,6 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
       },
       time = 30
     },
@@ -35,7 +34,7 @@ data:extend(
     prerequisites =
     {
       "steam-engine-generator-1",
-      "advanced-electronics",
+      "steel-processing",
     },
     icon = "__base__/graphics/icons/steam-engine.png",
     effects =
@@ -59,6 +58,38 @@ data:extend(
     upgrade = true,
     order = "[steam]-2",
   },
+  
+    {
+    type = "technology",
+    name = "steam-engine-generator-3",
+    prerequisites =
+    {
+      "steam-engine-generator-2",
+      "steel-processing",
+    },
+    icon = "__base__/graphics/icons/steam-engine.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "steam-engine-4"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "[steam]-3",
+  },
+  
 }
 )
 

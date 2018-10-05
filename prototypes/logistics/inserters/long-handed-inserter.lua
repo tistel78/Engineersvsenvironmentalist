@@ -83,42 +83,42 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/long-handed-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-closed.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/long-handed-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-open.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/long-handed-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_base_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-base-shadow.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -127,7 +127,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/long-handed-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46

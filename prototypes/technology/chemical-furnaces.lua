@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "chemical-boiler",
-    icon = "__Henrikshell__/graphics/icons/processors/stone-chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-chemical-furnace.png",
     order = "d-a-a-1",
     upgrade = "true",
     unit =
@@ -37,7 +37,7 @@ data:extend(
  {
     type = "technology",
     name = "chemical-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-furnace.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

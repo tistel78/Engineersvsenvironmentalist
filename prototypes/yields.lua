@@ -98,6 +98,14 @@ data.raw["resource"]["sulfur"].minable.results = {
 	addYield("gem-ore",      1, 1, 0.001)
 }
 
+data.raw["resource"]["salpeter"].minable.result = nil
+data.raw["resource"]["salpeter"].minable.results = {
+	addYield("salpeter",    1, 1, 1),
+	addYield("sand",      1, 2, 0.2),
+	addYield("gravel",    1, 4, 1),
+	}
+
+
 data.raw["resource"]["tin-ore"].minable.result = nil
 data.raw["resource"]["tin-ore"].minable.results = {
 	addYield("tin-ore",    1, 1, 1),
@@ -160,4 +168,9 @@ data.raw["resource"]["cryolite"].minable.results = {
 	addYield("cryolite",    1, 1, 1),
 	addYield("dirt",      1, 1, 1),
 	addYield("waste-rock",     1, 1, 0.5),
+}
+
+data.raw["resource"]["magma"].minable.result = nil
+data.raw["resource"]["magma"].minable.results = {
+	addYield("magma",   1, 1, 1), 
 }

@@ -8,7 +8,7 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-accumulator"
+        recipe = "accumulator"
       }
     },
     prerequisites = {"electric-energy-distribution-1", "battery"},

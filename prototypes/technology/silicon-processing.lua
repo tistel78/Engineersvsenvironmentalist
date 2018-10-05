@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "silicon-processing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silicon-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-plate.png",
     prerequisites = {"electronics"},
     effects =
     {

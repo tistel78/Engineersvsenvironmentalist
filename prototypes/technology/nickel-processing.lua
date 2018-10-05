@@ -3,13 +3,18 @@ data:extend(
 {
     type = "technology",
     name = "nickel-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/nickel-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
     effects =
     {
       {
         type = "unlock-recipe",
         recipe = "nickel-plate"
       },
+	        {
+        type = "unlock-recipe",
+        recipe = "catalyst-pendalite"
+      },
+	 
       {
         type = "unlock-recipe",
         recipe = "iron-gear-wheel|nickel"

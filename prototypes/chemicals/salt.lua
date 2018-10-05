@@ -3,7 +3,7 @@ data:extend(
    {
     type = "item",
     name = "salt",
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/salt.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lithium-base",
     order = "f[salt]",

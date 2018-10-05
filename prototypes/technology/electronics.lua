@@ -10,6 +10,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "electronic-circuit"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "electronic-circuit-upgrade"
+      },
       {
         type = "unlock-recipe",
         recipe = "basic-electronic-components"
@@ -34,7 +38,7 @@ data:extend(
     prerequisites = {"chemical-boiler","mixing-furnace","tin-processing","lead-processing"},
     unit =
     {
-      count = 30,
+      count = 20,
       ingredients = {{"science-pack-1", 1}},
       time = 15
     },

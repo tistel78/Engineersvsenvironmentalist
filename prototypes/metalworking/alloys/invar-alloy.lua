@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "invar-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/invar-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/invar-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "invar",
@@ -18,7 +18,7 @@ data:extend(
     ingredients =
     {
       {type="item", name="nickel-plate", amount=2},
-      {type="item", name="iron-plate", amount=3},
+      {type="item", name="steel-plate", amount=3},
     },
     results = 
     {

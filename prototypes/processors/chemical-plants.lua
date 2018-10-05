@@ -36,7 +36,7 @@ data:extend(
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 	
-	crafting_speed = 0.1,
+	crafting_speed = 0.5,
     energy_source =
     {
       type = "burner",
@@ -192,7 +192,7 @@ data:extend(
 {
     type = "item",
     name = "chemical-plant-2",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-2]",
@@ -206,17 +206,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",50},
+      {"wall",500},
       {"storage-tank",5},
       {"plumbing",150},
-      {"iron-gear-wheel",150},
+      {"iron-gear-wheel",250},
     },
     result = "chemical-plant-2"
   },
   {
     type = "assembling-machine",
     name = "chemical-plant-2",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-2.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-2"},
     max_health = 350,
@@ -230,7 +230,7 @@ data:extend(
       module_slots = 4,
     },
     ingredient_count = 6,
-    crafting_speed = 1,
+    crafting_speed = 4,
     energy_usage = "92MW",
     energy_source =
     {
@@ -372,7 +372,7 @@ data:extend(
   {
     type = "item",
     name = "chemical-plant-3",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-3.png",
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-3]",
@@ -382,11 +382,11 @@ data:extend(
   {
     type = "recipe",
     name = "chemical-plant-3",
-    energy_required = 10,
+    energy_required = 100,
     enabled = false,
     ingredients =
     {
-      {"wall",1000},
+      {"wall",5000},
       {"storage-tank",100},
       {"plumbing",3000},
       {"iron-gear-wheel",3000},
@@ -396,7 +396,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "chemical-plant-3",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-3.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-3"},
     max_health = 400,
@@ -410,7 +410,7 @@ data:extend(
       module_slots = 5,
     },
     ingredient_count = 8,
-    crafting_speed = 5,
+    crafting_speed = 25,
     energy_usage = "137MW",
     energy_source =
     {
@@ -551,7 +551,7 @@ data:extend(
   {
     type = "item",
     name = "chemical-plant-4",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-4.png",
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-4]",
@@ -561,21 +561,21 @@ data:extend(
   {
     type = "recipe",
     name = "chemical-plant-4",
-    energy_required = 10,
+    energy_required = 2000,
     enabled = false,
     ingredients =
     {
-      {"wall",20000},
-      {"storage-tank",2000},
+      {"wall",5000},
+      {"storage-tank",100},
       {"plumbing",60000},
-      {"iron-gear-wheel",60000},
+      {"advanced-machine-parts",30000},
     },
     result = "chemical-plant-4"
   },
   {
     type = "assembling-machine",
     name = "chemical-plant-4",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-plant-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-4.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-4"},
     max_health = 500,
@@ -589,7 +589,7 @@ data:extend(
       module_slots = 6,
     },
     ingredient_count = 10,
-    crafting_speed = 25,
+    crafting_speed = 125,
     energy_usage = "206MW",
     energy_source =
     {

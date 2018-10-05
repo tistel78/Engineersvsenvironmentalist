@@ -3,13 +3,14 @@ data:extend(
   {
     type = "item",
     name = "browncoal",
-    icon = "__Henrikshell__/graphics/icons/ore/browncoal.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/browncoal.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "coal-base",
     fuel_value = "2GJ",
     order = "a-1",
     stack_size = 200
   },
+
   {
     type = "noise-layer",
     name = "lignite-ore"
@@ -27,14 +28,14 @@ data:extend(
     {
       hardness = 0.2,
       mining_particle = "stone-particle",
-      mining_time = 0.7,
+      mining_time = 0.1,
       result = "browncoal"
     },
 		name = "lignite-ore",
 		tint = {r = 1, g = 0.75, b = 0},
 		map_color = {r=0.3, g=0.3, b=0.05},
 		enabled = false,
-		icon = "__Henrikshell__/graphics/icons/ore/browncoal.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/browncoal.png",
 		stage_mult = 10,
 		item =
 		{
@@ -49,19 +50,19 @@ data:extend(
 		{
 			control = "lignite-ore",
 			sharpness = 1,
-			richness_multiplier = 12000,
-			richness_base = 250,
-			size_control_multiplier = 0.09,
+			richness_multiplier = 15000,
+			richness_base = 100000,
+			size_control_multiplier = 0.15,
 			peaks =
 			{
 			{
-          influence = 0.21,
+          influence = 0.2,
           starting_area_weight_optimal = 0,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.65,
+          influence = 0.30,
           noise_layer = "lignite-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.35,
@@ -93,7 +94,7 @@ data:extend(
 		{
 			sheet =
 			{
-				filename = "__Henrikshell__/graphics/entity/ores/lignite-ore.png",
+				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/lignite-ore.png",
 				priority = "extra-high",
 				width = 38,
 				height = 38,

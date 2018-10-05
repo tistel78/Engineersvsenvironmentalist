@@ -4,7 +4,7 @@ data:extend(
  {
     type = "item",
     name = "cobalt-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "cobalt-processing",
     order = "c-a-j[cobalt-plate]",
@@ -13,7 +13,7 @@ data:extend(
    {
     type = "item",
     name = "cobalt-oxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/cobalt-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cobalt-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "cobalt-processing",
     order = "f[cobalt-oxide]",
@@ -22,7 +22,7 @@ data:extend(
   {
     type = "item",
     name = "cobalt-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "cobalt-processing",
     order = "f[cobalt-oxide]",
@@ -31,7 +31,7 @@ data:extend(
   {
     type = "recipe",
     name = "cobalt-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-crushed.png",
     category = "crusher",
     subgroup = "cobalt-processing",
     order ="a-1",

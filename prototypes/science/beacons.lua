@@ -2,17 +2,17 @@ data:extend(
 {
 {
     type = "item",
-    name = "basic-beacon",
-    icon = "__base__/graphics/icons/basic-beacon.png",
+    name = "beacon",
+    icon = "__base__/graphics/icons/beacon.png",
     flags = {"goes-to-quickbar"},
     subgroup = "h-modules",
     order = "a[beacon]",
-    place_result = "basic-beacon",
+    place_result = "beacon",
     stack_size = 10
   },
   {
     type = "recipe",
-    name = "basic-beacon",
+    name = "beacon",
     enabled = false,
     energy_required = 15,
     ingredients =
@@ -22,14 +22,14 @@ data:extend(
       {"advanced-machine-parts", 10},
       {"copper-cable", 10}
     },
-    result = "basic-beacon"
+    result = "beacon"
   },
   {
     type = "beacon",
-    name = "basic-beacon",
-    icon = "__base__/graphics/icons/basic-beacon.png",
+    name = "beacon",
+    icon = "__base__/graphics/icons/beacon.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {mining_time = 1, result = "basic-beacon"},
+    minable = {mining_time = 1, result = "beacon"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -38,14 +38,14 @@ data:extend(
     allowed_effects = {"consumption", "speed", "pollution"},
     base_picture =
     {
-      filename = "__base__/graphics/entity/basic-beacon/basic-beacon-base.png",
+      filename = "__base__/graphics/entity/beacon/beacon-base.png",
       width = 116,
       height = 93,
       shift = { 0.34, 0.06}
     },
     animation =
     {
-      filename = "__base__/graphics/entity/basic-beacon/basic-beacon-antenna.png",
+      filename = "__base__/graphics/entity/beacon/beacon-antenna.png",
       width = 54,
       height = 50,
       line_length = 8,
@@ -55,7 +55,7 @@ data:extend(
     },
     animation_shadow =
     {
-      filename = "__base__/graphics/entity/basic-beacon/basic-beacon-antenna-shadow.png",
+      filename = "__base__/graphics/entity/beacon/beacon-antenna-shadow.png",
       width = 63,
       height = 49,
       line_length = 8,
@@ -65,7 +65,7 @@ data:extend(
     },
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-beacon/beacon-radius-visualization.png",
+      filename = "__base__/graphics/entity/beacon/beacon-radius-visualization.png",
       width = 12,
       height = 12
     },

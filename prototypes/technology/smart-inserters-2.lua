@@ -3,7 +3,7 @@ data:extend(
   {
     type = "technology",
     name = "smart-inserters-2",
-    icon = "__Henrikshell__/graphics/icons/inserters/smart-long-inserter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-long-inserter.png",
     effects =
     {
       {

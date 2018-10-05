@@ -3,7 +3,7 @@ data:extend(
 {
     type = "item",
     name = "chemical-boiler",
-    icon = "__Henrikshell__/graphics/icons/processors/stone-chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-chemical-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "chemical-smelting",
     order = "b[chemical-boiler]",
@@ -26,7 +26,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "chemical-boiler",
-    icon = "__Henrikshell__/graphics/icons/processors/stone-chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-chemical-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "chemical-boiler"},
     max_health = 150,
@@ -86,7 +86,7 @@ data:extend(
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
         priority = "extra-high",
         width = 94,
         height = 80,
@@ -95,7 +95,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
         x = 94,
         priority = "extra-high",
         width = 94,
@@ -106,7 +106,7 @@ data:extend(
       south =
       {
         x = 188,
-        filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
         priority = "extra-high",
         width = 94,
         height = 80,
@@ -116,7 +116,7 @@ data:extend(
       east =
       {
         x = 282,
-        filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
         priority = "extra-high",
         width = 94,
         height = 80,
@@ -133,21 +133,21 @@ data:extend(
         east_position = { 0.53125, 0.78125},
         east_animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-down.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-down.png",
           width = 9,
           height = 8,
           frame_count = 14,
         },
         south_animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-left.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-left.png",
           width = 5,
           height = 7,
           frame_count = 14,
         },
         north_animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-right.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-right.png",
           width = 6,
           height = 9,
           frame_count = 14,
@@ -159,7 +159,7 @@ data:extend(
   {
     type = "item",
     name = "chemical-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "chemical-smelting",
     order = "c[chemical-furnace]",
@@ -169,20 +169,20 @@ data:extend(
   {
     type = "recipe",
     name = "chemical-furnace",
-    energy_required = 10,
+    energy_required = 100,
     enabled = false,
     ingredients =
     {
-      {"wall", 180},
-      {"plumbing", 125},
-      {"iron-gear-wheel",75},
+      {"wall", 2000},
+      {"plumbing", 1250},
+      {"iron-gear-wheel",750},
     },
     result = "chemical-furnace"
   },
   {
     type = "assembling-machine",
     name = "chemical-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/chemical-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "chemical-furnace"},
     max_health = 250,
@@ -236,7 +236,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/processors/chemical-furnace/chemical-furnace.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -252,7 +252,7 @@ data:extend(
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/chemical-furnace/chemical-furnace-fire.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,

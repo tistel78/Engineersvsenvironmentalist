@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "titanium-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-plate.png",
     prerequisites = {"chemical-plants-2","nickel-processing","electrolyser-2"},
     effects =
     {

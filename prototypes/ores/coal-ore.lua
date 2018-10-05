@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "coal",
-    icon = "__Henrikshell__/graphics/icons/ore/coal.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/coal.png",
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "2.4GJ",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "resource",
     name = "coal",
-    icon = "__Henrikshell__/graphics/icons/ore/coal.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/coal.png",
     flags = {"placeable-neutral"},
     order="a-b-c",
     minable =
@@ -40,18 +40,18 @@ data:extend(
     {
       control = "coal",
       sharpness = 1,
-      richness_multiplier = 13000,
-      richness_base = 1000,
+      richness_multiplier = 5000,
+      richness_base = 5000,
       size_control_multiplier = 0.1,
       peaks = {
         {
-          influence = 0.21,
+          influence = 0.12,
           starting_area_weight_optimal = 0,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.65,
+          influence = 0.4,
           noise_layer = "coal",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.35,
@@ -60,13 +60,13 @@ data:extend(
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.32,
+          influence = 0.4,
           starting_area_weight_optimal = 1,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.5,
+          influence = 0.4,
           noise_layer = "coal",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.4,

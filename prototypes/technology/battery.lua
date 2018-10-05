@@ -26,7 +26,7 @@
   {
     type = "technology",
     name = "battery-2",
-    icon = "__Henrikshell__/graphics/icons/parts/lithium-ion-battery.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/lithium-ion-battery.png",
     prerequisites = {"battery","lithium-processing"},
     unit =
     {
@@ -50,7 +50,7 @@
   {
     type = "technology",
     name = "battery-3",
-    icon = "__Henrikshell__/graphics/icons/parts/silver-zinc-battery.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/silver-zinc-battery.png",
     prerequisites = {"battery-2","silver-processing"},
     unit =
     {

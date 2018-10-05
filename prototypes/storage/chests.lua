@@ -52,27 +52,6 @@
   },
   {
     type = "item",
-    name = "smart-chest",
-    icon = "__base__/graphics/icons/smart-chest.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "solid-storage",
-    order = "a[items]-d[smart-chest]",
-    place_result = "smart-chest",
-    stack_size = 50
-  },
-    {
-    type = "recipe",
-    name = "smart-chest",
-    enabled = false,
-    ingredients =
-    {
-      {"steel-chest", 1},
-      {"electronic-circuit", 3}
-    },
-    result = "smart-chest"
-  },
-  {
-    type = "item",
     name = "logistic-chest-passive-provider",
     icon = "__base__/graphics/icons/logistic-chest-passive-provider.png",
     flags = {"goes-to-quickbar"},
@@ -87,7 +66,7 @@
     enabled = false,
     ingredients =
     {
-      {"smart-chest", 1},
+      {"steel-chest", 1},
       {"advanced-circuit", 1}
     },
     result = "logistic-chest-passive-provider"
@@ -108,7 +87,7 @@
     enabled = false,
     ingredients =
     {
-      {"smart-chest", 1},
+      {"steel-chest", 1},
       {"advanced-circuit", 1}
     },
     result = "logistic-chest-active-provider"
@@ -129,7 +108,7 @@
     enabled = false,
     ingredients =
     {
-      {"smart-chest", 1},
+      {"steel-chest", 1},
       {"advanced-circuit", 1}
     },
     result = "logistic-chest-storage"
@@ -150,7 +129,7 @@
     enabled = false,
     ingredients =
     {
-      {"smart-chest", 1},
+      {"steel-chest", 1},
       {"advanced-circuit", 1}
     },
     result = "logistic-chest-requester"

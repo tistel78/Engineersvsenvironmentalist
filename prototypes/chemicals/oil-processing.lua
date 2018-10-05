@@ -71,7 +71,7 @@ data:extend(
     },
     results=
     {
-      {type="item", name="asphaltum", amount=1},
+      {type="item", name="sulfur", amount=1},
       {type="fluid", name="heavy-oil", amount=3},
       {type="fluid", name="light-oil", amount=3},
       {type="fluid", name="petroleum-gas", amount=4}
@@ -93,10 +93,10 @@ data:extend(
     },
     results=
     {
-      {type="item", name="asphaltum", amount=1},
+      {type="item", name="sulfur", amount=1},
       {type="fluid", name="heavy-oil", amount=1},
       {type="fluid", name="light-oil", amount=4.5},
-      {type="fluid", name="petroleum-gas", amount=5.5}
+      {type="fluid", name="petroleum-gas", amount=6.5}
     },
     icon = "__base__/graphics/icons/fluid/advanced-oil-processing.png",
     subgroup = "oil-processing",
@@ -114,10 +114,10 @@ data:extend(
     },
     results=
     {
-      {type="item", name="asphaltum", amount=1},
+      {type="item", name="sulfur", amount=1},
       {type="fluid", name="heavy-oil", amount=5},
       {type="fluid", name="light-oil", amount=2},
-      {type="fluid", name="petroleum-gas", amount=3}
+      {type="fluid", name="petroleum-gas", amount=4}
     },
     icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
     subgroup = "oil-processing",
@@ -156,7 +156,7 @@ data:extend(
     },
     results=
     {
-      {type="fluid", name="petroleum-gas", amount=2}
+      {type="fluid", name="petroleum-gas", amount=4}
     },
     main_product= "",
     icon = "__base__/graphics/icons/fluid/light-oil-cracking.png",
@@ -171,16 +171,16 @@ data:extend(
     energy_required = 2.5,
     ingredients =
     {
-      {type="fluid", name="water", amount=1},
-      {type="fluid", name="petroleum-gas", amount=1},
+      {type="fluid", name="petroleum-gas", amount=10},
     },
     results=
     {
-      {type="fluid", name="hydrogen", amount=10}
+      {type="fluid", name="ammonia", amount=1},
+	  {type="fluid", name="petroleum-gas", amount=8},
     },
-    subgroup = "oil-processing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/petrolium-gas-cracking.png",
-    order = "b[fluid-chemistry]-b[hydrogen]"
+    subgroup = "AN-FO",
+	order= "a-1",	
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/petrolium-gas-cracking.png",
   },
    {
     type = "recipe",
@@ -198,7 +198,7 @@ data:extend(
       {type="fluid", name="heavy-oil", amount=1.2}
     },
     subgroup = "oil-processing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/coal-cracking.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/coal-cracking.png",
     order = "b[fluid-chemistry]-a[coal-cracking]"
   },
 }

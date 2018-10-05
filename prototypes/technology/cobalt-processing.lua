@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "cobalt-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/cobalt-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-plate.png",
     effects =
     {
       {

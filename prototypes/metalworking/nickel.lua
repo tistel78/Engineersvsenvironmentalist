@@ -4,7 +4,7 @@ data:extend(
  {
     type = "item",
     name = "nickel-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/nickel-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "nickel-processing",
     order = "a-1",
@@ -13,7 +13,7 @@ data:extend(
  {
     type = "item",
     name = "nickel-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/nickel-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "nickel-processing",
     order = "a-2",
@@ -22,7 +22,7 @@ data:extend(
   {
 	type = "recipe",
   name = "nickel-crushed",
-	icon = "__Henrikshell__/graphics/icons/metalworking/nickel-crushed.png",
+	icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-crushed.png",
   category = "crusher",
 	subgroup = "nickel-processing",
   order = "a-1",

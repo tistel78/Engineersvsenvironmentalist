@@ -8,7 +8,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/hydrogen-fluoride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/hydrogen-fluoride.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -26,10 +26,12 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {type="item", name="stone", amount=2},
+      {type="item", name="fluorite", amount=2},
+	  {type="fluid", name="sulfuric-acid", amount=1},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/hydrogen-fluoride.png",
-    results = {{type="fluid", name="hydrogen-fluoride", amount=3}},
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/hydrogen-fluoride.png",
+    results = {{type="fluid", name="hydrogen-fluoride", amount=10}},
 		order = "a-5"
   },
 })
+

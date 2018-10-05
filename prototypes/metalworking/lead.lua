@@ -6,7 +6,7 @@ data:extend(
   {
     type = "item",
     name = "lead-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-1",
@@ -15,7 +15,7 @@ data:extend(
   {
     type = "item",
     name = "lead-sifted",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-sifted.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-2",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "item",
     name = "lead-sulfide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sulfide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-sulfide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-3",
@@ -33,7 +33,7 @@ data:extend(
     {
     type = "item",
     name = "lead-oxide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-4",
@@ -42,7 +42,7 @@ data:extend(
     {
     type = "item",
     name = "lead-filtered",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-filtered.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-filtered.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-5",
@@ -56,7 +56,7 @@ data:extend(
     heat_capacity = "1KJ",
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=0.7, b=0.7},
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-molten.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-molten.png",
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -64,7 +64,7 @@ data:extend(
    {
     type = "item",
     name = "lead-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "lead-processing",
     order = "a-5",
@@ -79,7 +79,7 @@ data:extend(
 {
     type = "recipe",
     name = "galena-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-sifted.png",
     category = "crusher",
     subgroup = "lead-processing",
     order = "a-1",
@@ -95,7 +95,7 @@ data:extend(
   {
     type = "recipe",
     name = "galena-flotation",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-crushed.png",
     category = "sifter",
     subgroup = "lead-processing",
     order = "a-2",
@@ -113,14 +113,14 @@ data:extend(
     {"lead-sifted",10},
     {"lead-sulfide",1},
     {"copper-sulfate",1},
-    {"crushed-zinc",1},
+    {"crushed-zinc",10},
     {"gravel",5},
     },
   },
   {
     type = "recipe",
     name = "lead-sulfide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-oxide.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "b-1",
@@ -134,13 +134,13 @@ data:extend(
     results = 
     {
     {"lead-oxide",2},
-     {type="fluid",name="sulfur-dioxide",amount=3},
+     {type="fluid",name="sulfur-dioxide",amount=5},
     }
   },
   {
     type = "recipe",
     name = "lead-filtering",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-filtered.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-filtered.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-4",
@@ -160,7 +160,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-roasting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-oxide.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-5",
@@ -180,7 +180,7 @@ data:extend(
   {
     type = "recipe",
     name = "lead-blasting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-molten.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-molten.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-6",
@@ -199,7 +199,7 @@ data:extend(
    {
     type = "recipe",
     name = "lead-refining",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lead-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-plate.png",
     category = "chemistry",
     subgroup = "lead-processing",
     order = "a-7",

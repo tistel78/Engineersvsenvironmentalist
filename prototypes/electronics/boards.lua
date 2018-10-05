@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "wooden-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/wooden-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/wooden-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-1",
@@ -63,7 +63,7 @@ data:extend(
   {
     type = "item",
     name = "phenolic-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/phenolic-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/phenolic-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-2",
@@ -105,7 +105,7 @@ data:extend(
   {
     type = "item",
     name = "fibreglass-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/fibreglass-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/fibreglass-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-4",
@@ -134,7 +134,7 @@ data:extend(
   {
     type = "item",
     name = "circuit-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/circuit-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-3",
@@ -162,7 +162,7 @@ data:extend(
   {
     type = "item",
     name = "superior-circuit-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/superior-circuit-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/superior-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-5",
@@ -190,7 +190,7 @@ data:extend(
   {
     type = "item",
     name = "multi-layer-circuit-board",
-    icon = "__Henrikshell__/graphics/icons/electronics/multi-layer-circuit-board.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/multi-layer-circuit-board.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "boards",
     order = "a-6",

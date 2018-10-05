@@ -4,7 +4,7 @@ data:extend(
 {
     type = "ammo",
     name = "basic-bullet-magazine",
-    icon = "__base__/graphics/icons/basic-bullet-magazine.png",
+    icon = "__base__/graphics/icons/firearm-magazine.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -61,7 +61,7 @@ data:extend(
   {
     type = "ammo",
     name = "piercing-bullet-magazine",
-    icon = "__base__/graphics/icons/piercing-bullet-magazine.png",
+    icon = "__base__/graphics/icons/piercing-rounds-magazine.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {

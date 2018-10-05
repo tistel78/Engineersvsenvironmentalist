@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "gold-ore",
-    icon = "__Henrikshell__/graphics/icons/ore/gold-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[gold-ore]",
@@ -33,7 +33,7 @@ data:extend(
 		tint = {r = 1, g = 0.75, b = 0},
 		map_color = {r=0.9, g=0.63, b=0},
 		enabled = false,
-		icon = "__Henrikshell__/graphics/icons/ore/gold-ore.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
 		stage_mult = 10,
 		item =
 		{
@@ -54,10 +54,10 @@ data:extend(
 			peaks =
 			{
 				{
-        influence = 0.1,
+        influence = 0.15,
       },
       {
-        influence = 0.65,
+        influence = 0.28,
         noise_layer = "gold-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
@@ -66,7 +66,7 @@ data:extend(
         starting_area_weight_max_range = 2,
       },
       {
-        influence = 0.65,
+        influence = 0.31,
         noise_layer = "gold-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
@@ -74,111 +74,7 @@ data:extend(
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
       },
-      {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "bauxite-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-      {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "chalcopyrite-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "cobalt-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "hematite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "lead-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "nickel-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "quartz",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "rutile-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "tin-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "tungsten-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "zinc-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "silver-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "uraninite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "fluorite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "cryolite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
+      
 			},
 		},
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -188,7 +84,7 @@ data:extend(
 		{
 			sheet =
 			{
-				filename = "__Henrikshell__/graphics/entity/ores/gold.png",
+				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/gold.png",
 				priority = "extra-high",
 				width = 38,
 				height = 38,

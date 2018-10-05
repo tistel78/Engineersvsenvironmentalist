@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "fluid-handling",
-    icon = "__Henrikshell__/graphics/icons/storage/heavy-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/heavy-oil-barrel.png",
     prerequisites = {"oil-processing"},
     effects =
     {
@@ -11,6 +11,7 @@ data:extend(
         type = "unlock-recipe",
         recipe = "small-pump"
       },
+	  
       {
         type = "unlock-recipe",
         recipe = "empty-barrel"

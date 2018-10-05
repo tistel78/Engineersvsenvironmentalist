@@ -5,7 +5,7 @@ data:extend(
   {
     type = "item",
     name = "crushed-silver",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-processing",
     order = "silver-1",
@@ -14,7 +14,7 @@ data:extend(
   {
     type = "item",
     name = "silver-concentration",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-concentration.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-concentration.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-processing",
     order = "silver-2",
@@ -23,7 +23,7 @@ data:extend(
  {
     type = "item",
     name = "silver-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-processing",
     order = "silver-3",
@@ -33,19 +33,19 @@ data:extend(
    {
     type = "recipe",
     name = "silver-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-crushed.png",
     category = "crusher",
     subgroup = "silver-processing",
     order = "silver-1",
     energy_required = 1,
-    enabled = false,
-    ingredients = {{"silver-ore", 5},{"calcium-oxide",1},{type="fluid", name="water", amount=10}},
+    enabled = true,
+    ingredients = {{"silver-ore", 5},},
     results = {{"crushed-silver", 5},{"gravel",3}},
   },
    {
     type = "recipe",
     name = "silver-cyanide-curing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-concentration.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-concentration.png",
     category = "chemistry",
     subgroup = "silver-processing",
     order = "silver-2",
@@ -63,7 +63,7 @@ data:extend(
   {
     type = "recipe",
     name = "silver-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
     category = "smelting",
     subgroup = "silver-processing",
     order = "silver-3",
@@ -84,7 +84,7 @@ data:extend(
   {
     type = "item",
     name = "silver-nitrate",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silver-nitrate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-processing",
     order = "silver-4",
@@ -93,7 +93,7 @@ data:extend(
 {
     type = "recipe",
     name = "silver-nitrate",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silver-nitrate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silver-nitrate.png",
     category = "chemistry",
     subgroup = "silver-processing",
     order = "silver-4",
@@ -119,7 +119,7 @@ data:extend(
   {
     type = "item",
     name = "silver-oxide",
-    icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/silver-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silver-processing",
     order = "silver-5",
@@ -128,7 +128,7 @@ data:extend(
  {
     type = "recipe",
     name = "silver-oxide",
-    icon = "__Henrikshell__/graphics/icons/materials/silver-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/silver-oxide.png",
     category = "chemistry",
     subgroup = "silver-processing",
     order = "silver-5",

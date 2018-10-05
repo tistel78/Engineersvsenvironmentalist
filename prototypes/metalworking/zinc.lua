@@ -5,7 +5,7 @@ data:extend(
  {
     type = "item",
     name = "crushed-zinc",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "zinc-processing",
     order = "a-1",
@@ -14,7 +14,7 @@ data:extend(
   {
     type = "item",
     name = "zinc-sifted",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-sifted.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "zinc-processing",
     order = "a-2",
@@ -23,7 +23,7 @@ data:extend(
     {
     type = "item",
     name = "zinc-oxide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "zinc-processing",
     order = "a-3",
@@ -32,7 +32,7 @@ data:extend(
  {
     type = "item",
     name = "zinc-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "zinc-processing",
     order = "a-4",
@@ -42,7 +42,7 @@ data:extend(
   {
     type = "recipe",
     name = "zinc-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-crushed.png",
     category = "crusher",
     subgroup = "zinc-processing",
     order = "a-1",
@@ -57,7 +57,7 @@ data:extend(
   {
     type = "recipe",
     name = "zinc-sifting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-sifted.png",
     category = "sifter",
     subgroup = "zinc-processing",
     order="a-2",
@@ -69,7 +69,7 @@ data:extend(
    {
     type = "recipe",
     name = "zinc-roasting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-oxide.png",
     category = "smelting",
     subgroup = "zinc-processing",
     order="a-3",
@@ -81,7 +81,7 @@ data:extend(
  {
     type = "recipe",
     name = "zinc-refining",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-plate.png",
     category = "smelting",
     subgroup = "zinc-processing",
     order="a-4",

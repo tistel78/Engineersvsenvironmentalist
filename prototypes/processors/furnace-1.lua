@@ -47,11 +47,11 @@ data:extend(
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-0.8, -1}, {0.8, 1}},
     crafting_categories = {"smelting"},
-    result_inventory_size = 4,
+    result_inventory_size = 1,
     energy_usage = "79MW",
     crafting_speed = 1,
-    source_inventory_size = 4,
-    ingredient_count = 4,
+    source_inventory_size = 1,
+    ingredient_count = 1,
     energy_source =
     {
       type = "burner",
@@ -78,7 +78,7 @@ data:extend(
       width = 81,
       height = 64,
       frame_count = 1,
-      shift = {0.5, 0.05 }
+      shift = {0.515625, 0.0625}
     },
     working_visualisations =
     {
@@ -91,10 +91,13 @@ data:extend(
         {
           filename = "__base__/graphics/entity/stone-furnace/stone-furnace-fire.png",
           priority = "extra-high",
-          width = 23,
-          height = 27,
-          frame_count = 12,
-          shift = { 0.078125, 0.5234375}
+          line_length = 8,
+          width = 22,
+          height = 87,
+          frame_count = 48,
+          axially_symmetrical = false,
+          direction_count = 1,
+          shift = {0.0625, -0.453125},
         },
         light = {intensity = 1, size = 1}
       }

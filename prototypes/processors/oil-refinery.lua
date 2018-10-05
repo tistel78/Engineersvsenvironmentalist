@@ -16,9 +16,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"wall", 3},
-      {"iron-gear-wheel",15},
-      {"plumbing", 10}
+      {"wall", 300},
+      {"iron-gear-wheel",150},
+      {"plumbing", 100}
     },
     result = "basic-oil-refinery",
     enabled = true,
@@ -184,10 +184,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"wall", 25},
-      {"storage-tank", 4},
-      {"iron-gear-wheel",40},
-      {"plumbing", 50}
+      {"wall", 2500},
+      {"storage-tank", 100},
+      {"iron-gear-wheel",4000},
+      {"plumbing", 5000}
     },
     result = "oil-refinery",
     enabled = false
@@ -209,7 +209,7 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
-    crafting_speed = 1,
+    crafting_speed = 2,
     has_backer_name = true,
     energy_source =
     {
@@ -338,13 +338,13 @@ data:extend(
   {
     type = "recipe",
     name = "advanced-oil-refinery",
-    energy_required = 20,
+    energy_required = 5000,
     ingredients =
     {
-      {"wall", 500},
+      {"wall", 64000},
       {"storage-tank", 80},
-      {"iron-gear-wheel",800},
-      {"plumbing", 1000}
+      {"iron-gear-wheel",64000},
+      {"plumbing", 64000}
     },
     result = "advanced-oil-refinery",
     enabled = false
@@ -362,11 +362,11 @@ data:extend(
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     module_specification =
     {
-      module_slots = 2
+      module_slots = 5
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
-    crafting_speed = 5,
+    crafting_speed = 125,
     has_backer_name = true,
     energy_source =
     {

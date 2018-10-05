@@ -3,17 +3,17 @@ data:extend(
 {
   {
     type = "item",
-    name = "basic-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    name = "accumulator",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]",
-    place_result = "basic-accumulator",
+    order = "e[accumulator]-a[accumulator]",
+    place_result = "accumulator",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "basic-accumulator",
+    name = "accumulator",
     energy_required = 10,
     enabled = false,
     ingredients =
@@ -21,14 +21,14 @@ data:extend(
       {"iron-gear-wheel", 2},
       {"battery", 5}
     },
-    result = "basic-accumulator"
+    result = "accumulator"
   },
   {
     type = "accumulator",
-    name = "basic-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    name = "accumulator",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "basic-accumulator"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "accumulator"},
     max_health = 150,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -43,7 +43,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -51,7 +51,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -63,7 +63,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -96,10 +96,10 @@ data:extend(
     {
     type = "item",
     name = "large-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-a-l",
+    order = "e[accumulator]-a[accumulator]-a-l",
     place_result = "large-accumulator",
     stack_size = 50
   },
@@ -118,7 +118,7 @@ data:extend(
   {
     type = "accumulator",
     name = "large-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator"},
     max_health = 150,
@@ -135,7 +135,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -143,7 +143,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -155,7 +155,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -187,10 +187,10 @@ data:extend(
     {
     type = "item",
     name = "fast-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-a-f",
+    order = "e[accumulator]-a[accumulator]-a-f",
     place_result = "fast-accumulator",
     stack_size = 50
   },
@@ -210,7 +210,7 @@ data:extend(
   {
     type = "accumulator",
     name = "fast-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator"},
     max_health = 150,
@@ -227,7 +227,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -235,7 +235,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -247,7 +247,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -279,10 +279,10 @@ data:extend(
     {
     type = "item",
     name = "slow-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-a-s",
+    order = "e[accumulator]-a[accumulator]-a-s",
     place_result = "slow-accumulator",
     stack_size = 50
   },
@@ -302,7 +302,7 @@ data:extend(
   {
     type = "accumulator",
     name = "slow-accumulator",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator"},
     max_health = 150,
@@ -319,7 +319,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -327,7 +327,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -339,7 +339,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -371,10 +371,10 @@ data:extend(
     {
     type = "item",
     name = "large-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-b-l",
+    order = "e[accumulator]-a[accumulator]-b-l",
     place_result = "large-accumulator-2",
     stack_size = 50
   },
@@ -394,7 +394,7 @@ data:extend(
   {
     type = "accumulator",
     name = "large-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator-2"},
     max_health = 250,
@@ -411,7 +411,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -419,7 +419,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -431,7 +431,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -463,10 +463,10 @@ data:extend(
     {
     type = "item",
     name = "fast-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-b-f",
+    order = "e[accumulator]-a[accumulator]-b-f",
     place_result = "fast-accumulator-2",
     stack_size = 50
   },
@@ -486,7 +486,7 @@ data:extend(
   {
     type = "accumulator",
     name = "fast-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator-2"},
     max_health = 250,
@@ -503,7 +503,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -511,7 +511,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -523,7 +523,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -555,10 +555,10 @@ data:extend(
    {
     type = "item",
     name = "slow-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-b-s",
+    order = "e[accumulator]-a[accumulator]-b-s",
     place_result = "slow-accumulator-2",
     stack_size = 50
   },
@@ -578,7 +578,7 @@ data:extend(
   {
     type = "accumulator",
     name = "slow-accumulator-2",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator-2"},
     max_health = 250,
@@ -595,7 +595,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -603,7 +603,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -615,7 +615,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -648,10 +648,10 @@ data:extend(
     {
     type = "item",
     name = "large-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-c-l",
+    order = "e[accumulator]-a[accumulator]-c-l",
     place_result = "large-accumulator-3",
     stack_size = 50
   },
@@ -671,7 +671,7 @@ data:extend(
   {
     type = "accumulator",
     name = "large-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator-3"},
     max_health = 350,
@@ -688,7 +688,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -696,7 +696,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -708,7 +708,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -741,10 +741,10 @@ data:extend(
     {
     type = "item",
     name = "fast-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-c-f",
+    order = "e[accumulator]-a[accumulator]-c-f",
     place_result = "fast-accumulator-3",
     stack_size = 50
   },
@@ -764,7 +764,7 @@ data:extend(
   {
     type = "accumulator",
     name = "fast-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator-3"},
     max_health = 350,
@@ -781,7 +781,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -789,7 +789,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -801,7 +801,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,
@@ -834,10 +834,10 @@ data:extend(
     {
     type = "item",
     name = "slow-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "accumulators",
-    order = "e[accumulator]-a[basic-accumulator]-c-s",
+    order = "e[accumulator]-a[accumulator]-c-s",
     place_result = "slow-accumulator-3",
     stack_size = 50
   },
@@ -857,7 +857,7 @@ data:extend(
   {
     type = "accumulator",
     name = "slow-accumulator-3",
-    icon = "__base__/graphics/icons/basic-accumulator.png",
+    icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator-3"},
     max_health = 350,
@@ -874,7 +874,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -882,7 +882,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-charge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -894,7 +894,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__base__/graphics/entity/basic-accumulator/basic-accumulator-discharge-animation.png",
+      filename = "__base__/graphics/entity/accumulator/accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,

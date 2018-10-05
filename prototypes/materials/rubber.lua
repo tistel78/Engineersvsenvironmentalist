@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "rubber",
-    icon = "__Henrikshell__/graphics/icons/materials/rubber.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wood-base",
     order = "f[rubber]",

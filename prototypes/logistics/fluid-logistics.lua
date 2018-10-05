@@ -41,7 +41,7 @@
   {
     type = "recipe",
     name = "hydrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-hydrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-hydrogen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -62,7 +62,7 @@
   {
     type = "recipe",
     name = "empty-hydrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-hydrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-hydrogen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -83,7 +83,7 @@
   {
     type = "recipe",
     name = "oxygen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-oxygen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-oxygen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -104,7 +104,7 @@
   {
     type = "recipe",
     name = "empty-oxygen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-oxygen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-oxygen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -125,7 +125,7 @@
   {
     type = "recipe",
     name = "nitrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-nitrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-nitrogen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -146,7 +146,7 @@
   {
     type = "recipe",
     name = "empty-nitrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-nitrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-nitrogen-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -167,7 +167,7 @@
   {
     type = "recipe",
     name = "chlorine-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-chlorine-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-chlorine-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -188,7 +188,7 @@
   {
     type = "recipe",
     name = "empty-chlorine-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-chlorine-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-chlorine-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -209,7 +209,7 @@
   {
     type = "recipe",
     name = "hydrogen-chloride-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-hydrogen-chloride-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-hydrogen-chloride-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -230,7 +230,7 @@
   {
     type = "recipe",
     name = "empty-hydrogen-chloride-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-hydrogen-chloride-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-hydrogen-chloride-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -251,7 +251,7 @@
   {
     type = "recipe",
     name = "petroleum-gas-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-petroleum-gas-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-petroleum-gas-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -272,7 +272,7 @@
   {
     type = "recipe",
     name = "empty-petroleum-gas-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-petroleum-gas-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-petroleum-gas-canister.png",
     category = "air-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -294,7 +294,7 @@
   {
     type = "recipe",
     name = "fill-heavy-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-heavy-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-heavy-oil-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -315,7 +315,7 @@
   {
     type = "recipe",
     name = "empty-heavy-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-heavy-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-heavy-oil-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -336,7 +336,7 @@
   {
     type = "recipe",
     name = "fill-light-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-light-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-light-oil-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -357,7 +357,7 @@
   {
     type = "recipe",
     name = "empty-light-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-light-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-light-oil-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -378,7 +378,7 @@
   {
     type = "recipe",
     name = "fill-lubricant-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-lubricant-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-lubricant-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -399,7 +399,7 @@
   {
     type = "recipe",
     name = "empty-lubricant-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-lubricant-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-lubricant-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -420,7 +420,7 @@
   {
     type = "recipe",
     name = "fill-sulfuric-acid-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-sulfuric-acid-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-sulfuric-acid-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -441,7 +441,7 @@
   {
     type = "recipe",
     name = "empty-sulfuric-acid-barrel",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-sulfuric-acid-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-sulfuric-acid-barrel.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -461,7 +461,7 @@
   {
     type = "recipe",
     name = "liquid-fuel-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-liquid-fuel-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-liquid-fuel-canister.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -482,7 +482,7 @@
   {
     type = "recipe",
     name = "empty-liquid-fuel-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-liquid-fuel-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-liquid-fuel-canister.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -504,7 +504,7 @@
   {
     type = "recipe",
     name = "ferric-chloride-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/fill-ferric-chloride-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/fill-ferric-chloride-canister.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,
@@ -525,7 +525,7 @@
   {
     type = "recipe",
     name = "empty-ferric-chloride-canister",
-    icon = "__Henrikshell__/graphics/icons/fluid-logistics/empty-ferric-chloride-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/fluid-logistics/empty-ferric-chloride-canister.png",
     category = "water-pump",
     subgroup = "barrels-and-canisters",
     energy_required = 1,

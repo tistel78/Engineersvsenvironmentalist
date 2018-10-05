@@ -24,7 +24,7 @@ data:extend(
     energy_required = 3.5,
     enabled = false,
     ingredients = {{"stone", 2}},
-    results = {{"stone-brick",1}},
+    results = {{"stone-brick",2}},
   },
     {
     type = "recipe",
@@ -33,10 +33,10 @@ data:extend(
     subgroup = "stone-base",
     order ="stone-brick-1",
     category = "smelting",
-    energy_required = 3.5,
+    energy_required = 7,
     enabled = true,
     ingredients = {{"stone", 2}},
-    results = {{"stone-brick",2},{"gravel",1}},
+    results = {{"stone-brick",4},{"gravel",1}},
   },
   {
     type = "recipe",

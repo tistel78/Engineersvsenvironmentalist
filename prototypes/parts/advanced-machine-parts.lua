@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "advanced-machine-parts",
-    icon = "__Henrikshell__/graphics/icons/parts/advanced-machine-parts.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/advanced-machine-parts.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
     
@@ -111,5 +111,35 @@ data:extend(
     ingredients = {{"tungsten-carbide", 1},{type="fluid", name="lubricant", amount=5}},
     results = {{"advanced-machine-parts",10}},
   },
+    {
+    type = "recipe",
+    name = "advanced-machine-parts|carbon-nanotubes",
+    order = "carbon-nanotubes",
+    category = "crafting-with-fluid",
+    enabled=false,
+    ingredients = {{"carbon-nanotubes", 1},{type="fluid", name="lubricant", amount=5}},
+    results = {{"advanced-machine-parts",200}},
+  },
+{
+    type = "recipe",
+    name = "advanced-machine-parts|amorphicmachineparts",
+    order = "amorphicmachineparts",
+    category = "crafting-with-fluid",
+    enabled=true,
+    ingredients = {{"amorphicmachineparts", 1},{type="fluid", name="lubricant", amount=5}},
+    results = {{"advanced-machine-parts",5}},
+  },
+
+  {
+    type = "recipe",
+    name = "advanced-machine-parts|amorphicmachineparts",
+    order = "amorphicmachineparts1",
+    category = "crafting",
+    enabled=true,
+    ingredients = {{"carbon-fibre", 1},{type="item", name="iron-gear-wheel", amount=1}},
+    results = {{"advanced-machine-parts",1}},
+  },
+  
+  
   }
   )

@@ -3,7 +3,7 @@ data:extend(
  {
     type = "technology",
     name = "electrolyser-1",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -45,7 +45,7 @@ data:extend(
   {
     type = "technology",
     name = "electrolyser-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-2.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -85,7 +85,7 @@ data:extend(
   {
     type = "technology",
     name = "electrolyser-3",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-3.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

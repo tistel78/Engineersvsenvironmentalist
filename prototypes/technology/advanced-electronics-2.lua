@@ -11,6 +11,10 @@
         type = "unlock-recipe",
         recipe = "processing-unit"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "processing-unit-upgrade"
+      },
       {
         type = "unlock-recipe",
         recipe = "superior-circuit-board"

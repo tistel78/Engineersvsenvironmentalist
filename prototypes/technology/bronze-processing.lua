@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "bronze-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/bronze-plate.png",
     prerequisites = {"tin-processing","mixing-furnace"},
     effects =
     {

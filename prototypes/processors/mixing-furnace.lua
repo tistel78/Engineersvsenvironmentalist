@@ -5,7 +5,7 @@ data:extend({
   {
     type = "item",
     name = "mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/stone-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "alloy-smelting",
     order = "b[mixing-furnace]",
@@ -15,7 +15,7 @@ data:extend({
   {
     type = "item",
     name = "electric-mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "alloy-smelting",
     order = "c[electric-mixing-furnace]",
@@ -29,24 +29,24 @@ data:extend({
   {
     type = "recipe",
     name = "mixing-furnace",
-    energy_required = 3,
+    energy_required = 10,
     enabled = false,
     ingredients = 
     {
-      {"wall", 9},
-      {"iron-gear-wheel",10}
+      {"wall", 100},
+      {"iron-gear-wheel",500}
     },
     result = "mixing-furnace"
   },
   {
     type = "recipe",
     name = "electric-mixing-furnace",
-    energy_required = 10,
+    energy_required = 500,
     enabled = false,
     ingredients = 
     {
-      {"wall", 180},
-      {"iron-gear-wheel",200},
+      {"wall", 5000},
+      {"iron-gear-wheel",20000},
     },
     result = "electric-mixing-furnace"
   },
@@ -57,7 +57,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/stone-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-mixing-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "mixing-furnace"},
     max_health = 200,
@@ -99,7 +99,7 @@ data:extend({
 
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/processors/stone-mixing-furnace.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace.png",
       priority = "extra-high",
       width = 81,
       height = 64,
@@ -115,7 +115,7 @@ data:extend({
         east_position = { 0.078125, 0.5234375},
         animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/stone-mixing-furnace-fire.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace-fire.png",
           width = 23,
           height = 27,
           frame_count = 12,
@@ -128,7 +128,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "electric-mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-mixing-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-mixing-furnace"},
     max_health = 250,
@@ -172,7 +172,7 @@ data:extend({
 
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/processors/electric-mixing-furnace.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -188,7 +188,7 @@ data:extend({
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/electric-mixing-furnace-fire.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,

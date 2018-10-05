@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "quartz-crushed",
-    icon = "__Henrikshell__/graphics/icons/chemicals/quartz-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/quartz-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "f[silicon-carbide]",
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "silicon-carbide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silicon-carbide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-carbide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "f[silicon-carbide]",
@@ -21,7 +21,7 @@ data:extend({
 	{
     type = "item",
     name = "silicon",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silicon-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "c-a-e[silicon-plate]",
@@ -30,7 +30,7 @@ data:extend({
 	{
     type = "item",
     name = "ferrosilicon",
-    icon = "__Henrikshell__/graphics/icons/chemicals/ferrosilicon.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/ferrosilicon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "c-a-e[ferrosilicon]",
@@ -39,7 +39,7 @@ data:extend({
 	{
     type = "item",
     name = "metallurgicalsilicon",
-    icon = "__Henrikshell__/graphics/icons/chemicals/metallurgicalsilicon.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/metallurgicalsilicon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "c-a-e[metallurgicalsilicon]",
@@ -48,7 +48,7 @@ data:extend({
   {
     type = "item",
     name = "silicon-nitride",
-    icon = "__Henrikshell__/graphics/icons/chemicals/silicon-nitride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-nitride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "silicon-processing",
     order = "f[silicon-nitride]",
@@ -57,7 +57,7 @@ data:extend({
   {
 	type = "item",
 	name = "silicon-wafer",
-	icon = "__Henrikshell__/graphics/icons/chemicals/silicon-wafer.png",
+	icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-wafer.png",
 	flags = {"goes-to-main-inventory"},
 	subgroup = "silicon-processing",
 	order = "f[silicon-wafer]",
@@ -71,7 +71,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/silane.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silane.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -85,7 +85,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/trichlorosilane.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/trichlorosilane.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -99,7 +99,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/tetrachlorosilane.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tetrachlorosilane.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -113,7 +113,7 @@ data:extend({
   {
     type = "recipe",
     name = "quartz-crushing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/quartz-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/quartz-crushed.png",
     category = "crusher",
     subgroup = "silicon-processing",
     order ="a-3",
@@ -207,7 +207,7 @@ data:extend({
       {type="fluid", name="hydrogen-chloride", amount=3},
       {type="item", name="metallurgicalsilicon", amount=1},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/trichlorosilane.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/trichlorosilane.png",
     results = {{type="fluid", name="trichlorosilane",amount=1},{type="fluid", name="hydrogen",amount=1}},
   },
   {
@@ -222,7 +222,7 @@ data:extend({
     {
       {type="fluid", name="trichlorosilane", amount=4},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/silane.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silane.png",
     results = {{type="fluid", name="silane",amount=1},{type="fluid", name="tetrachlorosilane",amount=3}},
   },
   {
@@ -238,7 +238,7 @@ data:extend({
       {type="fluid", name="hydrogen", amount=1},
       {type="fluid", name="tetrachlorosilane", amount=2},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/tetrachlorosilane.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tetrachlorosilane.png",
     results = {{type="fluid", name="trichlorosilane",amount=2},{type="fluid", name="chlorine", amount=1},},
   },
   {
@@ -253,7 +253,7 @@ data:extend({
     {
       {type="fluid", name="trichlorosilane", amount=1},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/silicon-plate.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-plate.png",
     results = {{type="item", name="silicon",amount=2},{type="fluid", name="chlorine", amount=1},},
   },
   {

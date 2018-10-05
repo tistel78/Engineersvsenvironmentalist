@@ -5,7 +5,7 @@ data:extend(
     type = "recipe",
     name = "dismantle-dismantler",
     category = "dismantler",
-    icon = "__Henrikshell__/graphics/icons/processors/dismantling.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/dismantling.png",
     hidden=true,
     ingredients = {{"dismantler",1}},
     energy_required = 10,

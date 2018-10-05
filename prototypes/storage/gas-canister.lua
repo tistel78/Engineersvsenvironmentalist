@@ -3,7 +3,7 @@ data:extend(
 {
     type = "item",
     name = "gas-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/gas-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/gas-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-b[gas-canister]",
@@ -26,7 +26,7 @@ data:extend(
   {
     type = "item",
     name = "hydrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/hydrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/hydrogen-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[hydrogen-canister]",
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "item",
     name = "oxygen-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/oxygen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/oxygen-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[oxygen-canister]",
@@ -46,7 +46,7 @@ data:extend(
   {
     type = "item",
     name = "nitrogen-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/nitrogen-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/nitrogen-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[nitrogen-canister]",
@@ -56,7 +56,7 @@ data:extend(
   {
     type = "item",
     name = "chlorine-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/chlorine-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/chlorine-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[chlorine-canister]",
@@ -66,7 +66,7 @@ data:extend(
   {
     type = "item",
     name = "hydrogen-chloride-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/hydrogen-chloride-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/hydrogen-chloride-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[hydrogen-chloride-canister]",
@@ -76,7 +76,7 @@ data:extend(
   {
     type = "item",
     name = "petroleum-gas-canister",
-    icon = "__Henrikshell__/graphics/icons/storage/petroleum-gas-canister.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/petroleum-gas-canister.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[petroleum-gas-canister]",

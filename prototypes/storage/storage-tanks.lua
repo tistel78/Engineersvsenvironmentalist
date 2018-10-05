@@ -8,7 +8,7 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "b[fluid]-a[storage-tank-1]",
     place_result = "storage-tank",
-    stack_size = 5000
+    stack_size = 65000
   },
   {
     type = "recipe",
@@ -142,7 +142,13 @@ data:extend(
         }
       }
     },
-
+circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -158,11 +164,11 @@ data:extend(
     {
     type = "recipe",
     name = "storage-tank-2",
-    energy_required = 4,
+    energy_required = 20,
     enabled = false,
     ingredients =
     {
-      {"plumbing", 80},
+      {"plumbing", 120},
     },
     result= "storage-tank-2"
   },
@@ -288,6 +294,13 @@ data:extend(
         }
       }
     },
+    circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+    },
     circuit_wire_max_distance = 7.5
   },
 
@@ -304,11 +317,11 @@ data:extend(
   {
     type = "recipe",
     name = "storage-tank-3",
-    energy_required = 5,
+    energy_required = 50,
     enabled = false,
     ingredients =
     {
-      {"plumbing", 120},
+      {"plumbing", 1200},
     },
     result= "storage-tank-3"
   },
@@ -324,7 +337,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 750,
+      base_area = 2000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -433,6 +446,13 @@ data:extend(
           green = {-1, -0.25},
         }
       }
+    },
+    circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
     },
     circuit_wire_max_distance = 7.5
   },
@@ -449,11 +469,11 @@ data:extend(
   {
     type = "recipe",
     name = "storage-tank-4",
-    energy_required = 6,
+    energy_required = 120,
     enabled = false,
     ingredients =
     {
-      {"plumbing", 160},
+      {"plumbing", 5000},
     },
     result= "storage-tank-4"
   },
@@ -469,7 +489,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 1000,
+      base_area = 7000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -578,6 +598,13 @@ data:extend(
           green = {-1, -0.25},
         }
       }
+    },
+    circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
     },
     circuit_wire_max_distance = 7.5
   },

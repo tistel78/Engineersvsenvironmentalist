@@ -9,7 +9,14 @@ data:extend(
     order = "c[automated-construction]-a[blueprint]",
     stack_size = 1,
     stackable = false,
-    item_to_clear = "electronic-circuit"
+    draw_label_for_cursor_render = true,
+    item_to_clear = "electronic-circuit",
+    selection_color = { r = 0, g = 1, b = 0 },
+    alt_selection_color = { r = 0, g = 1, b = 0 },
+    selection_mode = {"blueprint"},
+    alt_selection_mode = {"blueprint"},
+    selection_cursor_box_type = "copy",
+    alt_selection_cursor_box_type = "copy"
   },
   {
     type = "recipe",
@@ -29,7 +36,13 @@ data:extend(
     flags = {"goes-to-quickbar"},
     subgroup = "logics",
     order = "c[automated-construction]-b[deconstruction-planner]",
-    stack_size = 1
+    stack_size = 1,
+    selection_color = { r = 1, g = 0, b = 0 },
+    alt_selection_color = { r = 0, g = 0, b = 1 },
+    selection_mode = {"deconstruct"},
+    alt_selection_mode = {"cancel-deconstruct"},
+    selection_cursor_box_type = "not-allowed",
+    alt_selection_cursor_box_type = "not-allowed"
   },
   {
     type = "recipe",

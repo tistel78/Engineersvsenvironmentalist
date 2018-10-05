@@ -8,12 +8,13 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "a-1",
     place_result = "pipe",
-    stack_size = 50
+    stack_size = 500
   },
     {
     type = "recipe",
     name = "pipe",
-    ingredients = {{"plumbing", 2}},
+    ingredients = {{"plumbing", 10}},
+	result_count = 5,
     result = "pipe"
   },
   {
@@ -239,16 +240,16 @@ data:extend(
     subgroup = "fluid-logistics",
     order = "a-2",
     place_result = "pipe-to-ground",
-    stack_size = 50
+    stack_size = 500
   },
     {
     type = "recipe",
     name = "pipe-to-ground",
     ingredients =
     {
-      {"pipe", 25},
+      {"pipe", 125},
     },
-    result_count = 2,
+    result_count = 10,
     result = "pipe-to-ground"
   },
    {

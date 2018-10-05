@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "tungsten-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-plate.png",
     prerequisites = {"electrolyser-1"},
     effects =
     {

@@ -3,7 +3,7 @@ data:extend(
   {
     type = "technology",
     name = "inserters-3",
-    icon = "__Henrikshell__/graphics/icons/inserters/express-inserter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/express-inserter.png",
     effects =
     {
       {

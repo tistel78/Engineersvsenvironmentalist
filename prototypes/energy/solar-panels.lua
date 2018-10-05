@@ -15,13 +15,13 @@ data:extend(
  {
     type = "recipe",
     name = "solar-panel",
-    energy_required = 10,
+    energy_required = 100,
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 9},
-      {"electronic-circuit", 10},
-      {"copper-cable", 9},
+      {"iron-gear-wheel", 1},
+      {"electronic-circuit", 1},
+      {"copper-cable", 1},
     },
     result = "solar-panel"
   },
@@ -67,9 +67,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 9},
-      {"advanced-circuit", 10},
-      {"advanced-electric-cable", 9},
+      {"iron-gear-wheel", 2},
+      {"advanced-circuit", 1},
+      {"advanced-electric-cable", 2},
     },
     result = "solar-panel-2"
   },
@@ -90,7 +90,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-2.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/solar-panels/solar-panel-2.png",
       priority = "high",
       width = 104,
       height = 97
@@ -115,9 +115,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 9},
-      {"processing-unit", 10},
-      {"circuit-electric-cable",9},
+      {"iron-gear-wheel", 3},
+      {"processing-unit", 1},
+      {"circuit-electric-cable",3},
     },
     result = "solar-panel-3"
   },
@@ -138,7 +138,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-2.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/solar-panels/solar-panel-2.png",
       priority = "high",
       width = 104,
       height = 97

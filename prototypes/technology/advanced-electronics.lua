@@ -10,6 +10,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "advanced-circuit"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "advanced-circuit-upgrade"
+      },
       {
         type = "unlock-recipe",
         recipe = "electronic-components"

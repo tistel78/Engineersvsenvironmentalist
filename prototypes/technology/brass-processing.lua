@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "brass-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/brass-plate.png",
     prerequisites = {"zinc-processing","mixing-furnace"},
     effects =
     {

@@ -6,7 +6,7 @@ data:extend({
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "b[concrete]",
-    stack_size = 100,
+    stack_size = 1000,
     place_as_tile =
     {
       result = "concrete",
@@ -18,7 +18,7 @@ data:extend({
     type = "recipe",
     name = "concrete",
     energy_required = 4,
-    enabled = true,
+    enabled = false,
     category = "crafting-with-fluid",
     ingredients =
     {
@@ -30,6 +30,6 @@ data:extend({
       {type="fluid", name="water", amount=10}
     },
     result= "concrete",
-    result_count = 20
+    result_count = 200
   }
 })

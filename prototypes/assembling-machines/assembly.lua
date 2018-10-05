@@ -106,8 +106,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",4},
-      {"iron-gear-wheel", 16},
+      {"wall",40},
+      {"iron-gear-wheel", 160},
     },
     result = "assembling-machine-2"
   },
@@ -211,8 +211,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",80},
-      {"iron-gear-wheel", 320},
+      {"wall",800},
+      {"iron-gear-wheel", 3200},
       
     },
     result = "assembling-machine-3"
@@ -304,7 +304,7 @@ data:extend(
   {
     type = "item",
     name = "assembling-machine-4",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-4.png",
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "c[assembling-machine-4]",
@@ -317,15 +317,15 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"wall",1600},
-      {"iron-gear-wheel", 6400},
+      {"wall",3200},
+      {"iron-gear-wheel", 15000},
     },
     result = "assembling-machine-4"
   },
   {
     type = "assembling-machine",
     name = "assembling-machine-4",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-4.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
     max_health = 400,
@@ -363,7 +363,7 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-4.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
       priority = "high",
       width = 113,
       height = 99,
@@ -397,7 +397,7 @@ data:extend(
       emissions = 0.000021739,
     },
     energy_usage = "138MW",
-    ingredient_count = 8,
+    ingredient_count = 10,
     module_specification =
     {
       module_slots = 5,
@@ -410,7 +410,7 @@ data:extend(
 {
     type = "item",
     name = "assembling-machine-5",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-5.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-5.png",
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "c[assembling-machine-5]",
@@ -433,7 +433,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "assembling-machine-5",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-5.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-5.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
     max_health = 500,
@@ -491,7 +491,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -500,7 +500,7 @@ data:extend(
           shift = {0.84, -0.09},
         },
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,

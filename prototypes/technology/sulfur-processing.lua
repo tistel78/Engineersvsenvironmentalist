@@ -11,6 +11,11 @@
         type = "unlock-recipe",
         recipe = "sulfuric-acid"
       },
+	{
+        type = "unlock-recipe",
+        recipe = "salpeter"
+      },
+
       {
         type = "unlock-recipe",
         recipe = "sulfuric-acid-2"
@@ -26,7 +31,7 @@
     },
     unit =
     {
-      count = 25,
+      count = 5,
       ingredients = {{"science-pack-1", 1}},
       time = 30
     },

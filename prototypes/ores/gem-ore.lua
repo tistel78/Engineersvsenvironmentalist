@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "gem-ore",
-    icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "b-d[gem-ore]",
@@ -32,12 +32,12 @@ data:extend(
 		name = "gem-ore",
 		map_color = {r = 0, g = 1, b = 0},
 		enabled = false,
-		icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
 		stage_mult = 2,
 		particle = "gem-ore-particle",
 		sprite =
 		{
-			filename = "__Henrikshell__/graphics/icons/ore/gem-ore.png"
+			filename = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png"
 		},
 		autoplace =
 		{
@@ -49,10 +49,10 @@ data:extend(
 			peaks =
 			{
 				{
-        influence = 0.2,
+        influence = 0.15,
       },
       {
-        influence = 0.65,
+        influence = 0.30,
         noise_layer = "gem-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
@@ -60,118 +60,7 @@ data:extend(
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
       },
-      {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "bauxite-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-      {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "chalcopyrite-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "cobalt-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "hematite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "lead-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "nickel-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "quartz",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "rutile-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "tin-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "tungsten-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "zinc-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "silver-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "gold-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "uraninite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "fluorite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
-        {
-          influence = -0.02,
-          max_influence = 0,
-          noise_layer = "cryolite",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.21,
-        },
+      
 			},
 		},
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -181,7 +70,7 @@ data:extend(
 		{
 			sheet =
 			{
-				filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore.png",
+				filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore.png",
 				priority = "extra-high",
 				width = 38,
 				height = 38,
@@ -199,28 +88,28 @@ data:extend(
     pictures =
     {
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-1.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-1.png",
         priority = "extra-high",
         width = 4,
         height = 3,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-2.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-2.png",
         priority = "extra-high",
         width = 3,
         height = 3,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-3.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-3.png",
         priority = "extra-high",
         width = 4,
         height = 4,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-4.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-4.png",
         priority = "extra-high",
         width = 6,
         height = 6,
@@ -230,28 +119,28 @@ data:extend(
     shadows =
     {
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-shadow-1.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-shadow-1.png",
         priority = "extra-high",
         width = 4,
         height = 3,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-shadow-2.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-shadow-2.png",
         priority = "extra-high",
         width = 3,
         height = 3,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-shadow-3.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-shadow-3.png",
         priority = "extra-high",
         width = 4,
         height = 4,
         frame_count = 1
       },
       {
-        filename = "__Henrikshell__/graphics/entity/gem-ore/gem-ore-particle-shadow-4.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/gem-ore/gem-ore-particle-shadow-4.png",
         priority = "extra-high",
         width = 6,
         height = 6,

@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "tin-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-plate.png",
     prerequisites = {"chemical-boiler"},
     effects =
     {

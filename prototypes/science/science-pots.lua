@@ -18,8 +18,8 @@ data:extend(
     category="crafting",
     ingredients =
     {
-      {"burner-inserter", 1},
-      {"basic-circuit-board",1}
+      {"plumbing",50},
+      {"basic-circuit-board",10}
     },
     result = "science-pack-1"
   },
@@ -38,12 +38,12 @@ data:extend(
     type = "recipe",
     name = "science-pack-2",
     enabled = false,
-    energy_required = 6,
+    energy_required = 50,
     category="science-pots",
     ingredients =
     {
-      {"basic-inserter", 1},
-      {"basic-transport-belt", 1},
+      {"iron-gear-wheel", 100},
+      {"transport-belt", 1},
       {"electronic-circuit", 1},
       
     },
@@ -64,14 +64,13 @@ data:extend(
     type = "recipe",
     name = "science-pack-3",
     enabled = false,
-    energy_required = 12,
+    energy_required = 3000,
     category="science-pots",
     ingredients =
     {
-      {"fast-inserter", 1},
-      {"fast-transport-belt", 1},
+      {"advanced-machine-parts", 100},
       {"advanced-circuit", 1},
-      {"battery",1},
+      {"battery",5},
       
     },
     result = "science-pack-3"
@@ -79,7 +78,7 @@ data:extend(
   {
     type = "tool",
     name = "science-pack-4",
-    icon = "__Henrikshell__/graphics/icons/science/science-pack-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/science/science-pack-4.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "pots",
     order = "a[science-pack-4]",
@@ -91,13 +90,13 @@ data:extend(
     type = "recipe",
     name = "science-pack-4",
     enabled = false,
-    energy_required = 18,
+    energy_required = 50000,
     category="science-pots",
     ingredients =
     {
-      {"express-inserter", 1},
-      {"express-transport-belt", 1},
-      {"processing-unit", 1},
+      {"amorphicmachineparts", 2000},
+      {"gold-plate", 1},
+      {"processing-unit", 100},
       {"lithium-ion-battery",1},
       
     },
@@ -118,10 +117,10 @@ data:extend(
     type = "recipe",
     name = "alien-science-pack",
     enabled = false,
-    energy_required = 12,
+    energy_required = 30000,
     ingredients = {
-    {"alien-artifact", 1},
-    {"advanced-processing-unit", 1},
+    {"gold-plate", 1},
+    {"advanced-processing-unit", 100},
     {"silver-zinc-battery",1},
     },
     result = "alien-science-pack",

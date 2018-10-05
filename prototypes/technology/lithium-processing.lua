@@ -3,7 +3,7 @@
 {
     type = "technology",
     name = "lithium-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/lithium-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lithium-plate.png",
     prerequisites = {"sulfur-processing"},
     unit =
     {

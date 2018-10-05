@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "car",
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"engine-unit", 8},

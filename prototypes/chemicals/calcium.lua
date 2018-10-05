@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "calcium",
-    icon = "__Henrikshell__/graphics/icons/chemicals/calcium.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium",
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "calcium-chloride",
-    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-chloride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-chloride",
@@ -21,7 +21,7 @@ data:extend({
   {
     type = "item",
     name = "calcium-oxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-oxide",
@@ -30,16 +30,16 @@ data:extend({
   {
     type = "item",
     name = "cement",
-    icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cement.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "cement",
-    stack_size = 100
+    stack_size = 3000
   },
   {
     type = "item",
     name = "calcium-sulfate",
-    icon = "__Henrikshell__/graphics/icons/chemicals/calcium-sulfate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-sulfate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-sulfate",
@@ -59,7 +59,7 @@ data:extend({
     {
       {type="item", name="stone", amount=2},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/calcium.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
     results = {{"calcium",4}},
 		order = "a-5"
   },
@@ -74,7 +74,7 @@ data:extend({
     {
       {type="item", name="calcium", amount=2},
     },
-		icon = "__Henrikshell__/graphics/icons/chemicals/calcium-oxide.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
     results = {{"calcium-oxide",3}},
 		order = "a-5"
   },

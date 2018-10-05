@@ -77,7 +77,7 @@ data:extend(
     {
     type = "item",
     name = "fast-transport-belt",
-    icon = "__base__/graphics/icons/fast-transport-belt.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-transport-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-b[fast-transport-belt]",
@@ -98,7 +98,7 @@ data:extend(
   {
     type = "transport-belt",
     name = "fast-transport-belt",
-    icon = "__base__/graphics/icons/fast-transport-belt.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "fast-transport-belt"},
     max_health = 50,
@@ -116,7 +116,7 @@ data:extend(
     {
       sound =
       {
-        filename = "__base__/sound/basic-transport-belt.ogg",
+        filename = "__base__/sound/transport-belt.ogg",
         volume = 0.4
       },
       max_sounds_per_type = 3
@@ -141,13 +141,17 @@ data:extend(
     starting_side = fast_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
-    speed = 0.0625
+    speed = 0.0625,
+    connector_frame_sprites = transport_belt_connector_frame_sprites,
+    circuit_connector_sprites = transport_belt_circuit_connector_sprites,
+    circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
+    circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
   },
   --Underground Belt--
     {
     type = "item",
     name = "fast-transport-belt-to-ground",
-    icon = "__base__/graphics/icons/fast-transport-belt-to-ground.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-underground-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-b[fast-transport-belt-to-ground]",
@@ -166,9 +170,9 @@ data:extend(
     result = "fast-transport-belt-to-ground"
   },
   {
-    type = "transport-belt-to-ground",
+    type = "underground-belt",
     name = "fast-transport-belt-to-ground",
-    icon = "__base__/graphics/icons/fast-transport-belt-to-ground.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-underground-belt.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-transport-belt-to-ground"},
     max_health = 60,
@@ -200,7 +204,7 @@ data:extend(
     starting_top = fast_belt_starting_top,
     starting_bottom = fast_belt_starting_bottom,
     starting_side = fast_belt_starting_side,
-    fast_replaceable_group = "transport-belt-to-ground",
+    fast_replaceable_group = "underground-belt",
     speed = 0.0625,
     structure =
     {
@@ -208,7 +212,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__base__/graphics/entity/fast-transport-belt-to-ground/fast-transport-belt-to-ground-structure.png",
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -220,7 +224,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__base__/graphics/entity/fast-transport-belt-to-ground/fast-transport-belt-to-ground-structure.png",
+          filename = "__base__/graphics/entity/fast-underground-belt/fast-underground-belt-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -234,7 +238,7 @@ data:extend(
     {
     type = "item",
     name = "fast-splitter",
-    icon = "__base__/graphics/icons/fast-splitter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-splitter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-b[fast-splitter]",
@@ -257,7 +261,7 @@ data:extend(
   {
     type = "splitter",
     name = "fast-splitter",
-    icon = "__base__/graphics/icons/fast-splitter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-splitter"},
     max_health = 80,

@@ -61,6 +61,27 @@ data:extend({
   },
   {
     type = "recipe-category",
+    name = "coal-pots"
+  },
+    {
+    type = "recipe-category",
+    name = "sulfuric-acid-pots"
+  },
+      {
+    type = "recipe-category",
+    name = "explosive-pots"
+  },
+   {
+    type = "recipe-category",
+    name = "steel-pots"
+  },
+  
+     {
+    type = "recipe-category",
+    name = "pollution-pots"
+  },
+  {
+    type = "recipe-category",
     name = "void-fluid"
   },
   {

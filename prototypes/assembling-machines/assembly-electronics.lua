@@ -8,7 +8,7 @@ data:extend(
   {
     type = "item",
     name = "electronics-machine-1",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-1.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-1.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrical-assembly",
     order = "d[electronics-machine-1]",
@@ -30,7 +30,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electronics-machine-1",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-1.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-1"},
     max_health = 250,
@@ -51,7 +51,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -61,7 +61,7 @@ data:extend(
           scale = 0.66,
         },
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -109,7 +109,7 @@ data:extend(
 {
     type = "item",
     name = "electronics-machine-2",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrical-assembly",
     order = "d[electronics-machine-2]",
@@ -132,7 +132,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electronics-machine-2",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-2"},
     max_health = 350,
@@ -165,7 +165,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -175,7 +175,7 @@ data:extend(
           scale = 0.66,
         },
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -223,7 +223,7 @@ data:extend(
 {
     type = "item",
     name = "electronics-machine-3",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-3.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrical-assembly",
     order = "d[electronics-machine-3]",
@@ -246,7 +246,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electronics-machine-3",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/electronics-machine-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-3"},
     max_health = 450,
@@ -279,7 +279,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -289,7 +289,7 @@ data:extend(
           scale = 0.66,
         },
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,

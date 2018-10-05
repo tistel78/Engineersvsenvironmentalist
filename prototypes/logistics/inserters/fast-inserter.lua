@@ -6,7 +6,7 @@ data:extend(
     icon = "__base__/graphics/icons/fast-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
-    order = "b[basic-inserter-2]",
+    order = "b[inserter-2]",
     place_result = "fast-inserter",
     stack_size = 50
   },
@@ -16,7 +16,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"basic-inserter", 1},
+      {"inserter", 1},
       {"electronic-circuit", 1},
       {"iron-gear-wheel", 4},
       
@@ -88,42 +88,42 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-base.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/fast-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-closed.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/fast-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-open.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/fast-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_base_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-base-shadow.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -132,7 +132,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__base__/graphics/entity/fast-inserter/fast-inserter-platform.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/fast-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46

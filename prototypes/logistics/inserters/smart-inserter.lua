@@ -3,7 +3,7 @@
   {
     type = "item",
     name = "smart-inserter",
-    icon = "__base__/graphics/icons/smart-inserter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "d[smart-inserter-2]",
@@ -25,7 +25,7 @@
   {
     type = "inserter",
     name = "smart-inserter",
-    icon = "__base__/graphics/icons/smart-inserter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "smart-inserter"},
     max_health = 40,
@@ -83,42 +83,42 @@
     filter_count = 5,
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-base.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/smart-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-closed.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/smart-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-open.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/smart-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_base_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-base-shadow.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_shadow =
     {
-      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/burner-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -127,7 +127,7 @@
     {
       sheet=
       {
-        filename = "__base__/graphics/entity/smart-inserter/smart-inserter-platform.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/inserters/smart-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46

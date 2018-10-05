@@ -16,7 +16,7 @@ data:extend(
       {type="fluid", name="oxygen", amount=1}
     },
     subgroup = "electrolysis",
-    icon = "__Henrikshell__/graphics/icons/chemicals/water-electrolysis.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/water-electrolysis.png",
     order = "water-2"
   },
   {
@@ -36,7 +36,7 @@ data:extend(
       {type="fluid", name="chlorine", amount=1},
       {type="fluid", name="hydrogen", amount=1},
     },
-    icon = "__Henrikshell__/graphics/icons/chemicals/salt-water-electrolysis.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/salt-water-electrolysis.png",
     subgroup = "electrolysis",
     order = "water-4"
   },

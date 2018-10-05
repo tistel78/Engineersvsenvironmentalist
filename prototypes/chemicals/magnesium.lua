@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "magnesium",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-1",
@@ -12,7 +12,7 @@ data:extend(
     {
     type = "item",
     name = "magnesium-hydroxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-hydroxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium-hydroxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-2",
@@ -21,7 +21,7 @@ data:extend(
   {
     type = "item",
     name = "magnesium-chloride",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-chloride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium-chloride.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "electrolysis",
     order = "a-3",
@@ -30,7 +30,7 @@ data:extend(
   {
     type = "recipe",
     name = "magnesium-electrolys-1",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-hydroxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium-hydroxide.png",
     category = "electrolysis",
     subgroup = "magnesium",
     order = "a-1",
@@ -47,7 +47,7 @@ data:extend(
     {
     type = "recipe",
     name = "magnesium-electrolys-2",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium-chloride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium-chloride.png",
     category = "electrolysis",
     subgroup = "magnesium",
     order = "a-2",
@@ -64,7 +64,7 @@ data:extend(
    {
     type = "recipe",
     name = "magnesium-electrolys-3",
-    icon = "__Henrikshell__/graphics/icons/chemicals/magnesium.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/magnesium.png",
     category = "electrolysis",
     subgroup = "magnesium",
     order = "a-3",

@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "gem-processing",
-    icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
     prerequisites = {"steel-processing","silicon-processing"},
     effects =
     {

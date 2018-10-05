@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "tungsten-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
     prerequisites = {"tungsten-processing"},
     effects =
     {

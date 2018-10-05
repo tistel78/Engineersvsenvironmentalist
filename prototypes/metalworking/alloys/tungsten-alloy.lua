@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "copper-tungsten-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "tungsten-1",
@@ -12,7 +12,7 @@ data:extend(
   {
     type = "item",
     name = "tungsten-carbide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/tungsten-carbide-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/tungsten-carbide-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "tungsten-2",

@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "crusher",
-    icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
     
     effects = {
       {
@@ -11,7 +11,7 @@ data:extend({
       }
     },
     unit = {
-      count = 40,
+      count = 10,
       ingredients = {
         {"science-pack-1", 1},
         {"science-pack-2", 1}
@@ -25,7 +25,7 @@ data:extend({
   {
     type = "technology",
     name = "crusher-2",
-    icon = "__Henrikshell__/graphics/icons/processors/crusher.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
     prerequisites = {"electronics","crusher"},
     effects = {
       {
@@ -39,6 +39,32 @@ data:extend({
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1}
+      },
+      time = 20
+    },
+    order = "crusher"
+  }
+})
+
+data:extend({
+  {
+    type = "technology",
+    name = "crusher-3",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+    prerequisites = {"electronics","crusher"},
+    effects = {
+      {
+        type = "unlock-recipe",
+        recipe = "crusher-4"
+      }
+    },
+    unit = {
+      count = 40,
+      ingredients = {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+		{"science-pack-4", 1}
       },
       time = 20
     },

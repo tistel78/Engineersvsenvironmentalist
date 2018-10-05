@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "chemical-mixing-furnace-1",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -32,7 +32,7 @@ data:extend(
  {
     type = "technology",
     name = "chemical-mixing-furnace-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

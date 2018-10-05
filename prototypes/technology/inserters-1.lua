@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "inserters-1",
-    icon = "__base__/graphics/icons/basic-inserter.png",
+    icon = "__base__/graphics/icons/inserter.png",
     prerequisites =
     {
       "automation-1",
@@ -12,7 +12,7 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-inserter"
+        recipe = "inserter"
       },
       {
         type = "unlock-recipe",

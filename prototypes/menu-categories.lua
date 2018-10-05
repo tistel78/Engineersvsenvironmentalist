@@ -6,7 +6,7 @@
     name = "basic-logistics",
     order = "a-a",
     inventory_order = "a-a",
-    icon = "__base__/graphics/icons/basic-transport-belt.png",
+    icon = "__base__/graphics/icons/transport-belt.png",
   },
     {
     type = "item-group",
@@ -77,7 +77,7 @@
     name = "electronics",
     order = "a-k",
     inventory_order = "k-a",
-    icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-electronic-components.png",
   },
   
   }
@@ -208,48 +208,90 @@
     data:extend(
 {
   --mining--
-            {
-    type = "item-subgroup",
-    name = "h-tool",
-    group = "h-mining",
-    order = "a-a"
-  },
-              {
-    type = "item-subgroup",
-    name = "basic-mining",
-    group = "h-mining",
-    order = "b-a"
-  },
-              {
-    type = "item-subgroup",
-    name = "area-mining",
-    group = "h-mining",
-    order = "c-a"
-  },
-              {
+  
+                {
     type = "item-subgroup",
     name = "oil-mining",
     group = "h-mining",
-    order = "d-a"
+    order = "a-a"
   },
                 {
     type = "item-subgroup",
     name = "pumps",
     group = "h-mining",
-    order = "e-a"
+    order = "b-a"
   },
                   {
     type = "item-subgroup",
     name = "air-pumps",
     group = "h-mining",
-    order = "f-a"
+    order = "c-a"
   },
                   {
     type = "item-subgroup",
     name = "water-pumps",
     group = "h-mining",
+    order = "d-a"
+  },
+            {
+    type = "item-subgroup",
+    name = "h-tool",
+    group = "h-mining",
+    order = "e-a"
+  },
+              {
+    type = "item-subgroup",
+    name = "basic-mining",
+    group = "h-mining",
+    order = "f-a"
+  },
+              {
+    type = "item-subgroup",
+    name = "area-mining",
+    group = "h-mining",
     order = "g-a"
   },
+                 {
+    type = "item-subgroup",
+    name = "explosives-analogue",
+    group = "h-mining",
+    order = "h-a"
+  }, 
+               {
+    type = "item-subgroup",
+    name = "dynamite",
+    group = "h-mining",
+    order = "i-a"
+  }, 
+  
+                 {
+    type = "item-subgroup",
+    name = "TNT",
+    group = "h-mining",
+    order = "j-a"
+  }, 
+  
+                   {
+    type = "item-subgroup",
+    name = "AN-FO",
+    group = "h-mining",
+    order = "k-a"
+  }, 
+  
+     {
+    type = "item-subgroup",
+    name = "RDX",
+    group = "h-mining",
+    order = "l-a"
+  }, 
+   {
+    type = "item-subgroup",
+    name = "Nuke",
+    group = "h-mining",
+    order = "m-a"
+  }, 
+
+  
   }
   )
     data:extend(
@@ -387,6 +429,10 @@
     group = "basic-material",
     order = "i-a"
   },
+
+  
+  
+  
   }
   )
     data:extend(
@@ -398,6 +444,46 @@
     group = "ore-processing",
     order = "iron-1"
   },
+  
+      {
+    type = "item-subgroup",
+    name = "iron-processing",
+    group = "ore-processing",
+    order = "steel-1"
+  },
+  
+        {
+    type = "item-subgroup",
+    name = "steel-1",
+    group = "ore-processing",
+    order = "a-1"
+  },
+          {
+    type = "item-subgroup",
+    name = "steel-2",
+    group = "ore-processing",
+    order = "a-1"
+  },
+          {
+    type = "item-subgroup",
+    name = "steel-3",
+    group = "ore-processing",
+    order = "a-1"
+  },
+          {
+    type = "item-subgroup",
+    name = "steel-4",
+    group = "ore-processing",
+    order = "a-1"
+  },
+  
+           {
+    type = "item-subgroup",
+    name = "steel-5",
+    group = "ore-processing",
+    order = "a-1"
+  },
+  
     {
     type = "item-subgroup",
     name = "steel-processing",
@@ -478,6 +564,22 @@
   },
   {
     type = "item-subgroup",
+    name = "platinum-processing",
+    group = "ore-processing",
+    order = "platinum"
+  },
+    {
+    type = "item-subgroup",
+    name = "magma-processing",
+    group = "ore-processing",
+    order = "magma"
+  },
+  
+  
+  
+  
+  {
+    type = "item-subgroup",
     name = "alloy-processing",
     group = "ore-processing",
     order = "zzz-zzz-zzz"
@@ -556,7 +658,7 @@
     type = "item-subgroup",
     name = "fluorites",
     group = "fluid-processing",
-    order = "c-a"
+    order = "d-a"
   },
 
     {
@@ -600,30 +702,69 @@
     data:extend(
 {
   --Science--
-       {
+  {
     type = "item-subgroup",
-    name = "labs",
+    name = "h-modules",
     group = "science",
     order = "a-a"
   },
-         {
+  {
     type = "item-subgroup",
-    name = "pots",
+    name = "labs",
     group = "science",
     order = "b-a"
   },
-           {
+  {
     type = "item-subgroup",
-    name = "artifacts",
+    name = "pot-producer",
     group = "science",
     order = "c-a"
   },
   {
     type = "item-subgroup",
-    name = "h-modules",
+    name = "pots",
     group = "science",
     order = "d-a"
   },
+  {
+    type = "item-subgroup",
+    name = "coal-pots",
+    group = "science",
+    order = "e-a"
+  },
+    {
+    type = "item-subgroup",
+    name = "sulfuric-acid-pots",
+    group = "science",
+    order = "f-a"
+  },
+  
+      {
+    type = "item-subgroup",
+    name = "steel-pots",
+    group = "science",
+    order = "g-a"
+  },
+          {
+    type = "item-subgroup",
+    name = "explosive-pots",
+    group = "science",
+    order = "h-a"
+  },
+        {
+    type = "item-subgroup",
+    name = "pollution-pots",
+    group = "science",
+    order = "i-a"
+  },
+  
+  {
+    type = "item-subgroup",
+    name = "artifacts",
+    group = "science",
+    order = "y-a"
+  },
+  
   {
     type = "item-subgroup",
     name = "void",

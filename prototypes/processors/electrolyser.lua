@@ -6,7 +6,7 @@ data:extend(
   {
     type = "item",
     name = "electrolyser",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrolysing",
     order = "e[electrolyser-1]",
@@ -16,7 +16,7 @@ data:extend(
   {
     type = "item",
     name = "electrolyser-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrolysing",
     order = "e[electrolyser-2]",
@@ -26,7 +26,7 @@ data:extend(
   {
     type = "item",
     name = "electrolyser-3",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-3.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrolysing",
     order = "e[electrolyser-3]",
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "item",
     name = "electrolyser-4",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-4.png",
     flags = {"goes-to-quickbar"},
     subgroup = "electrolysing",
     order = "e[electrolyser-4]",
@@ -64,14 +64,14 @@ data:extend({
   {
     type = "recipe",
     name = "electrolyser-2",
-    energy_required = 10,
+    energy_required = 100,
     enabled = false,
     ingredients =
     {
-      {"wall",10},
-      {"storage-tank",2},
-      {"plumbing",10},
-      {"iron-gear-wheel",10},
+      {"wall",500},
+      {"storage-tank",100},
+      {"plumbing",1000},
+      {"iron-gear-wheel",1000},
     },
     result = "electrolyser-2"
   },
@@ -79,14 +79,14 @@ data:extend({
   {
     type = "recipe",
     name = "electrolyser-3",
-    energy_required = 10,
+    energy_required = 300,
     enabled = false,
     ingredients =
     {
-      {"wall",200},
-      {"storage-tank",40},
-      {"plumbing",200},
-      {"iron-gear-wheel",200},
+      {"wall",5000},
+      {"storage-tank",100},
+      {"plumbing",5000},
+       {"iron-gear-wheel",10000},
     },
     result = "electrolyser-3"
   },
@@ -94,14 +94,15 @@ data:extend({
   {
     type = "recipe",
     name = "electrolyser-4",
-    energy_required = 10,
+    energy_required = 1000,
     enabled = false,
     ingredients =
     {
-      {"wall",4000},
-      {"storage-tank",800},
-      {"plumbing",4000},
-      {"iron-gear-wheel",4000},
+      {"wall",20000},
+      {"storage-tank",100},
+      {"plumbing",40000},
+	  {"advanced-machine-parts",5000},
+     
     },
     result = "electrolyser-4"
   },
@@ -112,7 +113,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "electrolyser",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser"},
     fast_replaceable_group = "electrolyser",
@@ -169,7 +170,7 @@ data:extend({
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt1u.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -177,7 +178,7 @@ data:extend({
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t1l.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -185,7 +186,7 @@ data:extend({
       },
       south =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt1d.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -193,7 +194,7 @@ data:extend({
       },
       east =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t1r.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1r.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -217,7 +218,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "electrolyser-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-2.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-2"},
     fast_replaceable_group = "electrolyser",
@@ -233,7 +234,7 @@ data:extend({
     },
     crafting_speed = 1,
     ingredient_count = 6,
-    energy_usage = "92MW",
+    energy_usage = "2500MW",
     energy_source =
     {
       type = "electric",
@@ -273,7 +274,7 @@ data:extend({
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt2u.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -281,7 +282,7 @@ data:extend({
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t2l.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -289,7 +290,7 @@ data:extend({
       },
       south =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt2d.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -297,7 +298,7 @@ data:extend({
       },
       east =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t2r.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2r.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -320,7 +321,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "electrolyser-3",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-3.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-3.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-3"},
     fast_replaceable_group = "electrolyser",
@@ -334,9 +335,9 @@ data:extend({
     {
       module_slots = 5,
     },
-    crafting_speed = 5,
+    crafting_speed = 25,
     ingredient_count = 8,
-    energy_usage = "137MW",
+    energy_usage = "40GW",
     energy_source =
     {
       type = "electric",
@@ -376,7 +377,7 @@ data:extend({
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt3u.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -384,7 +385,7 @@ data:extend({
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t3l.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -392,7 +393,7 @@ data:extend({
       },
       south =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt3d.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -400,7 +401,7 @@ data:extend({
       },
       east =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t3r.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3r.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -423,7 +424,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "electrolyser-4",
-    icon = "__Henrikshell__/graphics/icons/processors/electrolyser-4.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-4.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-4"},
     fast_replaceable_group = "electrolyser",
@@ -437,9 +438,9 @@ data:extend({
     {
       module_slots = 6,
     },
-    crafting_speed = 25,
+    crafting_speed = 125,
     ingredient_count = 10,
-    energy_usage = "206MW",
+    energy_usage = "180GW",
     energy_source =
     {
       type = "electric",
@@ -479,7 +480,7 @@ data:extend({
     {
       north =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt4u.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4u.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -487,7 +488,7 @@ data:extend({
       },
       west =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t4l.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4l.png",
         width = 112,
         height = 120,
         frame_count = 1,
@@ -495,7 +496,7 @@ data:extend({
       },
       south =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-vt4d.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4d.png",
         width = 108,
         height = 130,
         frame_count = 1,
@@ -503,7 +504,7 @@ data:extend({
       },
       east =
       {
-        filename = "__Henrikshell__/graphics/entity/processors/electro-h-t4r.png",
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4r.png",
         width = 112,
         height = 120,
         frame_count = 1,

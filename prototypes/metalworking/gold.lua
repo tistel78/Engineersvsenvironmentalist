@@ -5,34 +5,34 @@ data:extend(
 {
     type = "item",
     name = "gold-grain",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-grain.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-grain.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 100000
   },
   {
     type = "item",
     name = "gold-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 200
   },
    {
     type = "item",
     name = "gold-sifted",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-sifted.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 200
   },
  {
     type = "item",
     name = "gold-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
@@ -42,7 +42,7 @@ data:extend(
 {
     type = "recipe",
     name = "gold-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-crushed.png",
     category = "crusher",
     subgroup = "gold-processing",
     order ="a-1",
@@ -61,7 +61,7 @@ data:extend(
 {
     type = "recipe",
     name = "gold-sifting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-sifted.png",
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-2",
@@ -80,7 +80,7 @@ data:extend(
  {
     type = "recipe",
     name = "gold-flotation",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
     category = "chemistry",
     subgroup = "gold-processing",
     order ="a-3",
@@ -103,22 +103,27 @@ data:extend(
   {
     type = "recipe",
     name = "gold-grain",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-grain.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-grain.png",
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-4",
-    energy_required = 60,
+    energy_required = 1,
     enabled = true,
     ingredients =
     {
-      {type="fluid", name="water", amount=400},
+      {type="fluid", name="water", amount=1000},
     },
-    result = "gold-grain"
+    results=
+    {
+    {type="item",name="gold-grain", probability=0.01, amount_min=1, amount_max=1},    --0.0008  real earth value
+    {type="item",name="platinum-grain", probability=0.01, amount_min=1, amount_max=1}, --0.003   real earth value
+	  {type="item",name="uranium-dust", probability=1, amount_min=38, amount_max=40},
+    }
   },
   {
     type = "recipe",
     name = "gold-plate|grains",
-        icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
     category = "crafting",
     subgroup = "gold-processing",
     order ="a-5",

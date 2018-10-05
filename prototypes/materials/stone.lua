@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "stone-crushing",
-    icon = "__Henrikshell__/graphics/icons/materials/gravel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/gravel.png",
     category = "crusher",
     subgroup = "basic-processing",
     order ="a-2",

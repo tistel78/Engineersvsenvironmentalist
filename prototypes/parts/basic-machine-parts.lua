@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "iron-gear-wheel",
-    icon = "__Henrikshell__/graphics/icons/parts/gear-wheels.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/gear-wheels.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
     
@@ -199,5 +199,22 @@ data:extend(
     ingredients = {{"tungsten-carbide", 1}},
     results = {{"iron-gear-wheel",10}},
   },
+    {
+    type = "recipe",
+    name = "iron-gear-wheel|carbon-nanotubes",
+    order = "carbon-nanotubes",
+    enabled=true,
+    ingredients = {{"carbon-nanotubes", 1}},
+    results = {{"iron-gear-wheel",200}},
+  },
+{
+    type = "recipe",
+    name = "iron-gear-wheel|amorphicmachineparts",
+    order = "amorphicmachineparts",
+    enabled=true,
+    ingredients = {{"amorphicmachineparts", 1}},
+    results = {{"iron-gear-wheel",5}},
+  },
+
   }
   )

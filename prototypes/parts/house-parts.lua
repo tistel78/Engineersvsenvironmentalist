@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "wall",
-    icon = "__Henrikshell__/graphics/icons/building-segments/building-segment.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/building-segments/building-segment.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "building-segments",
     stack_size = 100000
@@ -39,9 +39,9 @@ data:extend(
   {
     type = "recipe",
     name = "wall|cement",
-    icon = "__Henrikshell__/graphics/icons/chemicals/cement.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cement.png",
     order = "b-04",
-    ingredients = {{"cement", 15},{"stone-brick",30},{"iron-gear-wheel",1}},
+    ingredients = {{"cement", 1}, {"stone-brick",25}, {"iron-gear-wheel",1}},
     result = "wall"
   },
   {
@@ -49,7 +49,7 @@ data:extend(
     name = "wall|concrete",
     icon = "__base__/graphics/icons/concrete.png",
     order = "b-05",
-    ingredients = {{"concrete", 50}},
+    ingredients = {{"concrete", 20}},
     result = "wall"
   },
   {
@@ -70,9 +70,18 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "wall|aluminium",
-    icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    name = "wall|carbonite",
+    icon = "__base__/graphics/icons/concrete.png",
     order = "b-12",
+    ingredients = {{"carbon-nanotubes", 1}, {"concrete",5}, },
+    results = {{"wall",500}},
+  },
+
+  {
+    type = "recipe",
+    name = "wall|aluminium",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
+    order = "b-13",
     ingredients = {{"aluminium-plate", 5}},
     result = "wall"
   },

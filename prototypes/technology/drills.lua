@@ -3,7 +3,7 @@ data:extend(
  {
     type = "technology",
     name = "drills-1",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-a-1",
     upgrade = "true",
     unit =
@@ -18,14 +18,14 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-mining-drill"
+        recipe = "electric-mining-drill"
       },
     },
   },
   {
     type = "technology",
     name = "drills-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -53,7 +53,7 @@ data:extend(
   {
     type = "technology",
     name = "drills-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-a-2",
     upgrade = "true",
     prerequisites =
@@ -81,7 +81,7 @@ data:extend(
   {
     type = "technology",
     name = "drills-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-a-3",
     upgrade = "true",
     prerequisites =
@@ -110,7 +110,7 @@ data:extend(
   {
     type = "technology",
     name = "drills-5",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-a-4",
     upgrade = "true",
     prerequisites =

@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "tin-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-1",
@@ -12,7 +12,7 @@ data:extend(
   {
     type = "item",
     name = "tin-sifted",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-sifted.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-2",
@@ -21,7 +21,7 @@ data:extend(
   {
     type = "item",
     name = "tin-slag-1",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-slag1.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-3",
@@ -30,7 +30,7 @@ data:extend(
   {
     type = "item",
     name = "tin-slag-2",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-slag2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-4",
@@ -39,7 +39,7 @@ data:extend(
   {
     type = "item",
     name = "tin-crude",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-crude.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crude.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-5",
@@ -48,7 +48,7 @@ data:extend(
   {
     type = "item",
     name = "tin-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tin-processing",
     order = "a-6",
@@ -58,7 +58,7 @@ data:extend(
   {
     type = "recipe",
     name = "tin-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crushed.png",
     category = "crusher",
     subgroup = "tin-processing",
     order="a-1",
@@ -70,7 +70,7 @@ data:extend(
   {
     type = "recipe",
     name = "tin-sifting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-sifted.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-sifted.png",
     category = "sifter",
     subgroup = "tin-processing",
     order="a-2",
@@ -87,7 +87,7 @@ data:extend(
   {
     type = "recipe",
     name = "tin-roasting",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-slag1.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag1.png",
     category = "smelting",
     subgroup = "tin-processing",
     order="a-3",
@@ -99,7 +99,7 @@ data:extend(
   {
     type = "recipe",
     name = "tin-roasting-1",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-slag2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag2.png",
     category = "smelting",
     subgroup = "tin-processing",
     order="a-4",
@@ -111,7 +111,7 @@ data:extend(
     {
     type = "recipe",
     name = "tin-roasting-2",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-crude.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crude.png",
     category = "smelting",
     subgroup = "tin-processing",
     order="a-5",
@@ -123,7 +123,7 @@ data:extend(
   {
     type = "recipe",
     name = "tin-refining",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tin-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-plate.png",
     category = "smelting",
     subgroup = "tin-processing",
     order="a-6",

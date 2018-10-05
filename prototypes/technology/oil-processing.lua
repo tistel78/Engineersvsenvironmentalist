@@ -30,7 +30,7 @@
     },
     unit =
     {
-      count = 50,
+      count = 10,
       ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
       time = 30
     },

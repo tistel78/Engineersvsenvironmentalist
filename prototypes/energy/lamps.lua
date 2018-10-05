@@ -16,10 +16,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 2}
+      {"copper-cable", 1},
+      {"glass", 2}
     },
-    result = "small-lamp"
+    result = "small-lamp",10
   },
   {
     type = "lamp",
@@ -38,7 +38,7 @@ data:extend(
       usage_priority = "secondary-input"
     },
     energy_usage_per_tick = "5KW",
-    light = {intensity = 0.9, size = 40},
+    light = {intensity = 0.9, size = 80},
     picture_off =
     {
       filename = "__base__/graphics/entity/small-lamp/light-off.png",

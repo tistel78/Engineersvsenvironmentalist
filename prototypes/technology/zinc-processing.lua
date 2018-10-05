@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "zinc-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/zinc-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-plate.png",
     prerequisites = {"lead-processing"},
     effects =
     {

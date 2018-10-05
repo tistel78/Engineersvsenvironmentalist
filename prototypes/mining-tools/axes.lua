@@ -92,7 +92,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "brass-axe",
-    icon = "__Henrikshell__/graphics/icons/mining-tools/brass-axe.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/brass-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -128,7 +128,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "cobalt-axe",
-    icon = "__Henrikshell__/graphics/icons/mining-tools/cobalt-axe.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/cobalt-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -146,7 +146,7 @@ data:extend(
     durability = 8500,
     subgroup = "h-tool",
     order = "a[mining]-d[cobalt-axe]",
-    speed = 8.5,
+    speed = 50,
     stack_size = 20
   },
     {
@@ -164,7 +164,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "titanium-axe",
-    icon = "__Henrikshell__/graphics/icons/mining-tools/titanium-axe.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/titanium-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -182,7 +182,7 @@ data:extend(
     durability = 11000,
     subgroup = "h-tool",
     order = "a[mining]-e[titanium-axe]",
-    speed = 11.5,
+    speed = 16,
     stack_size = 20
   },
     {
@@ -200,7 +200,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "tungsten-axe",
-    icon = "__Henrikshell__/graphics/icons/mining-tools/tungsten-axe.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/tungsten-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -236,7 +236,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "diamond-axe",
-    icon = "__Henrikshell__/graphics/icons/mining-tools/diamond-axe.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/diamond-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -254,7 +254,7 @@ data:extend(
     durability = 17500,
     subgroup = "h-tool",
     order = "a[mining]-g[diamond-axe]",
-    speed = 20,
+    speed = 15,
     stack_size = 20
   },
     {

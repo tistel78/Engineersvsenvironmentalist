@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "synthetic-wood",
-    icon = "__Henrikshell__/graphics/icons/materials/synthetic-wood.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/synthetic-wood.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "1MJ",
     subgroup = "plastics",

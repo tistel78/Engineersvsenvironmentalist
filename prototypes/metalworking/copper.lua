@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "item",
 		name = "chalcopyrite-dust",
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritedust.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "copper-processing",
 		order = "g1[other]",
@@ -12,7 +12,7 @@ data:extend({
 	{
 		type = "item",
 		name = "chalcopyrite-nodules",
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritenodules.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "copper-processing",
 		order = "g1[other]",
@@ -21,7 +21,7 @@ data:extend({
 	{
 		type = "item",
 		name = "copper-sulfate",
-		icon = "__Henrikshell__/graphics/icons/materials/copper-sulfate.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/copper-sulfate.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "copper-processing",
 		order = "g1[other]",
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "item",
     name = "copper-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/copper-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "copper-processing",
     order = "c[copper-plate]",
@@ -54,7 +54,7 @@ data:extend({
   {
     type = "recipe",
     name = "copper-ore-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/copper-crushed.png",
     category = "crusher",
     subgroup = "copper-processing",
     order = "a-1",
@@ -86,7 +86,7 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 1,
     ingredients = {{"chalcopyrite-ore",5}},
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritedust.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritedust.png",
     results = {{"chalcopyrite-dust",5},{"gravel",3}},
 		order = "a-3"
 	},
@@ -97,7 +97,7 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 3,
     ingredients = {{"chalcopyrite-dust",4}, {type="fluid", name="water", amount=2}},
-		icon = "__Henrikshell__/graphics/icons/materials/chalcopyritenodules.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritenodules.png",
     results = {{"chalcopyrite-nodules",4}, {"sand",1}, {"gravel",1}},
 		order = "a-4"
 	},
@@ -108,7 +108,7 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 4,
     ingredients = {{"chalcopyrite-nodules",6}},
-		icon = "__Henrikshell__/graphics/icons/metalworking/copper-crushed.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/copper-crushed.png",
     results = {{"copper-crushed",2}, {"iron-sulfate-crushed",2}, {"ash",1}},
 		order = "a-5"
 	},
@@ -120,7 +120,7 @@ data:extend({
     energy_required = 2,
     enabled=false,
     ingredients = {{"copper-crushed",5}},
-		icon = "__Henrikshell__/graphics/icons/materials/copper-sulfate.png",
+		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/copper-sulfate.png",
     results = {{"copper-sulfate",3}},
 		order = "a-6"
 	},

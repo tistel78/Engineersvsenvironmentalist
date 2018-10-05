@@ -9,7 +9,7 @@ data:extend(
     base_color = {r=0, g=0.2, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tungstic-acid.png",
     pressure_to_speed_ratio = 0.2,
     flow_to_energy_ratio = 0.3,
     order = "a[fluid]-g[tungstic-acid]"
@@ -17,7 +17,7 @@ data:extend(
   {
     type = "item",
     name = "tungsten-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tungsten-processing",
     order = "f[tungsten-oxide]",
@@ -26,7 +26,7 @@ data:extend(
 {
     type = "item",
     name = "tungsten-oxide",
-    icon = "__Henrikshell__/graphics/icons/chemicals/tungsten-oxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tungsten-oxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tungsten-processing",
     order = "f[tungsten-oxide]",
@@ -35,7 +35,7 @@ data:extend(
   {
     type = "item",
     name = "powdered-tungsten",
-    icon = "__Henrikshell__/graphics/icons/chemicals/powdered-tungsten.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/powdered-tungsten.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tungsten-processing",
     order = "f[powdered-tungsten]",
@@ -44,7 +44,7 @@ data:extend(
  {
     type = "item",
     name = "tungsten-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "tungsten-processing",
     order = "c-a-i[tungsten-plate]",
@@ -54,7 +54,7 @@ data:extend(
   {
 	type = "recipe",
   name = "tungsten-crushing",
-	icon = "__Henrikshell__/graphics/icons/metalworking/tungsten-crushed.png",
+	icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-crushed.png",
   category = "crusher",
 	subgroup = "tungsten-processing",
   order = "a-1",
@@ -81,7 +81,7 @@ data:extend(
     },
     main_product= "tungstic-acid",
     subgroup = "tungsten-processing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/tungstic-acid.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tungstic-acid.png",
     order = "a-2",
   },
   {

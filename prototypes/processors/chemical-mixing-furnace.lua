@@ -3,7 +3,7 @@ data:extend(
  {
     type = "item",
     name = "electric-chemical-mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
     flags = {"goes-to-quickbar"},
     subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-1]",
@@ -26,7 +26,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace"},
     max_health = 350,
@@ -60,7 +60,7 @@ data:extend(
       module_info_multi_row_initial_height_modifier = -0.3
     },
     ingredient_count = 6,
-    crafting_speed = 25,
+    crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "200MW",
     energy_source =
@@ -80,7 +80,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -96,7 +96,7 @@ data:extend(
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,
@@ -110,7 +110,7 @@ data:extend(
   {
     type = "item",
     name = "electric-chemical-mixing-furnace-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-2]",
@@ -124,16 +124,16 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 3600},
-      {"iron-gear-wheel",2000},
-      {"plumbing",2000},
+      {"wall", 10000},
+      {"advanced-machine-parts",5000},
+      {"plumbing",20000},
     },
     result = "electric-chemical-mixing-furnace-2"
   },
   {
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace-2",
-    icon = "__Henrikshell__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace-2"},
     max_health = 450,
@@ -187,7 +187,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
       priority = "high",
       width = 131,
       height = 102,
@@ -203,7 +203,7 @@ data:extend(
         east_position = { 0.09375, 0.96875 },
         animation =
         {
-          filename = "__Henrikshell__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
           width = 29,
           height = 19,
           frame_count = 12,

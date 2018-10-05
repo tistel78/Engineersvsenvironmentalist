@@ -6,16 +6,17 @@ data:extend(
   {
     type = "item",
     name = "asphaltum",
-    icon = "__Henrikshell__/graphics/icons/materials/rubber.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "f[rubber]",
+	fuel_value = "1kJ",
     stack_size = 100
   },
   {
     type = "item",
     name = "asphalt",
-    icon = "__Henrikshell__/graphics/icons/materials/rubber.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "f[rubber]",
@@ -30,7 +31,7 @@ data:extend(
   {
     type = "recipe",
     name = "asphalt",
-    icon = "__Henrikshell__/graphics/icons/materials/rubber.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
     category = "chemistry",
     subgroup = "oil-processing",
     order = "b[fluid-chemistry]-a[coal-cracking]",
@@ -62,20 +63,20 @@ data:extend(
       main =
       {
         {
-          picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt1.png",
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt1.png",
           count = 22,
           size = 1,
           weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045, 0.005, 0.005, 0.005, 0.005, 0.003, 0.005 }
         },
         {
-          picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt2.png",
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt2.png",
           count = 30,
           size = 2,
           probability = 1,
           weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027, 0.022, 0.032, 0.020, 0.020, 0.030, 0.005, 0.010, 0.002, 0.013, 0.007, 0.007, 0.010, 0.030, 0.030 }
         },
         {
-          picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt4.png",
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt4.png",
           count = 21,
           line_length = 11,
           size = 4,
@@ -85,17 +86,17 @@ data:extend(
       },
       inner_corner =
       {
-        picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt-inner-corner.png",
+        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-inner-corner.png",
         count = 8
       },
       outer_corner =
       {
-        picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt-outer-corner.png",
+        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-outer-corner.png",
         count = 8
       },
       side =
       {
-        picture = "__Henrikshell__/graphics/terrain/asphalt/asphalt-side.png",
+        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-side.png",
         count = 8
       }
     },

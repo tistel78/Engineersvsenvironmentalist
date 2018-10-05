@@ -3,7 +3,7 @@ data:extend(
 {
     type = "item",
     name = "void",
-    icon = "__Henrikshell__/graphics/icons/void/void.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void.png",
     flags = {"goes-to-main-inventory", "hidden"},
     subgroup = "void",
     order = "void",
@@ -25,7 +25,7 @@ data:extend(
       {type="item", name="void", amount=1, probability=0},
     },
     subgroup = "void",
-    icon = "__Henrikshell__/graphics/icons/void/void-oxygen.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-oxygen.png",
     order = "oxygen"
   },
 
@@ -45,7 +45,7 @@ data:extend(
       {type="item", name="void", amount=1, probability=0},
     },
     subgroup = "void",
-    icon = "__Henrikshell__/graphics/icons/void/void-hydrogen.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-hydrogen.png",
     order = "hydrogen"
   },
 
@@ -65,7 +65,7 @@ data:extend(
       {type="item", name="void", amount=1, probability=0},
     },
     subgroup = "void",
-    icon = "__Henrikshell__/graphics/icons/void/void-nitrogen.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-nitrogen.png",
     order = "nitrogen"
   },
 
@@ -84,7 +84,7 @@ data:extend(
     {
       {type="item", name="void", amount=1, probability=0},
     },
-    icon = "__Henrikshell__/graphics/icons/void/void-chlorine.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-chlorine.png",
     subgroup = "void",
     order = "chlorine"
   },

@@ -3,7 +3,7 @@ data:extend(
  {
     type = "item",
     name = "brass-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/brass-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/brass-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "brass",
@@ -22,7 +22,7 @@ data:extend(
     },
     results = 
 	{
-	  {type="item", name="brass-alloy", amount=5}
+	  {type="item", name= "brass-alloy" , amount=5}
 	}
   },
   }

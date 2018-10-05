@@ -3,7 +3,7 @@ data:extend(
  {
     type = "item",
     name = "cobalt-steel-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "cobalt",
@@ -17,7 +17,7 @@ data:extend(
     energy_required = 35,
     ingredients =
     {
-      {type="item", name="iron-plate", amount=14},
+      {type="item", name="steel-plate", amount=5},
       {type="item", name="cobalt-plate", amount=1},
     },
     result = "cobalt-steel-alloy",
@@ -25,3 +25,4 @@ data:extend(
   },
   }
   )
+  

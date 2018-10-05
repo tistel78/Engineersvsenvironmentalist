@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "copper-cable",
-    icon = "__Henrikshell__/graphics/icons/parts/basic-electric-cable.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/basic-electric-cable.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "basic-electric-cable",
     order = "a[wires]-1",

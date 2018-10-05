@@ -121,32 +121,34 @@ data:extend(
 {
   {
     type = "item",
-    name = "basic-mining-drill",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "electric-mining-drill",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-mining",
     order = "c-1",
-    place_result = "basic-mining-drill",
+    place_result = "electric-mining-drill",
     stack_size = 50
   },
   {
     type = "recipe",
-    name = "basic-mining-drill",
+    name = "electric-mining-drill",
     energy_required = 2,
     enabled=false,
     ingredients =
     {
       {"basic-circuit-board", 3},
       {"iron-gear-wheel", 15},
+	{"explosives-analogue", 10},
+
     },
-    result = "basic-mining-drill"
+    result = "electric-mining-drill"
   },
   {
     type = "mining-drill",
-    name = "basic-mining-drill",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    name = "electric-mining-drill",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "basic-mining-drill"},
+    minable = {mining_time = 1, result = "electric-mining-drill"},
     max_health = 300,
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
@@ -171,7 +173,7 @@ data:extend(
         height = 114,
         line_length = 8,
         shift = {0.2, -0.2},
-        filename = "__base__/graphics/entity/basic-mining-drill/north.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/north.png",
         frame_count = 64,
         animation_speed = 0.5,
         run_mode = "forward-then-backward",
@@ -183,7 +185,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.45, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/east.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/east.png",
         frame_count = 64,
         animation_speed = 0.5,
         run_mode = "forward-then-backward",
@@ -195,7 +197,7 @@ data:extend(
         height = 111,
         line_length = 8,
         shift = {0.15, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/south.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/south.png",
         frame_count = 64,
         animation_speed = 0.5,
         run_mode = "forward-then-backward",
@@ -207,7 +209,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.25, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/west.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/west.png",
         frame_count = 64,
         animation_speed = 0.5,
         run_mode = "forward-then-backward",
@@ -232,7 +234,7 @@ data:extend(
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
+      filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
       height = 12
     },
@@ -245,7 +247,7 @@ data:extend(
   {
     type = "item",
     name = "mining-drill-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-mining",
     order = "c-2",
@@ -261,13 +263,15 @@ data:extend(
     {
       {"electronic-circuit", 5},
       {"iron-gear-wheel", 30},
+	{"explosives-analogue", 100},
+
     },
     result = "mining-drill-2"
   },
   {
     type = "mining-drill",
     name = "mining-drill-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-2"},
     max_health = 450,
@@ -293,7 +297,7 @@ data:extend(
         height = 114,
         line_length = 8,
         shift = {0.2, -0.2},
-        filename = "__base__/graphics/entity/basic-mining-drill/north.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/north.png",
         frame_count = 64,
         animation_speed = 1,
         run_mode = "forward-then-backward",
@@ -305,7 +309,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.45, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/east.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/east.png",
         frame_count = 64,
         animation_speed = 1,
         run_mode = "forward-then-backward",
@@ -317,7 +321,7 @@ data:extend(
         height = 111,
         line_length = 8,
         shift = {0.15, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/south.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/south.png",
         frame_count = 64,
         animation_speed = 1,
         run_mode = "forward-then-backward",
@@ -329,7 +333,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.25, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/west.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/west.png",
         frame_count = 64,
         animation_speed = 1,
         run_mode = "forward-then-backward",
@@ -356,7 +360,7 @@ data:extend(
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
+      filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
       height = 12
     }
@@ -369,7 +373,7 @@ data:extend(
   {
     type = "item",
     name = "mining-drill-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-mining",
     order = "c-3",
@@ -385,13 +389,15 @@ data:extend(
     {
       {"advanced-circuit", 5},
       {"iron-gear-wheel", 60},
+	{"explosives-analogue", 1000},
+
     },
     result = "mining-drill-3"
   },
   {
     type = "mining-drill",
     name = "mining-drill-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-3"},
     max_health = 600,
@@ -417,7 +423,7 @@ data:extend(
         height = 114,
         line_length = 8,
         shift = {0.2, -0.2},
-        filename = "__base__/graphics/entity/basic-mining-drill/north.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/north.png",
         frame_count = 64,
         animation_speed = 2,
         run_mode = "forward-then-backward",
@@ -429,7 +435,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.45, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/east.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/east.png",
         frame_count = 64,
         animation_speed = 2,
         run_mode = "forward-then-backward",
@@ -441,7 +447,7 @@ data:extend(
         height = 111,
         line_length = 8,
         shift = {0.15, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/south.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/south.png",
         frame_count = 64,
         animation_speed = 2,
         run_mode = "forward-then-backward",
@@ -453,7 +459,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.25, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/west.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/west.png",
         frame_count = 64,
         animation_speed = 2,
         run_mode = "forward-then-backward",
@@ -480,7 +486,7 @@ data:extend(
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
+      filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
       height = 12
     }
@@ -493,7 +499,7 @@ data:extend(
   {
     type = "item",
     name = "mining-drill-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-mining",
     order = "c-4",
@@ -509,13 +515,15 @@ data:extend(
     {
       {"processing-unit", 5},
       {"iron-gear-wheel", 120},
+	{"explosives-analogue", 10000},
+
     },
     result = "mining-drill-4"
   },
   {
     type = "mining-drill",
     name = "mining-drill-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-4"},
     max_health = 750,
@@ -541,7 +549,7 @@ data:extend(
         height = 114,
         line_length = 8,
         shift = {0.2, -0.2},
-        filename = "__base__/graphics/entity/basic-mining-drill/north.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/north.png",
         frame_count = 64,
         animation_speed = 3,
         run_mode = "forward-then-backward",
@@ -553,7 +561,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.45, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/east.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/east.png",
         frame_count = 64,
         animation_speed = 3,
         run_mode = "forward-then-backward",
@@ -565,7 +573,7 @@ data:extend(
         height = 111,
         line_length = 8,
         shift = {0.15, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/south.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/south.png",
         frame_count = 64,
         animation_speed = 3,
         run_mode = "forward-then-backward",
@@ -577,7 +585,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.25, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/west.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/west.png",
         frame_count = 64,
         animation_speed = 3,
         run_mode = "forward-then-backward",
@@ -604,7 +612,7 @@ data:extend(
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
+      filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
       height = 12
     }
@@ -617,7 +625,7 @@ data:extend(
   {
     type = "item",
     name = "mining-drill-5",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "basic-mining",
     order = "c-5",
@@ -633,13 +641,15 @@ data:extend(
     {
       {"advanced-processing-unit", 5},
       {"iron-gear-wheel", 240},
+	{"explosives-analogue", 64000},
+
     },
     result = "mining-drill-5"
   },
   {
     type = "mining-drill",
     name = "mining-drill-5",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-5"},
     max_health = 900,
@@ -665,7 +675,7 @@ data:extend(
         height = 114,
         line_length = 8,
         shift = {0.2, -0.2},
-        filename = "__base__/graphics/entity/basic-mining-drill/north.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/north.png",
         frame_count = 64,
         animation_speed = 4,
         run_mode = "forward-then-backward",
@@ -677,7 +687,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.45, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/east.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/east.png",
         frame_count = 64,
         animation_speed = 4,
         run_mode = "forward-then-backward",
@@ -689,7 +699,7 @@ data:extend(
         height = 111,
         line_length = 8,
         shift = {0.15, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/south.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/south.png",
         frame_count = 64,
         animation_speed = 4,
         run_mode = "forward-then-backward",
@@ -701,7 +711,7 @@ data:extend(
         height = 100,
         line_length = 8,
         shift = {0.25, 0},
-        filename = "__base__/graphics/entity/basic-mining-drill/west.png",
+        filename = "__base__/graphics/entity/electric-mining-drill/west.png",
         frame_count = 64,
         animation_speed = 4,
         run_mode = "forward-then-backward",
@@ -728,10 +738,134 @@ data:extend(
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
     {
-      filename = "__base__/graphics/entity/basic-mining-drill/mining-drill-radius-visualization.png",
+      filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
       width = 12,
       height = 12
     }
+  },
+}
+)
+
+
+data:extend(
+{
+{
+    type = "item",
+    name = "nuclear-mining-drill",
+    icon = "__base__/graphics/icons/burner-mining-drill.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "basic-mining",
+    order = "c-6",
+    place_result = "nuclear-mining-drill",
+    stack_size = 50
+  },
+  {
+    type = "recipe",
+    name = "nuclear-mining-drill",
+    energy_required = 200,
+    ingredients =
+    {
+      {"advanced-processing-unit", 50},
+	  {"advanced-machine-parts", 5000},
+	  {"tungsten-carbide", 5000},	  
+	  {"uranium-nuke", 1},
+	  {"uranium-fuel", 1},
+	  
+    },
+    result = "nuclear-mining-drill",
+  },
+  {
+    type = "mining-drill",
+    name = "nuclear-mining-drill",
+    icon = "__base__/graphics/icons/burner-mining-drill.png",
+    flags = {"placeable-neutral", "player-creation"},
+    resource_categories = {"basic-solid"},
+    minable = {mining_time = 1, result = "nuclear-mining-drill"},
+    max_health = 100,
+    corpse = "medium-remnants",
+    collision_box = {{ -0.9, -0.9}, {0.9, 0.9}},
+    selection_box = {{ -1, -1}, {1, 1}},
+    mining_speed = 64000,
+    working_sound =
+    {
+      sound =
+      {
+        filename = "__base__/sound/burner-mining-drill.ogg",
+        volume = 0.8
+      },
+    },
+    energy_source =
+    {
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.0000000001,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 3
+        }
+      }
+    },
+    energy_usage = "-1kW",
+    mining_power = 200,
+    animations =
+    {
+      north =
+      {
+        priority = "extra-high",
+        width = 110,
+        height = 76,
+        line_length = 4,
+        shift = {0.6875, -0.09375},
+        filename = "__base__/graphics/entity/burner-mining-drill/north.png",
+        frame_count = 32,
+        animation_speed = 0.5,
+        run_mode = "forward-then-backward",
+      },
+      east =
+      {
+        priority = "extra-high",
+        width = 94,
+        height = 74,
+        line_length = 4,
+        shift = {0.4375, -0.09375},
+        filename = "__base__/graphics/entity/burner-mining-drill/east.png",
+        frame_count = 32,
+        animation_speed = 0.5,
+        run_mode = "forward-then-backward",
+      },
+      south =
+      {
+        priority = "extra-high",
+        width = 89,
+        height = 88,
+        line_length = 4,
+        shift = {0.40625, 0},
+        filename = "__base__/graphics/entity/burner-mining-drill/south.png",
+        frame_count = 32,
+        animation_speed = 0.5,
+        run_mode = "forward-then-backward",
+      },
+      west =
+      {
+        priority = "extra-high",
+        width = 91,
+        height = 78,
+        line_length = 4,
+        shift = {0.09375, -0.0625},
+        filename = "__base__/graphics/entity/burner-mining-drill/west.png",
+        frame_count = 32,
+        animation_speed = 0.5,
+        run_mode = "forward-then-backward",
+      }
+    },
+	storage_slots = 8,
+	fast_replaceable_group = "mining-drill",
+    resource_searching_radius = 5,
+    vector_to_place_result = {-0.5, -1.3},
   },
 }
 )

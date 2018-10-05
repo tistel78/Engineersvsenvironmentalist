@@ -3,7 +3,7 @@
   {
     type = "technology",
     name = "smart-inserters-1",
-    icon = "__Henrikshell__/graphics/icons/inserters/basic-smart-inserter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/basic-smart-inserter.png",
     effects =
     {
       {

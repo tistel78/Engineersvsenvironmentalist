@@ -11,6 +11,10 @@
         type = "unlock-recipe",
         recipe = "advanced-processing-unit"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "advanced-processing-unit-upgrade"
+      },
       {
         type = "unlock-recipe",
         recipe = "processing-electronics"

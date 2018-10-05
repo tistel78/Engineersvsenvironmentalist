@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "plumbing",
-    icon = "__Henrikshell__/graphics/icons/parts/plumbing.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/plumbing.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "plumbing",
     

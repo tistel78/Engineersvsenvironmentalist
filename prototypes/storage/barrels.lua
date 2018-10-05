@@ -37,7 +37,7 @@
   {
     type = "item",
     name = "heavy-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/storage/heavy-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/heavy-oil-barrel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[heavy-oil-barrel]",
@@ -47,7 +47,7 @@
   {
     type = "item",
     name = "light-oil-barrel",
-    icon = "__Henrikshell__/graphics/icons/storage/light-oil-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/light-oil-barrel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[light-oil-barrel]",
@@ -57,7 +57,7 @@
   {
     type = "item",
     name = "lubricant-barrel",
-    icon = "__Henrikshell__/graphics/icons/storage/lubricant-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/lubricant-barrel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[lubricant-barrel]",
@@ -67,7 +67,7 @@
   {
     type = "item",
     name = "sulfuric-acid-barrel",
-    icon = "__Henrikshell__/graphics/icons/storage/sulfuric-acid-barrel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/sulfuric-acid-barrel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fluid-logistics",
     order = "f-c[sulfuric-acid-barrel]",

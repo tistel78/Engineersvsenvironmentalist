@@ -3,7 +3,7 @@
 {
     type = "item",
     name = "polishing-compound",
-    icon = "__Henrikshell__/graphics/icons/parts/polishing-compound.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/polishing-compound.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "f[polishing-compound]",
@@ -18,7 +18,7 @@
     energy_required = 2,
     ingredients =
     {
-      {type="item", name="alumina", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1},
       {type="fluid", name="light-oil", amount=1.5},
     },
     result="polishing-compound",
@@ -27,7 +27,7 @@
 {
     type = "item",
     name = "grinding-wheel",
-    icon = "__Henrikshell__/graphics/icons/parts/grinding-wheel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/grinding-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "f-c[grinding-wheel]",
@@ -42,7 +42,7 @@
     ingredients =
     {
       {"steel-plate", 1},
-      {"silicon-carbide", 5},
+      {"advanced-machine-parts", 5},
     },
     result = "grinding-wheel",
     result_count = 2
@@ -51,7 +51,7 @@
   {
     type = "item",
     name = "polishing-wheel",
-    icon = "__Henrikshell__/graphics/icons/parts/polishing-wheel.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/polishing-wheel.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "f-c[polishing-wheel]",
@@ -66,7 +66,7 @@
     ingredients =
     {
       {"steel-plate", 1},
-      {"wood", 5},
+      {"iron-gear-wheel", 5},
     },
     result = "polishing-wheel",
     result_count = 2
@@ -80,7 +80,7 @@
     ingredients =
     {
       {"steel-plate", 1},
-      {"synthetic-wood", 5},
+      {"iron-gear-wheel", 5},
     },
     result = "polishing-wheel",
     result_count = 2

@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "void-fluid",
-    icon = "__Henrikshell__/graphics/icons/void/void.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void.png",
     unit =
     {
       count = 5,

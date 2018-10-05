@@ -91,7 +91,7 @@
     {
       {"low-density-structure", 100},
       {"solar-panel", 100},
-      {"basic-accumulator", 100},
+      {"accumulator", 100},
       {"radar", 5},
       {"processing-unit", 100},
       {"rocket-fuel", 50}

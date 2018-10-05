@@ -28,7 +28,7 @@ data:extend(
   {
     type = "item",
     name = "lithium-ion-battery",
-    icon = "__Henrikshell__/graphics/icons/parts/lithium-ion-battery.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/lithium-ion-battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
     order = "a-2",
@@ -52,7 +52,7 @@ data:extend(
   {
     type = "item",
     name = "silver-zinc-battery",
-    icon = "__Henrikshell__/graphics/icons/parts/silver-zinc-battery.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/silver-zinc-battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "advanced-parts",
     order = "a-3",

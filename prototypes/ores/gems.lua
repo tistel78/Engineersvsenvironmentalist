@@ -19,14 +19,14 @@ data:extend(
       {type="item", name="diamond-ore", amount=1, probability = 0.2},
     },
     subgroup = "gem-processing",
-    icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
     order = "a-0",
   },
 
   {
     type = "item",
     name = "gem-ore",
-    icon = "__Henrikshell__/graphics/icons/ore/gem-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "a-0[gem-ore]",
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "item",
     name = "ruby-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/ruby-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/ruby-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "a-1",
@@ -45,7 +45,7 @@ data:extend(
   {
     type = "item",
     name = "sapphire-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/sapphire-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/sapphire-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "b-1",
@@ -54,7 +54,7 @@ data:extend(
   {
     type = "item",
     name = "emerald-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/emerald-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/emerald-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "c-1",
@@ -63,7 +63,7 @@ data:extend(
   {
     type = "item",
     name = "amethyst-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/amethyst-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/amethyst-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "d-1",
@@ -72,7 +72,7 @@ data:extend(
   {
     type = "item",
     name = "topaz-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/topaz-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/topaz-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "e-1",
@@ -81,7 +81,7 @@ data:extend(
   {
     type = "item",
     name = "diamond-ore",
-    icon = "__Henrikshell__/graphics/icons/gems/diamond-ore.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/diamond-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "f-1",

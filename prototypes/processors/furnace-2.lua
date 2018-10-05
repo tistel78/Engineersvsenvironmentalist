@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "furnace-2",
-    ingredients = {{"wall",9},{"iron-gear-wheel",10}},
+    ingredients = {{"wall",90},{"iron-gear-wheel",100}},
     result = "furnace-2",
     energy_required = 3,
     enabled = false,
@@ -43,7 +43,7 @@ data:extend(
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
     energy_usage = "79MW",
-    crafting_speed = 5,
+    crafting_speed = 2,
     source_inventory_size = 4,
     ingredient_count = 4,
     energy_source =
@@ -66,16 +66,7 @@ data:extend(
 
     animation =
     {
-      filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working.png",
-      priority = "high",
-      width = 140,
-      height = 76,
-      frame_count = 1,
-      shift = {1.21875, -0.125}
-    },
-    idle_animation =
-    {
-      filename = "__base__/graphics/entity/steel-furnace/steel-furnace-idle.png",
+      filename = "__base__/graphics/entity/steel-furnace/steel-furnace.png",
       priority = "high",
       width = 140,
       height = 76,
@@ -93,15 +84,17 @@ data:extend(
         {
           filename = "__base__/graphics/entity/steel-furnace/steel-furnace-fire.png",
           priority = "high",
-          width = 21,
-          height = 9,
-          frame_count = 28,
-          scale = 1.02,
-          shift = {0.046875, 0.640625}
+          line_length = 8,
+          width = 29,
+          height = 41,
+          frame_count = 48,
+          axially_symmetrical = false,
+          direction_count = 1,
+          shift = {-0.01563, 0.171875},
         },
         light = {intensity = 1, size = 1}
       },
-	  {
+      {
         north_position = {0.0, 0.0},
         east_position = {0.0, 0.0},
         south_position = {0.0, 0.0},
@@ -115,6 +108,26 @@ data:extend(
           height = 43,
           frame_count = 1,
           shift = {0.03125, 0.640625},
+          blend_mode = "additive"
+        }
+      },
+      {
+        north_position = {0.0, 0.0},
+        east_position = {0.0, 0.0},
+        south_position = {0.0, 0.0},
+        west_position = {0.0, 0.0},
+        effect = "flicker", -- changes alpha based on energy source light intensity
+        animation =
+        {
+          filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working-lighting.png",
+          priority = "high",
+          line_length = 8,
+          width = 58,
+          height = 59,
+          frame_count = 1,
+          axially_symmetrical = false,
+          direction_count = 1,
+          shift = {0.09375, 0.046875},
           blend_mode = "additive"
         }
       },

@@ -8,7 +8,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/sulfur-dioxide.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -22,7 +22,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/dirty-sulfur-dioxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/dirty-sulfur-dioxide.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -49,7 +49,7 @@ data:extend({
 	{
 	type = "recipe",
   name = "sulfur-dioxide|chemistry",
-  icon = "__Henrikshell__/graphics/icons/chemicals/sulfur-dioxide.png",
+  icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/sulfur-dioxide.png",
   category = "chemistry",
 	subgroup = "sulfurates",
   order = "a-1",
@@ -62,20 +62,23 @@ data:extend({
 	 {
     type = "recipe",
     name = "sulfuric-acid",
+	icon = "__base__/graphics/icons/fluid/sulfuric-acid.png",
     category = "chemistry",
 	subgroup = "sulfurates",
     order = "a-2",
-    energy_required = 1,
-    enabled = false,
+    energy_required = 100,
+    enabled = true,
     ingredients =
     {
-      {type="item", name="sulfur", amount=5},
-      {type="item", name="iron-plate", amount=1},
-      {type="fluid", name="water", amount=10}
+      {type="item", name="iron-sulfate-crushed", amount=5},
+      {type="item", name="pig-iron", amount=1},
+      {type="fluid", name="water", amount=100},
     },
     results=
     {
-      {type="fluid", name="sulfuric-acid", amount=5}
+      {type="fluid", name= "sulfuric-acid", amount=2},
+	  {type="item", name="iron-sulfate-crushed", amount=4},
+	  {type="item", name="pig-iron", amount=2},
     },
 
   },

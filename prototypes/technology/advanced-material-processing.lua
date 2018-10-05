@@ -18,7 +18,7 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
+     
       },
       time = 30
     },

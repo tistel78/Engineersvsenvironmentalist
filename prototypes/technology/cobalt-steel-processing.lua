@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "cobalt-steel-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
     prerequisites = {"cobalt-processing","steel-processing","mixing-furnace"},
     effects =
     {

@@ -4,7 +4,7 @@ data:extend(
   {
     type = "technology",
     name = "area-drills-1",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-b-1",
     upgrade = "true",
     prerequisites =
@@ -33,7 +33,7 @@ data:extend(
   {
     type = "technology",
     name = "area-drills-2",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-b-2",
     upgrade = "true",
     prerequisites =
@@ -48,7 +48,7 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"science-pack-2", 3},
       },
     },
     effects =
@@ -62,7 +62,7 @@ data:extend(
   {
     type = "technology",
     name = "area-drills-3",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-b-3",
     upgrade = "true",
     prerequisites =
@@ -77,8 +77,8 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
+        {"science-pack-2", 3},
+        {"science-pack-3", 6},
       },
     },
     effects =
@@ -92,7 +92,7 @@ data:extend(
   {
     type = "technology",
     name = "area-drills-4",
-    icon = "__base__/graphics/icons/basic-mining-drill.png",
+    icon = "__base__/graphics/icons/electric-mining-drill.png",
     order = "d-a-b-4",
     upgrade = "true",
     prerequisites =

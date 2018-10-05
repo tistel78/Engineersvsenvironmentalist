@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "silver-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/silver-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
     prerequisites = {"advanced-electronics"},
     effects =
     {

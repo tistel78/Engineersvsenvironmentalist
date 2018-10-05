@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "gold-processing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/gold-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
     effects =
     {
       {
@@ -14,6 +14,11 @@ data:extend(
         type = "unlock-recipe",
         recipe = "gold-sifting"
       },
+	  {
+        type = "unlock-recipe",
+        recipe =  "catalyst-gold"
+      }, 
+	 
       {
         type = "unlock-recipe",
         recipe = "gold-flotation"
@@ -21,7 +26,7 @@ data:extend(
     },
     unit =
     {
-      count = 25,
+      count = 100,
       ingredients =
       {
         {"science-pack-1", 1},

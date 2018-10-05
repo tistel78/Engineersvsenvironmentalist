@@ -3,7 +3,7 @@ data:extend(
  {
     type = "item",
     name = "nitinol-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/nitinol-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/nitinol-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "nitinol",

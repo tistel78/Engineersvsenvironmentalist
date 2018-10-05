@@ -76,7 +76,7 @@ express_belt_starting_side =
   {
     type = "item",
     name = "express-transport-belt",
-    icon = "__base__/graphics/icons/express-transport-belt.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-transport-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-c[express-transport-belt]",
@@ -99,7 +99,7 @@ express_belt_starting_side =
   {
     type = "transport-belt",
     name = "express-transport-belt",
-    icon = "__base__/graphics/icons/express-transport-belt.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "express-transport-belt"},
     max_health = 50,
@@ -144,14 +144,18 @@ express_belt_starting_side =
     ending_patch = ending_patch_prototype,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
-    speed = 0.09375
+    speed = 0.09375,
+    connector_frame_sprites = transport_belt_connector_frame_sprites,
+    circuit_connector_sprites = transport_belt_circuit_connector_sprites,
+    circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
+    circuit_wire_max_distance = transport_belt_circuit_wire_max_distance
   },
 
 --Underground Belt--
   {
     type = "item",
     name = "express-transport-belt-to-ground",
-    icon = "__base__/graphics/icons/express-transport-belt-to-ground.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-underground-belt.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-c[express-transport-belt-to-ground]",
@@ -170,9 +174,9 @@ express_belt_starting_side =
     result = "express-transport-belt-to-ground"
   },
   {
-    type = "transport-belt-to-ground",
+    type = "underground-belt",
     name = "express-transport-belt-to-ground",
-    icon = "__base__/graphics/icons/express-transport-belt-to-ground.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-underground-belt.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "express-transport-belt-to-ground"},
     max_health = 60,
@@ -203,7 +207,7 @@ express_belt_starting_side =
     starting_top = express_belt_starting_top,
     starting_bottom = express_belt_starting_bottom,
     starting_side = express_belt_starting_side,
-    fast_replaceable_group = "transport-belt-to-ground",
+    fast_replaceable_group = "underground-belt",
     speed = 0.09375,
     structure =
     {
@@ -211,7 +215,7 @@ express_belt_starting_side =
       {
         sheet =
         {
-          filename = "__base__/graphics/entity/express-transport-belt-to-ground/express-transport-belt-to-ground-structure.png",
+          filename = "__base__/graphics/entity/express-underground-belt/express-underground-belt-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -223,7 +227,7 @@ express_belt_starting_side =
       {
         sheet =
         {
-          filename = "__base__/graphics/entity/express-transport-belt-to-ground/express-transport-belt-to-ground-structure.png",
+          filename = "__base__/graphics/entity/express-underground-belt/express-underground-belt-structure.png",
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
@@ -237,7 +241,7 @@ express_belt_starting_side =
   {
     type = "item",
     name = "express-splitter",
-    icon = "__base__/graphics/icons/express-splitter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-splitter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-c[express-splitter]",
@@ -262,7 +266,7 @@ express_belt_starting_side =
   {
     type = "splitter",
     name = "express-splitter",
-    icon = "__base__/graphics/icons/express-splitter.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "express-splitter"},
     max_health = 80,

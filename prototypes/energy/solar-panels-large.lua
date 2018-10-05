@@ -18,9 +18,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 16},
-      {"electronic-circuit", 17},
-      {"copper-cable", 16},
+      {"iron-gear-wheel", 2},
+      {"electronic-circuit", 2},
+      {"copper-cable", 2},
     },
     result = "solar-panel-large"
   },
@@ -41,7 +41,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-l.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/solar-panels/solar-panel-l.png",
       priority = "high",
       width = 128,
       height = 123
@@ -66,9 +66,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 16},
-      {"advanced-circuit", 17},
-      {"advanced-electric-cable", 16},
+      {"iron-gear-wheel", 4},
+      {"advanced-circuit", 2},
+      {"advanced-electric-cable", 4},
     },
     result = "solar-panel-large-2"
   },
@@ -89,7 +89,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-l2.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/solar-panels/solar-panel-l2.png",
       priority = "high",
       width = 136,
       height = 126
@@ -114,9 +114,9 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 16},
-      {"processing-unit", 17},
-      {"circuit-electric-cable",16},
+      {"iron-gear-wheel", 2},
+      {"carbon-nanotubes", 1},
+      {"circuit-electric-cable",2},
     },
     result = "solar-panel-large-3"
   },
@@ -137,7 +137,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Henrikshell__/graphics/entity/solar-panels/solar-panel-l2.png",
+      filename = "__Engineersvsenvironmentalist__/graphics/entity/solar-panels/solar-panel-l2.png",
       priority = "high",
       width = 136,
       height = 126

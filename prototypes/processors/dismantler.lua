@@ -3,7 +3,7 @@
   {
     type = "item",
     name = "dismantler",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-6.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"goes-to-quickbar"},
     subgroup = "dismantler",
     order = "a-1",
@@ -19,7 +19,7 @@
   {
     type = "furnace",
     name = "dismantler",
-    icon = "__Henrikshell__/graphics/icons/assembling-machines/assembling-machine-6.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "dismantler"},
     max_health = 150,
@@ -63,7 +63,7 @@
       layers =
       {
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
           priority = "high",
           width = 142,
           height = 113,
@@ -72,7 +72,7 @@
           shift = {0.84, -0.09},
         },
         {
-          filename = "__Henrikshell__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
           priority = "high",
           width = 142,
           height = 113,

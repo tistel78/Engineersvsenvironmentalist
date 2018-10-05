@@ -25,15 +25,15 @@
     {
       {
         type = "unlock-recipe",
-        recipe = "basic-transport-belt"
+        recipe = "transport-belt"
       },
       {
         type = "unlock-recipe",
-        recipe = "basic-transport-belt-to-ground"
+        recipe = "transport-belt-to-ground"
       },
       {
         type = "unlock-recipe",
-        recipe = "basic-splitter"
+        recipe = "splitter"
       }
     },
     unit =

@@ -3,7 +3,7 @@ data:extend(
 {
     type = "technology",
     name = "ceramic-processing",
-    icon = "__Henrikshell__/graphics/icons/parts/advanced-machine-parts.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/advanced-machine-parts.png",
     prerequisites = {"silicon-processing"},
     effects =
     {

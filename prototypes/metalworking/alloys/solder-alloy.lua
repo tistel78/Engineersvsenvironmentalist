@@ -3,7 +3,7 @@ data:extend(
     {
       type = "item",
       name = "solder-alloy",
-      icon = "__Henrikshell__/graphics/icons/metalworking/alloys/solder-plate.png",
+      icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/solder-plate.png",
       flags = {"goes-to-main-inventory"},
       subgroup = "alloy-processing",
       order = "solder",

@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "resin",
-    icon = "__Henrikshell__/graphics/icons/materials/resin.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/resin.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "wood-base",
     order = "f[resin]",
@@ -23,7 +23,20 @@ data:extend(
     },
     result = "resin",
   },
-
+  
+  {
+    type = "recipe",
+    name = "resin|wood2",
+    category = "chemistry",
+    subgroup = "wood-base",
+    energy_required = 100,
+	  enabled = true,
+    ingredients =
+    {
+      { "coal", 100},
+    },
+    result = "resin",
+  },
   {
     type = "recipe",
     name = "resin|oil",

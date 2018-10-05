@@ -4,7 +4,7 @@ data:extend(
 {
     type = "item",
     name = "rutile-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/rutile-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/rutile-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-1",
@@ -13,7 +13,7 @@ data:extend(
 {
     type = "item",
     name = "titanium-dioxide",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-dioxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-dioxide.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-1",
@@ -27,7 +27,7 @@ data:extend(
     heat_capacity = "1KJ",
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=0.7, b=0.7},
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-tetrachloride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-tetrachloride.png",
     order = "a[fluid]-a[water]",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -35,7 +35,7 @@ data:extend(
   {
     type = "item",
     name = "titanium-slag",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-slag.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-slag.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-3",
@@ -44,7 +44,7 @@ data:extend(
     {
     type = "item",
     name = "titanium-sponge",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-sponge.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-sponge.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-4",
@@ -53,7 +53,7 @@ data:extend(
    {
     type = "item",
     name = "titanium-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-4",
@@ -63,7 +63,7 @@ data:extend(
   {
     type = "recipe",
     name = "rutile-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/rutile-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/rutile-crushed.png",
     category = "crusher",
     subgroup = "titanium-processing",
     order = "a-1",
@@ -78,7 +78,7 @@ data:extend(
    {
     type = "recipe",
     name = "titanium-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-dioxide.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-dioxide.png",
     category = "crusher",
     subgroup = "titanium-processing",
     order = "a-1",
@@ -93,7 +93,7 @@ data:extend(
    {
     type = "recipe",
     name = "titanium-extraction",
-    icon = "__Henrikshell__/graphics/icons/metalworking/titanium-tetrachloride.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-tetrachloride.png",
     category = "chemistry",
     subgroup = "titanium-processing",
     order = "a-2",
@@ -110,7 +110,7 @@ data:extend(
 {
     type = "recipe",
     name = "titanium-sponge-production-1",
-        icon = "__Henrikshell__/graphics/icons/metalworking/titanium-slag.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-slag.png",
     category = "chemistry",
     subgroup = "titanium-processing",
     order = "a-3",
@@ -127,7 +127,7 @@ data:extend(
 {
     type = "recipe",
     name = "titanium-sponge-production-2",
-        icon = "__Henrikshell__/graphics/icons/metalworking/titanium-sponge.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-sponge.png",
     category = "chemistry",
     subgroup = "titanium-processing",
     order = "a-4",
@@ -148,7 +148,7 @@ data:extend(
   {
     type = "recipe",
     name = "titanium-plate",
-        icon = "__Henrikshell__/graphics/icons/metalworking/titanium-plate.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-plate.png",
     category = "smelting",
     subgroup = "titanium-processing",
     order = "a-5",

@@ -3,7 +3,7 @@ data:extend({
   {
     type = "item",
     name = "aluminium-plate",
-    icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "aluminium-processing",
     order = "c-a-g[aluminium-plate]",
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "bauxite-crushed",
-    icon = "__Henrikshell__/graphics/icons/metalworking/bauxite-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/bauxite-crushed.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
@@ -21,7 +21,7 @@ data:extend({
   {
     type = "item",
     name = "alumina",
-    icon = "__Henrikshell__/graphics/icons/metalworking/corundum.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/corundum.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "item",
     name = "cast-aluminium",
-    icon = "__Henrikshell__/graphics/icons/metalworking/cast-aluminum.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cast-aluminum.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
@@ -44,7 +44,7 @@ data:extend({
     base_color = {r=0.7, g=0.7, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__Henrikshell__/graphics/icons/chemicals/red-mud.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/red-mud.png",
 --    pressure_to_speed_ratio = 0.6,
     pressure_to_speed_ratio = 0.6,
     flow_to_energy_ratio = 0.59,
@@ -59,7 +59,7 @@ data:extend({
   {
     type = "recipe",
     name = "bauxite-crushing",
-    icon = "__Henrikshell__/graphics/icons/metalworking/bauxite-crushed.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/bauxite-crushed.png",
     category = "crusher",
     subgroup = "aluminium-processing",
     order ="a-1",
@@ -87,7 +87,7 @@ data:extend({
       {"sodium-hydroxide",3},
       {type="fluid", name="water", amount=2}
     },
-    icon = "__Henrikshell__/graphics/icons/metalworking/corundum.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/corundum.png",
     results = {
       {"alumina",4},
       {type="fluid", name="red-mud", amount=5},
@@ -109,7 +109,7 @@ data:extend({
       {"fluorite",1},
       {type="fluid", name="water", amount=2}
     },
-    icon = "__Henrikshell__/graphics/icons/metalworking/aluminium-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
     results = {
       {"aluminium-plate",4},
       {type="fluid", name="hydrogen-fluoride", amount=3},
@@ -120,7 +120,7 @@ data:extend({
   {
     type = "recipe",
     name = "cast-aluminium",
-    category = "mixing-furnace",
+    category = "chemistry",
     subgroup = "aluminium-processing",
     energy_required = 25,
     enabled = false,
@@ -129,7 +129,7 @@ data:extend({
       {"ferrosilicon",1},
       {type="fluid", name="water", amount=2}
     },
-    icon = "__Henrikshell__/graphics/icons/metalworking/cast-aluminum.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cast-aluminum.png",
     results = {
       {"cast-aluminium",4},
       {type="fluid", name="hydrogen-fluoride", amount=3},

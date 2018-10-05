@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "insulated-cable",
-    icon = "__Henrikshell__/graphics/icons/electronics/insulated-cable.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/insulated-cable.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "components",
     order = "a[wires]-3",
@@ -29,7 +29,7 @@ data:extend(
     {
       type = "item",
       name = "solder",
-      icon = "__Henrikshell__/graphics/icons/electronics/solder.png",
+      icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/solder.png",
       flags = {"goes-to-main-inventory"},
       subgroup = "components",
       order = "a[wires]-5",
@@ -48,7 +48,7 @@ data:extend(
         {"carbon", 1},
       },
       result = "solder",
-      result_count = 3
+      result_count = 30
     },
   }
   )
@@ -58,7 +58,7 @@ data:extend(
   {
     type = "item",
     name = "basic-electronic-components",
-    icon = "__Henrikshell__/graphics/icons/electronics/basic-electronic-components.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-electronic-components.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "components",
     order = "a[wires]-6",
@@ -69,7 +69,7 @@ data:extend(
     type = "recipe",
     name = "basic-electronic-components",
     category = "crafting",
-    energy_required = 2,
+    energy_required = 20,
     enabled = false,
     ingredients =
     {
@@ -77,7 +77,7 @@ data:extend(
       {"carbon", 1},
     },
     result = "basic-electronic-components",
-    result_count = 5
+    result_count = 100,
   },
 }
 )
@@ -87,7 +87,7 @@ data:extend(
   {
     type = "item",
     name = "electronic-components",
-    icon = "__Henrikshell__/graphics/icons/electronics/electronic-components.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/electronic-components.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "components",
     order = "a[wires]-7",
@@ -98,7 +98,7 @@ data:extend(
     type = "recipe",
     name = "electronic-components",
     category = "crafting",
-    energy_required = 3.5,
+    energy_required = 20,
     enabled = false,
     ingredients =
     {
@@ -107,7 +107,7 @@ data:extend(
       {"plastic-bar", 1},
     },
     result = "electronic-components",
-    result_count = 6
+    result_count = 100
   },
 }
 )
@@ -117,7 +117,7 @@ data:extend(
   {
     type = "item",
     name = "intergrated-electronics",
-    icon = "__Henrikshell__/graphics/icons/electronics/integrated-electronics.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/integrated-electronics.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "components",
     order = "a[wires]-8",
@@ -148,7 +148,7 @@ data:extend(
   {
     type = "item",
     name = "processing-electronics",
-    icon = "__Henrikshell__/graphics/icons/electronics/processing-electronics.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/processing-electronics.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "components",
     order = "a[wires]-9",

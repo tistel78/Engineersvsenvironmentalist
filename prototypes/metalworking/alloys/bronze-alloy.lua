@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "bronze-alloy",
-    icon = "__Henrikshell__/graphics/icons/metalworking/alloys/bronze-plate.png",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/bronze-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "bronze",

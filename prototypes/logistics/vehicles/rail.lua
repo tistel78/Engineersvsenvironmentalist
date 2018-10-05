@@ -40,7 +40,7 @@ data:extend(
  {
     type = "item",
     name = "straight-rail",
-    icon = "__base__/graphics/icons/straight-rail.png",
+    icon = "__base__/graphics/icons/rail.png",
     flags = {"goes-to-quickbar"},
     subgroup = "railway",
     order = "a[train-system]-a[straight-rail]",
@@ -53,8 +53,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stone", 1},
-      {"iron-gear-wheel", 2}
+      {"stone", 5},
+      {"iron-gear-wheel", 5}
     },
     result = "straight-rail",
     result_count = 2
@@ -62,7 +62,7 @@ data:extend(
   {
     type = "straight-rail",
     name = "straight-rail",
-    icon = "__base__/graphics/icons/straight-rail.png",
+    icon = "__base__/graphics/icons/rail.png",
     flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
     minable = {mining_time = 1, result = "straight-rail"},
     max_health = 100,

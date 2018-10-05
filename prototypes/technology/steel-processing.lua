@@ -6,14 +6,7 @@ data:extend(
     icon = "__base__/graphics/technology/steel-processing.png",
     effects =
     {
-      {
-        type = "unlock-recipe",
-        recipe = "steel-plate"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "steel-plate|lime"
-      },
+
       {
         type = "unlock-recipe",
         recipe = "steel-chest"
@@ -41,8 +34,8 @@ data:extend(
     },
     unit =
     {
-      count = 25,
-      ingredients = {{"science-pack-1", 1}},
+      count = 2,
+      ingredients = {{"science-pack-1", 5}},
       time = 5
     },
     order = "c-a"
