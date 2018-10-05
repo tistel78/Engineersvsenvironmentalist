@@ -75,7 +75,7 @@ data:extend(
   }
 )
 
-data:extend(
+data:extend({
  {
     type = "item",
     name = "lead-ore",
@@ -93,5 +93,4 @@ data:extend(
     order = "b-f",
 	category = "resource"
   }
-  
-)
+})
