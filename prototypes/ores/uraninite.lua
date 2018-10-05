@@ -1,27 +1,27 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "uraninite"
-  },
-  {
-    type = "autoplace-control",
-    name = "uraninite",
-    richness = true,
-    order = "b-e"
-  },
+
 	{
 		type = "item",
 		name = "uraninite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/uraninite.png",
+	icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "e[uraninite]",
 		stack_size = 50
 	},
+	  {
+    type = "autoplace-control",
+    name = "uraninite",
+    richness = true,
+    order = "b-e",
+	  category = "resource"
+  },
   {
     type = "resource",
     name = "uraninite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/uraninite.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-e",
     minable =
@@ -40,13 +40,13 @@ data:extend({
       sharpness = 1,
       richness_multiplier = 8000,
       richness_base = 250,
-      size_control_multiplier = 0.1,
+      size_control_multiplier = 0.05,
       peaks = {
         {
-        influence = 0.1,
+        influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "uraninite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,

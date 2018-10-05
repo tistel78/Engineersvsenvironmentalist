@@ -4,6 +4,7 @@
     type = "technology",
     name = "robotics",
     icon = "__base__/graphics/technology/robotics.png",
+	icon_size = 32,
     prerequisites = {"advanced-electronics-2", "electric-engine"},
     unit =
     {

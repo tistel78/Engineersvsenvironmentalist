@@ -5,6 +5,7 @@ data:extend(
     type = "item",
     name = "assembling-machine-1",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "a[assembling-machine-1]",
@@ -26,6 +27,7 @@ data:extend(
     type = "assembling-machine",
     name = "assembling-machine-1",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-1"},
     max_health = 200,
@@ -94,6 +96,7 @@ data:extend(
     type = "item",
     name = "assembling-machine-2",
     icon = "__base__/graphics/icons/assembling-machine-2.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "b[assembling-machine-2]",
@@ -108,6 +111,8 @@ data:extend(
     {
       {"wall",40},
       {"iron-gear-wheel", 160},
+	    {"stupid-ai", 5},
+	
     },
     result = "assembling-machine-2"
   },
@@ -115,6 +120,7 @@ data:extend(
     type = "assembling-machine",
     name = "assembling-machine-2",
     icon = "__base__/graphics/icons/assembling-machine-2.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-2"},
     max_health = 250,
@@ -199,6 +205,7 @@ data:extend(
     type = "item",
     name = "assembling-machine-3",
     icon = "__base__/graphics/icons/assembling-machine-3.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "c[assembling-machine-3]",
@@ -213,7 +220,7 @@ data:extend(
     {
       {"wall",800},
       {"iron-gear-wheel", 3200},
-      
+      {"medium-ai", 1},
     },
     result = "assembling-machine-3"
   },
@@ -221,6 +228,7 @@ data:extend(
     type = "assembling-machine",
     name = "assembling-machine-3",
     icon = "__base__/graphics/icons/assembling-machine-3.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-3"},
     max_health = 300,
@@ -278,8 +286,8 @@ data:extend(
     {
       filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
       priority = "high",
-      width = 142,
-      height = 113,
+      width = 99,
+      height = 102,
       frame_count = 32,
       line_length = 8,
       shift = {0.84, -0.09}
@@ -305,6 +313,7 @@ data:extend(
     type = "item",
     name = "assembling-machine-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-4.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "c[assembling-machine-4]",
@@ -319,6 +328,7 @@ data:extend(
     {
       {"wall",3200},
       {"iron-gear-wheel", 15000},
+	  {"large-ai", 1}
     },
     result = "assembling-machine-4"
   },
@@ -326,6 +336,7 @@ data:extend(
     type = "assembling-machine",
     name = "assembling-machine-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-4.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
     max_health = 400,
@@ -411,6 +422,7 @@ data:extend(
     type = "item",
     name = "assembling-machine-5",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-5.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "assembly",
     order = "c[assembling-machine-5]",
@@ -426,6 +438,7 @@ data:extend(
       {"wall",32000},
       {"iron-gear-wheel",64000},
       {"iron-gear-wheel",64000},
+	  {"large-ai",10},
     },
     result = "assembling-machine-5"
   },
@@ -434,6 +447,7 @@ data:extend(
     type = "assembling-machine",
     name = "assembling-machine-5",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-5.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
     max_health = 500,

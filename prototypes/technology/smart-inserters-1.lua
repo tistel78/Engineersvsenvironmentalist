@@ -4,6 +4,7 @@
     type = "technology",
     name = "smart-inserters-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/basic-smart-inserter.png",
+	icon_size = 32,
     effects =
     {
       {

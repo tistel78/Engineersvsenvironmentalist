@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "tungsten-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
+	icon_size = 32,
     prerequisites = {"tungsten-processing"},
     effects =
     {

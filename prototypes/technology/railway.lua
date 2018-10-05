@@ -4,6 +4,7 @@
     type = "technology",
     name = "railway",
     icon = "__base__/graphics/technology/railway.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -17,12 +18,20 @@
       {
         type = "unlock-recipe",
         recipe = "diesel-locomotive"
-      }
+      },
+	  {
+	          type = "unlock-recipe",
+        recipe = "cargo-wagon"
+      },
+	  	  {
+	          type = "unlock-recipe",
+        recipe ="train-stop"
+      },
     },
     prerequisites = {"automation-1"},
     unit =
     {
-      count = 50,
+      count = 10,
       ingredients =
       {
         {"science-pack-1", 1},

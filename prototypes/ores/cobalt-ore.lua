@@ -4,30 +4,27 @@ data:extend(
     type = "item",
     name = "cobalt-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cobalt-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[cobalt-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "cobalt-ore"
-  },
-  {
+   {
     type = "autoplace-control",
     name = "cobalt-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
+
 	{
 		type = "resource",
 		name = "cobalt-ore",
-		tint = {r = 0.3, g = 0.53, b = 0.77},
-		map_color = {r=0.18, g=0.35, b=0.53},
-		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cobalt-ore.png",
-		stage_mult = 10,
+		icon_size = 32,
+		flags = {"placeable-neutral"},
+		order = "b-f",
 		minable =
     {
       hardness = 2.0,
@@ -57,9 +54,9 @@ data:extend(
         influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "cobalt-ore",
-        noise_octaves_difference = -2.4,
+        noise_octaves_difference = -1.9,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
@@ -83,6 +80,8 @@ data:extend(
 				variation_count = 8
 			}
 		},
+		tint = {r = 0.3, g = 0.53, b = 0.77},
+		map_color = {r=0.18, g=0.35, b=0.53},
 	}
 }
 )

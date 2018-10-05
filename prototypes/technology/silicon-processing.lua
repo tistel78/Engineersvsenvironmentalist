@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "silicon-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-plate.png",
+	icon_size = 32,
     prerequisites = {"electronics"},
     effects =
     {

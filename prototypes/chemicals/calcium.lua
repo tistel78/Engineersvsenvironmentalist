@@ -4,6 +4,7 @@ data:extend({
     type = "item",
     name = "calcium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
+	icon_size = 28,
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium",
@@ -13,7 +14,8 @@ data:extend({
     type = "item",
     name = "calcium-chloride",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-chloride.png",
-    flags = {"goes-to-main-inventory"},
+    icon_size = 28,
+	flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-chloride",
     stack_size = 100
@@ -22,7 +24,8 @@ data:extend({
     type = "item",
     name = "calcium-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
-    flags = {"goes-to-main-inventory"},
+    icon_size = 28,
+	flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-oxide",
     stack_size = 100
@@ -31,7 +34,8 @@ data:extend({
     type = "item",
     name = "cement",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cement.png",
-    flags = {"goes-to-main-inventory"},
+    icon_size = 28,
+	flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "cement",
     stack_size = 3000
@@ -40,7 +44,8 @@ data:extend({
     type = "item",
     name = "calcium-sulfate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-sulfate.png",
-    flags = {"goes-to-main-inventory"},
+    icon_size = 28,
+	flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "calcium-sulfate",
     stack_size = 100
@@ -60,6 +65,8 @@ data:extend({
       {type="item", name="stone", amount=2},
     },
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
+		icon_size = 28,
+		
     results = {{"calcium",4}},
 		order = "a-5"
   },
@@ -75,6 +82,7 @@ data:extend({
       {type="item", name="calcium", amount=2},
     },
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
+		icon_size = 28,
     results = {{"calcium-oxide",3}},
 		order = "a-5"
   },

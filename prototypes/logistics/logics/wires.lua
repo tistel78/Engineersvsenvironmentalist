@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "red-wire",
     icon = "__base__/graphics/icons/red-wire.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "logics",
     order = "a[wires]-b[red-wire]",
@@ -15,7 +16,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 1},
+      {"stupid-ai", 1},
       {"copper-cable", 1}
     },
     result = "red-wire"
@@ -24,6 +25,7 @@ data:extend(
     type = "item",
     name = "green-wire",
     icon = "__base__/graphics/icons/green-wire.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "logics",
     order = "a[wires]-c[green-wire]",
@@ -35,7 +37,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 1},
+      {"stupid-ai", 1},
       {"copper-cable", 1}
     },
     result = "green-wire"

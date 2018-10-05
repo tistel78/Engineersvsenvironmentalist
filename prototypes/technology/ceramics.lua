@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "ceramic-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/advanced-machine-parts.png",
+	icon_size = 28,
     prerequisites = {"silicon-processing"},
     effects =
     {

@@ -1,109 +1,97 @@
+
+
+local function autoplace_settings(name, order, coverage)
+  return
+  {
+    order = order,
+    control = name,
+    sharpness = 15/16,
+    richness_multiplier = 1500,
+    richness_multiplier_distance_bonus = 20,
+    richness_base = 10,
+    coverage = coverage,
+    peaks =
+    {
+      {
+        noise_layer = name,
+        noise_octaves_difference = -0.85,
+        noise_persistence = 0.4
+      }
+    },
+    starting_area_size = 5500 * coverage,
+    starting_area_amount = 1600
+  }
+end
+
+local function resource(name, order, map_color, hardness, coverage)
+  if hardness == nil then hardness = 0.9 end
+  if coverage == nil then coverage = 0.02 end
+  return
+  {
+    type = "resource",
+    name = name,
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/lead-ore.png",
+	icon_size = 32,
+    flags = {"placeable-neutral"},
+    order="a-b-"..order,
+    tree_removal_probability = 0.8,
+    tree_removal_max_distance = 32 * 32,
+    minable =
+    {
+      hardness = hardness,
+      mining_particle = "stone-particle",
+      mining_time = 2,
+      result = name
+    },
+    collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
+    selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
+    autoplace = autoplace_settings(name, order, coverage),
+    stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 200, 80},
+    stages =
+    {
+      sheet =
+      {
+	filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/galena.png",
+	icon_size = 32,
+        priority = "extra-high",
+        width = 64,
+        height = 64,
+        frame_count = 8,
+        variation_count = 8,
+
+      }
+    },
+    map_color = map_color
+  }
+end
+
 data:extend(
 {
-  {
+  --trees are "a", so resources can delete trees when placed
+  --oil is "b"
+  --uranium is "c"
+  resource("lead-ore",  "i", {r=0.250, g=0.250, b=0.250}, nil, (0.006 / 3) / 1.1 * 1.49  ), -- 1.1 compensates for overlapping. 1.49 is the expected ratio of iron to copper
+
+  }
+)
+
+data:extend(
+ {
     type = "item",
     name = "lead-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/lead-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[lead-ore]",
     stack_size = 200
   },
   {
-    type = "noise-layer",
-    name = "lead-ore"
-  },
-  {
     type = "autoplace-control",
     name = "lead-ore",
     richness = true,
-    order = "b-f"
-  },
-	
-	{
-		type = "resource",
-		minable =
-    {
-      hardness = 0.7,
-      mining_particle = "stone-particle",
-      mining_time = 1.5,
-      result = "lead-ore"
-    },
-		name = "lead-ore",
-		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/lead-ore.png",
-		hardness = 0.7,
-		mining_time = 1.5,
-		tint = {r = 0.5, g = 0.5, b = 0.5},
-		map_color = {r=0.250, g=0.250, b=0.250},
-		item =
-		{
-			create = true,
-			subgroup = "minerals",
-			stack_size = 200
-		},
-		stage_mult = 10,
-		sprite =
-		{
-			sheet = 1
-		},
-		enabled = false,
-		autoplace =
-		{
-			control = "lead-ore",
-			sharpness = 1,
-			richness_multiplier = 14000,
-			richness_base = 300,
-			size_control_multiplier = 0.2,
-			peaks =
-			{
-				{
-          influence = 0.2,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.30,
-          noise_layer = "lead-ore",
-          noise_octaves_difference = -1.9,
-          noise_persistence = 0.3,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.2,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.3,
-          noise_layer = "lead-ore",
-          noise_octaves_difference = -1,
-          noise_persistence = 0.4,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-      
-			}
-		},
-		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
-		selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
-		stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
-		stages =
-		{
-			sheet =
-			{
-				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/galena.png",
-				priority = "extra-high",
-				width = 38,
-				height = 38,
-				frame_count = 4,
-				variation_count = 8
-			}
-		},
-	}
-}
+    order = "b-f",
+	category = "resource"
+  }
+  
 )

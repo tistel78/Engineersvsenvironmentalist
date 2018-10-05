@@ -4,6 +4,7 @@
     type = "technology",
     name = "logistics",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     enabled=false,
     effects =
     {
@@ -20,6 +21,7 @@
     type = "technology",
     name = "logistics-1",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     prerequisites = {"automation-1"},
     effects =
     {
@@ -38,7 +40,7 @@
     },
     unit =
     {
-      count = 20,
+      count = 50,
       ingredients = {{"science-pack-1", 1}},
       time = 15
     },
@@ -48,6 +50,7 @@
     type = "technology",
     name = "logistics-2",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     prerequisites = {"automation-2","logistics-1"},
     effects =
     {
@@ -80,6 +83,7 @@
     type = "technology",
     name = "logistics-3",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     prerequisites = {"automation-3","logistics-2"},
     effects =
     {
@@ -113,6 +117,7 @@
     type = "technology",
     name = "logistics-4",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     prerequisites = {"automation-4","logistics-3"},
     effects =
     {
@@ -147,6 +152,7 @@
     type = "technology",
     name = "logistics-5",
     icon = "__base__/graphics/technology/logistics.png",
+	icon_size = 32,
     prerequisites = {"logistics-4"},
     effects =
     {

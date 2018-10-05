@@ -4,26 +4,25 @@ data:extend(
     type = "item",
     name = "stone",
     icon = "__base__/graphics/icons/stone.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "d[stone]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "stone"
-  },
-  {
+    {
     type = "autoplace-control",
     name = "stone",
     frequency= none,
     richness = true,
-    order = "b-c"
+    order = "b-c",
+	  category = "resource"
   },
   {
     type = "resource",
     name = "stone",
     icon = "__base__/graphics/icons/stone.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-d",
     minable =

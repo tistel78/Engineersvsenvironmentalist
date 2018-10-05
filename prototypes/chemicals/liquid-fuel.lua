@@ -9,6 +9,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/liquid-fuel.png",
+	icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-g[liquid-fuel]"
@@ -29,6 +30,7 @@ data:extend(
     },
     subgroup = "oil-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/liquid-fuel.png",
+	icon_size = 32,
     order = "b[fluid-chemistry]-b[liquid-fuel]"
   },
     }

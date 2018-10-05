@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-smelting",
     order = "a[stone-furnace]",
@@ -20,6 +21,7 @@ data:extend(
     type = "assembling-machine",
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "furnace-1"},
     max_health = 150,
@@ -73,14 +75,14 @@ data:extend(
 
     animation =
     {
-      filename = "__base__/graphics/entity/stone-furnace/stone-furnace.png",
-      priority = "extra-high",
-      width = 81,
-      height = 64,
-      frame_count = 1,
-      shift = {0.515625, 0.0625}
-    },
-    working_visualisations =
+        filename = "__base__/graphics/entity/stone-furnace/stone-furnace.png",
+        priority = "extra-high",
+        width = 81,
+        height = 64,
+        frame_count = 1,
+        shift = {0.515625, 0.0625},
+		},
+  working_visualisations =
     {
       {
         north_position = {0.0, 0.0},

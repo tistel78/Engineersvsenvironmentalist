@@ -4,22 +4,19 @@ data:extend(
     type = "item",
     name = "nickel-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/pentlandite-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[nickel-ore]",
-    stack_size = 50000
+    stack_size = 500
   },
-  {
-    type = "noise-layer",
-    name = "nickel-ore"
-  },
-  {
+ 	  {
     type = "autoplace-control",
     name = "nickel-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -34,6 +31,7 @@ data:extend(
 		map_color = {r=0.3, g=0.40, b=0.5},
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/pentlandite-ore.png",
+		icon_size = 32,
 		stage_mult = 10,
 		item =
 		{
@@ -49,18 +47,18 @@ data:extend(
 			control = "nickel-ore",
 			sharpness = 1,
 			richness_multiplier = 11000,
-			richness_base = 200,
-			size_control_multiplier = 0.2,
+			richness_base = 1000,
+			size_control_multiplier = 0.08,
 			peaks =
 			{
 				{
-        influence = 0.2,
+        influence = 0.22,
       },
       {
         influence = 0.30,
         noise_layer = "nickel-ore",
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
+        noise_octaves_difference = -1.9,
+        noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
@@ -68,8 +66,8 @@ data:extend(
       {
         influence = 0.30,
         noise_layer = "nickel-ore",
-        noise_octaves_difference = -3,
-        noise_persistence = 0.4,
+        noise_octaves_difference = -2.4,
+        noise_persistence = 0.35,
         starting_area_weight_optimal = 1,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,

@@ -5,6 +5,7 @@ data:extend(
     type = "repair-tool",
     name = "repair-pack",
     icon = "__base__/graphics/icons/repair-pack.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "h-tool",
     order = "b[repair]-a[repair-pack]",
@@ -27,6 +28,7 @@ data:extend(
     type = "mining-tool",
     name = "iron-axe",
     icon = "__base__/graphics/icons/iron-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -41,10 +43,10 @@ data:extend(
         }
       }
     },
-    durability = 4000,
+    durability = 64000,
     subgroup = "h-tool",
     order = "a[mining]-a[iron-axe]",
-    speed = 2.5,
+    speed = 50,
     stack_size = 20
   },
     {
@@ -58,6 +60,7 @@ data:extend(
     type = "mining-tool",
     name = "steel-axe",
     icon = "__base__/graphics/icons/steel-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -93,6 +96,7 @@ data:extend(
     type = "mining-tool",
     name = "brass-axe",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/brass-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -129,6 +133,7 @@ data:extend(
     type = "mining-tool",
     name = "cobalt-axe",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/cobalt-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -165,6 +170,7 @@ data:extend(
     type = "mining-tool",
     name = "titanium-axe",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/titanium-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -201,6 +207,7 @@ data:extend(
     type = "mining-tool",
     name = "tungsten-axe",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/tungsten-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -237,6 +244,7 @@ data:extend(
     type = "mining-tool",
     name = "diamond-axe",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/mining-tools/diamond-axe.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     action =
     {

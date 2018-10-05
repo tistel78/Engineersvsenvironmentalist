@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "basic-smart-long-inserter",
     icon = "__base__/graphics/icons/long-handed-inserter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "d[smart-inserter-2]",
@@ -16,8 +17,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board", 2},
+      {"stupid-ai", 1},
       {"long-handed-inserter", 1},
+	  
+	   
     },
     result = "basic-smart-long-inserter"
   },
@@ -25,6 +28,7 @@ data:extend(
     type = "inserter",
     name = "basic-smart-long-inserter",
     icon = "__base__/graphics/icons/long-handed-inserter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-long-inserter"},
     max_health = 40,

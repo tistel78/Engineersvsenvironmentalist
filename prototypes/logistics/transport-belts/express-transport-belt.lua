@@ -77,29 +77,33 @@ express_belt_starting_side =
     type = "item",
     name = "express-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-transport-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-c[express-transport-belt]",
     place_result = "express-transport-belt",
-    stack_size = 50
+    stack_size = 200
   },
     {
     type = "recipe",
     name = "express-transport-belt",
-    category = "crafting-with-fluid",
+  
     enabled = false,
     ingredients =
     {
       {"engine-unit",1},
-      {"iron-gear-wheel", 10},
-      {type="fluid",name="lubricant",amount=2},
+      {"iron-gear-wheel", 1000},
+	  {"wall", 1000},
+	  {"explosives-analogue", 10000},
+     
     },
-    results = {{"express-transport-belt",10}}
+    results = {{"express-transport-belt",20}}
   },
   {
     type = "transport-belt",
     name = "express-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-transport-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "express-transport-belt"},
     max_health = 50,
@@ -144,7 +148,7 @@ express_belt_starting_side =
     ending_patch = ending_patch_prototype,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
-    speed = 0.09375,
+    speed = 0.04375,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
     circuit_connector_sprites = transport_belt_circuit_connector_sprites,
     circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
@@ -156,6 +160,7 @@ express_belt_starting_side =
     type = "item",
     name = "express-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-underground-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-c[express-transport-belt-to-ground]",
@@ -168,15 +173,18 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"express-transport-belt", 15}
+      {"express-transport-belt", 150},
+	  {"wall", 1000},
+	  {"explosives-analogue", 10000},
     },
-    result_count = 2,
+    result_count = 20,
     result = "express-transport-belt-to-ground"
   },
   {
     type = "underground-belt",
     name = "express-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-underground-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "express-transport-belt-to-ground"},
     max_health = 60,
@@ -188,6 +196,15 @@ express_belt_starting_side =
       width = 32,
       height = 32,
       x = 32
+    },
+	 underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -209,6 +226,7 @@ express_belt_starting_side =
     starting_side = express_belt_starting_side,
     fast_replaceable_group = "underground-belt",
     speed = 0.09375,
+	max_distance = 20,
     structure =
     {
       direction_in =
@@ -220,7 +238,17 @@ express_belt_starting_side =
           shift = {0.26, 0},
           width = 57,
           height = 43,
-          y = 43
+          y = 43,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/express-underground-belt/hr-express-underground-belt-structure.png",
+            priority = "extra-high",
+            shift = {0.15625, 0.0703125},
+            width = 106,
+            height = 85,
+            y = 85,
+            scale = 0.5
+          }
         }
       },
       direction_out =
@@ -231,7 +259,16 @@ express_belt_starting_side =
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
-          height = 43
+          height = 43,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/express-underground-belt/hr-express-underground-belt-structure.png",
+            priority = "extra-high",
+            shift = {0.15625, 0.0703125},
+            width = 106,
+            height = 85,
+            scale = 0.5
+          }
         }
       }
     },
@@ -242,6 +279,7 @@ express_belt_starting_side =
     type = "item",
     name = "express-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-splitter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-c[express-splitter]",
@@ -267,6 +305,7 @@ express_belt_starting_side =
     type = "splitter",
     name = "express-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-splitter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "express-splitter"},
     max_health = 80,

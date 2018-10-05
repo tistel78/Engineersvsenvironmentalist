@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "nitinol-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/nitinol-plate.png",
+	icon_size = 32,
     prerequisites = {"titanium-processing","nickel-processing","mixing-furnace"},
     effects =
     {

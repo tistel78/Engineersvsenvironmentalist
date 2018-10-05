@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "plumbing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/plumbing.png",
+	icon_size = 28,
     flags = {"goes-to-main-inventory"},
     subgroup = "plumbing",
     

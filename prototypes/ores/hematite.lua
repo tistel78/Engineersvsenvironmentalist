@@ -4,20 +4,18 @@ data:extend(
 		type = "item",
 		name = "iron-oxide-ore",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-oxide-ore.png",
+		icon_size = 30,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},
   {
-    type = "noise-layer",
-    name = "hematite"
-  },
-  {
     type = "autoplace-control",
     name = "hematite",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
 	{
 		type = "resource",
@@ -25,7 +23,7 @@ data:extend(
     {
       hardness = 1.4,
       mining_particle = "iron-ore-particle",
-      mining_time = 5,
+      mining_time = 4,
       result = "iron-oxide"
     },
 		name = "hematite",
@@ -33,6 +31,7 @@ data:extend(
 		map_color = {r=0.7, g=0.4, b=0.4},
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-oxide-ore.png",
+		icon_size = 30,
 		stage_mult = 10,
 		items =
 		{
@@ -49,18 +48,18 @@ data:extend(
 			control = "hematite",
 			sharpness = 1,
 			richness_multiplier = 25000,
-			richness_base = 500,
-			size_control_multiplier = 0.07,
+			richness_base = 1000,
+			size_control_multiplier = 0.1,
 			peaks =
 			{
 			{
-        influence = 0.25,
+        influence = 0.2,
       },
       {
         influence = 0.30,
         noise_layer = "hematite",
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
+        noise_octaves_difference = -1.9,
+        noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
@@ -69,7 +68,7 @@ data:extend(
         influence = 0.30,
         noise_layer = "hematite",
         noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
+        noise_persistence = 0.3,
         starting_area_weight_optimal = 1,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
@@ -85,6 +84,7 @@ data:extend(
 			sheet =
 			{
 				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/hematite.png",
+				icon_size = 32,
 				priority = "extra-high",
 				width = 38,
 				height = 38,

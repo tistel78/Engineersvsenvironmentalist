@@ -4,6 +4,7 @@
     type = "technology",
     name = "sulfur-processing",
     icon = "__base__/graphics/technology/sulfur-processing.png",
+	icon_size = 32,
     prerequisites = {"chemical-plants-1"},
     effects =
     {

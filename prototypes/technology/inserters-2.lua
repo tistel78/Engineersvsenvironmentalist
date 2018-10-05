@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "inserters-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/fast-inserter.png",
+	icon_size = 32,
     effects =
     {
       {

@@ -4,20 +4,18 @@ data:extend(
     type = "item",
     name = "rutile-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/rutile-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[rutile-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "rutile-ore"
-  },
-  {
+   {
     type = "autoplace-control",
     name = "rutile-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
 	
 	{
@@ -36,6 +34,7 @@ data:extend(
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/rutile-ore.png",
+		icon_size = 32,
 		stage_mult = 10,
 		item =
 		{
@@ -52,17 +51,17 @@ data:extend(
 			sharpness = 1,
 			richness_multiplier = 11000,
 			richness_base = 200,
-			size_control_multiplier = 0.1,
+			size_control_multiplier = 0.9,
 			peaks =
 			{
 				{
-        influence = 0.2,
+        influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "rutile-ore",
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
+        noise_octaves_difference = -1.9,
+        noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,

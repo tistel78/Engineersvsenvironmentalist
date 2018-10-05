@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "wall",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/building-segments/building-segment.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "building-segments",
     stack_size = 100000
@@ -16,6 +17,7 @@ data:extend(
     type = "recipe",
     name = "wall|wood",
     icon = "__base__/graphics/icons/raw-wood.png",
+	icon_size = 32,
     order = "b-01",
     ingredients = {{"raw-wood",50}},
     result = "wall"
@@ -24,6 +26,7 @@ data:extend(
     type = "recipe",
     name = "wall|stone",
     icon = "__base__/graphics/icons/stone.png",
+	icon_size = 32,
     order = "b-02",
     ingredients = {{"stone", 200}},
     result = "wall"
@@ -32,6 +35,7 @@ data:extend(
     type = "recipe",
     name = "wall|brick",
     icon = "__base__/graphics/icons/stone-brick.png",
+	icon_size = 32,
     order = "b-03",
     ingredients = {{"stone-brick", 50}},
     result = "wall"
@@ -40,6 +44,7 @@ data:extend(
     type = "recipe",
     name = "wall|cement",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cement.png",
+	icon_size = 32,
     order = "b-04",
     ingredients = {{"cement", 1}, {"stone-brick",25}, {"iron-gear-wheel",1}},
     result = "wall"
@@ -48,6 +53,7 @@ data:extend(
     type = "recipe",
     name = "wall|concrete",
     icon = "__base__/graphics/icons/concrete.png",
+	icon_size = 32,
     order = "b-05",
     ingredients = {{"concrete", 20}},
     result = "wall"
@@ -56,6 +62,7 @@ data:extend(
     type = "recipe",
     name = "wall|iron",
     icon = "__base__/graphics/icons/iron-plate.png",
+	icon_size = 32,
     order = "b-10",
     ingredients = {{"iron-plate", 20}},
     result = "wall"
@@ -64,6 +71,7 @@ data:extend(
     type = "recipe",
     name = "wall|steel",
     icon = "__base__/graphics/icons/steel-plate.png",
+	icon_size = 32,
     order = "b-11",
     ingredients = {{"steel-plate", 10}},
     result = "wall"
@@ -72,6 +80,7 @@ data:extend(
     type = "recipe",
     name = "wall|carbonite",
     icon = "__base__/graphics/icons/concrete.png",
+	icon_size = 32,
     order = "b-12",
     ingredients = {{"carbon-nanotubes", 1}, {"concrete",5}, },
     results = {{"wall",500}},
@@ -81,6 +90,7 @@ data:extend(
     type = "recipe",
     name = "wall|aluminium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
+	icon_size = 32,
     order = "b-13",
     ingredients = {{"aluminium-plate", 5}},
     result = "wall"

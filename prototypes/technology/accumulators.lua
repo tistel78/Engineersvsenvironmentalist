@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-accumulators-1",
     icon = "__base__/graphics/technology/electric-energy-acumulators.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -28,6 +29,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-accumulators-2",
     icon = "__base__/graphics/technology/electric-energy-acumulators.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -65,6 +67,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-accumulators-3",
     icon = "__base__/graphics/technology/electric-energy-acumulators.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -104,6 +107,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-accumulators-4",
     icon = "__base__/graphics/technology/electric-energy-acumulators.png",
+	icon_size = 32,
     effects =
     {
       {

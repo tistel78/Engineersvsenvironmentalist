@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "beacon",
     icon = "__base__/graphics/icons/beacon.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "h-modules",
     order = "a[beacon]",
@@ -28,6 +29,7 @@ data:extend(
     type = "beacon",
     name = "beacon",
     icon = "__base__/graphics/icons/beacon.png",
+	icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "beacon"},
     max_health = 200,
@@ -35,13 +37,14 @@ data:extend(
     dying_explosion = "medium-explosion",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+	 drawing_box = {{-1.5, -2.2}, {1.5, 1.3}},
     allowed_effects = {"consumption", "speed", "pollution"},
     base_picture =
     {
       filename = "__base__/graphics/entity/beacon/beacon-base.png",
       width = 116,
       height = 93,
-      shift = { 0.34, 0.06}
+      shift = { 0.34375, 0.046875}
     },
     animation =
     {
@@ -50,7 +53,7 @@ data:extend(
       height = 50,
       line_length = 8,
       frame_count = 32,
-      shift = { -0.03, -1.72},
+      shift = { -0.03125, -1.71875},
       animation_speed = 0.5
     },
     animation_shadow =
@@ -60,14 +63,14 @@ data:extend(
       height = 49,
       line_length = 8,
       frame_count = 32,
-      shift = { 3.12, 0.5},
+      shift = { 3.140625, 0.484375},
       animation_speed = 0.5
     },
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/beacon/beacon-radius-visualization.png",
-      width = 12,
-      height = 12
+      width = 10,
+      height = 10
     },
     supply_area_distance = 3,
     energy_source =
@@ -93,6 +96,7 @@ data:extend(
     animation =
     {
       filename = "__base__/graphics/entity/cloud/cloud-45-frames.png",
+	  flags = { "compressed" },
       priority = "low",
       width = 256,
       height = 256,
@@ -120,7 +124,7 @@ data:extend(
           action =
           {
             type = "area",
-            perimeter = 11,
+            radius = 11,
             entity_flags = {"breaths-air"},
             action_delivery =
             {
@@ -128,14 +132,14 @@ data:extend(
               target_effects =
               {
                 type = "damage",
-                damage = { amount = 4, type = "poison"}
+                damage = { amount = 8, type = "poison"}
               }
             }
           }
         }
       }
     },
-    action_frequency = 30
+    action_cooldown = 30
   },
   }
   )

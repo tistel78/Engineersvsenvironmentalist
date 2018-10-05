@@ -5,6 +5,7 @@ data:extend(
     type = "item",
     name = "offshore-pump",
     icon = "__base__/graphics/icons/offshore-pump.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "water-pumps",
     order = "a-1",
@@ -30,7 +31,8 @@ data:extend(
     {
     type = "item",
     name = "small-pump",
-    icon = "__base__/graphics/icons/small-pump.png",
+    icon = "__base__/graphics/icons/pump.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "pumps",
     order = "b-2",
@@ -53,40 +55,47 @@ data:extend(
   {
     type = "pump",
     name = "small-pump",
-    icon = "__base__/graphics/icons/small-pump.png",
+    icon = "__base__/graphics/icons/pump.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "small-pump"},
-    max_health = 80,
+    minable = {mining_time = 1, result = "pump"},
+    max_health = 180,
     fast_replaceable_group = "pipe",
     corpse = "small-remnants",
+    collision_box = {{-0.29, -0.79}, {0.29, 0.79}},
+    selection_box = {{-0.5, -1}, {0.5, 1}},
     resistances =
     {
       {
         type = "fire",
-        percent = 70
+        percent = 80
+      },
+      {
+        type = "impact",
+        percent = 30
       }
     },
-    collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
-    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box =
     {
       base_area = 1,
+      height = 2,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {0, -1}, type="output" },
-        { position = {0, 1}, type="input" },
+        { position = {0, -1.5}, type="output" },
+        { position = {0, 1.5}, type="input" },
       },
     },
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions = 0.01 / 2.5
     },
-    energy_usage = "13MW",
-    pumping_speed = 0.5,
+    energy_usage = "30kW",
+    pumping_speed = 200,
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     animations =
     {
       north =
@@ -126,75 +135,170 @@ data:extend(
         animation_speed = 0.5
       }
     },
-    circuit_wire_connection_points =
+  fluid_wagon_connector_frame_count = 35,
+
+    fluid_wagon_connector_graphics = require("prototypes.entity.pump-connector"),
+
+    fluid_animation =
     {
+      north =
       {
-        shadow =
+        filename = "__base__/graphics/entity/pump/pump-north-liquid.png",
+        apply_runtime_tint = true,
+        width = 20,
+        height = 13,
+        line_length =8,
+        frame_count =32,
+        shift = util.by_pixel(-0.500, -14.500),
+        hr_version =
         {
-          red = {0.65625, 0.03125},
-          green = {0.65625, 0.03125},
-        },
-        wire =
-        {
-          red = {0.34375, -0.375},
-          green = {0.34375, -0.375},
+          filename = "__base__/graphics/entity/pump/hr-pump-north-liquid.png",
+          apply_runtime_tint = true,
+          width = 38,
+          height = 22,
+          scale = 0.5,
+          line_length =8,
+          frame_count =32,
+          shift = util.by_pixel(-0.250, -16.750)
         }
       },
+
+      east =
       {
-        shadow =
+        filename = "__base__/graphics/entity/pump/pump-east-liquid.png",
+        width = 18,
+        height = 24,
+        line_length =8,
+        frame_count =32,
+        shift = util.by_pixel(6.000, -8.000),
+        hr_version =
         {
-          red = {0.625, 0.46875},
-          green = {0.625, 0.46875},
-        },
-        wire =
-        {
-          red = {0.1875, -0.03125},
-          green = {0.1875, -0.03125},
+          filename = "__base__/graphics/entity/pump/hr-pump-east-liquid.png",
+          width = 35,
+          height = 46,
+          scale = 0.5,
+          line_length =8,
+          frame_count =32,
+          shift = util.by_pixel(6.250, -8.500)
         }
       },
+
+      south =
       {
-        shadow =
+        filename = "__base__/graphics/entity/pump/pump-south-liquid.png",
+        width = 26,
+        height = 55,
+        line_length =8,
+        frame_count =32,
+        shift = util.by_pixel(3.500, 6.500),
+        hr_version =
         {
-          red = {0.1875, 0.1875},
-          green = {0.1875, 0.1875},
-        },
-        wire =
-        {
-          red = {-0.375, -0.15625},
-          green = {-0.375, -0.15625},
+          filename = "__base__/graphics/entity/pump/hr-pump-south-liquid.png",
+          width = 38,
+          height = 45,
+          scale = 0.5,
+          line_length =8,
+          frame_count =32,
+          shift = util.by_pixel(0.500, -9.250)
         }
       },
+      west =
       {
-        shadow =
+        filename = "__base__/graphics/entity/pump/pump-west-liquid.png",
+        width = 18,
+        height = 24,
+        line_length =8,
+        frame_count =32,
+        shift = util.by_pixel(-6.000, -9.000),
+        hr_version =
         {
-          red = {0.3125, -0.03125},
-          green = {0.3125, -0.03125},
-        },
-        wire =
-        {
-          red = {-0.15625, -0.5},
-          green = {-0.15625, -0.5},
+          filename = "__base__/graphics/entity/pump/hr-pump-west-liquid.png",
+          width = 35,
+          height = 47,
+          scale = 0.5,
+          line_length =8,
+          frame_count =32,
+          shift = util.by_pixel(-6.500, -9.500)
         }
       }
     },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.40625, -0.3125}, nil, 24),
-      get_circuit_connector_sprites({0.125, 0.21875}, {0.34375, 0.40625}, 18),
-      get_circuit_connector_sprites({-0.40625, -0.25}, nil, 24),
-      get_circuit_connector_sprites({0.203125, 0.203125}, {0.25, 0.40625}, 18),
-    },
-    circuit_wire_max_distance = 7.5
 
+    glass_pictures =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/pump/pump-north-glass.png",
+        width = 32,
+        height = 64,
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/pump/hr-pump-north-glass.png",
+          width = 64,
+          height = 128,
+          scale = 0.5
+        }
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/pump/pump-east-glass.png",
+        width = 32,
+        height = 32,
+        shift = util.by_pixel(0.000, -16.000),
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/pump/hr-pump-east-glass.png",
+          width = 128,
+          height = 192,
+          scale = 0.5
+        }
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/pump/pump-south-glass.png",
+        width = 32,
+        height = 64,
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/pump/hr-pump-south-glass.png",
+          width = 64,
+          height = 128,
+          scale = 0.5
+        }
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/pump/pump-west-glass.png",
+        width = 32,
+        height = 96,
+        shift = util.by_pixel(0.000, 15.000),
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/pump/hr-pump-west-glass.png",
+          width = 192,
+          height = 192,
+          scale = 0.5,
+          shift = util.by_pixel(-16.000, 0.000)
+        }
+      }
+    },
+
+    circuit_wire_connection_points = circuit_connector_definitions["pump"].points,
+    circuit_connector_sprites = circuit_connector_definitions["pump"].sprites,
+    circuit_wire_max_distance = default_circuit_wire_max_distance
   },
-  }
-  )
+
+   
+
+ 
+ }
+ )
 data:extend(
 {
   {
     type = "item",
     name = "air-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-1.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "air-pumps",
     order = "e[air-pump-1]",
@@ -218,6 +322,7 @@ data:extend(
     type = "assembling-machine",
     name = "air-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-1.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-pump"},
     max_health = 150,
@@ -310,6 +415,7 @@ data:extend(
     type = "item",
     name = "air-pump-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-2.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "air-pumps",
     order = "e[air-pump-2]",
@@ -333,6 +439,7 @@ data:extend(
     type = "assembling-machine",
     name = "air-pump-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-2.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-pump-2"},
     max_health = 180,
@@ -425,6 +532,7 @@ data:extend(
     type = "item",
     name = "air-pump-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-3.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "air-pumps",
     order = "e[air-pump-3]",
@@ -449,6 +557,7 @@ data:extend(
     type = "assembling-machine",
     name = "air-pump-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-3.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-pump-3"},
     max_health = 230,
@@ -541,6 +650,7 @@ data:extend(
     type = "item",
     name = "air-pump-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-4.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "air-pumps",
     order = "e[air-pump-4]",
@@ -565,6 +675,7 @@ data:extend(
     type = "assembling-machine",
     name = "air-pump-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-4.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "air-pump-4"},
     max_health = 300,
@@ -659,6 +770,7 @@ data:extend(
     type = "item",
     name = "water-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-1.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "water-pumps",
     order = "e[water-pump-1]",
@@ -682,6 +794,7 @@ data:extend(
     type = "assembling-machine",
     name = "water-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-1.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "water-pump"},
     max_health = 120,
@@ -774,6 +887,7 @@ data:extend(
     type = "item",
     name = "water-pump-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-2.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "water-pumps",
     order = "e[water-pump-2]",
@@ -797,6 +911,7 @@ data:extend(
     type = "assembling-machine",
     name = "water-pump-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-2.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "water-pump-2"},
     max_health = 180,
@@ -889,6 +1004,7 @@ data:extend(
     type = "item",
     name = "water-pump-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-3.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "water-pumps",
     order = "e[water-pump-3]",
@@ -913,6 +1029,7 @@ data:extend(
     type = "assembling-machine",
     name = "water-pump-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-3.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "water-pump-3"},
     max_health = 230,
@@ -1005,6 +1122,7 @@ data:extend(
     type = "item",
     name = "water-pump-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-4.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup= "water-pumps",
     order = "e[water-pump-4]",
@@ -1029,6 +1147,7 @@ data:extend(
     type = "assembling-machine",
     name = "water-pump-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-4.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "water-pump-4"},
     max_health = 300,
@@ -1121,6 +1240,7 @@ data:extend(
     type = "item",
     name = "void-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/void-pump.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "air-pumps",
     order = "void-pump",
@@ -1144,6 +1264,7 @@ data:extend(
     type = "furnace",
     name = "void-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/void-pump.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "void-pump"},
     max_health = 100,

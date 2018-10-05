@@ -17,6 +17,7 @@ data:extend(
     },
     subgroup = "electrolysis",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/water-electrolysis.png",
+	icon_size = 32,
     order = "water-2"
   },
   {
@@ -37,6 +38,7 @@ data:extend(
       {type="fluid", name="hydrogen", amount=1},
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/salt-water-electrolysis.png",
+	icon_size = 32,
     subgroup = "electrolysis",
     order = "water-4"
   },

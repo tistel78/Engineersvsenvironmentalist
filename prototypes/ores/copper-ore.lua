@@ -4,32 +4,32 @@ data:extend(
     type = "item",
     name = "copper-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/copper-ore.png",
+	icon_size = 28,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "f[copper-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "copper-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "copper-ore",
     richness = true,
-    order = "b-b"
+    order = "b-b",
+	  category = "resource"
   },
   {
     type = "resource",
     name = "copper-ore",
+	richness = true,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/copper-ore.png",
+	icon_size = 28,
     flags = {"placeable-neutral"},
     order="a-b-a",
     minable =
     {
       hardness = 0.9,
       mining_particle = "copper-ore-particle",
-      mining_time = 10,
+      mining_time = 4,
       result = "copper-ore"
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
@@ -63,6 +63,7 @@ data:extend(
       sheet =
       {
         filename = "__base__/graphics/entity/copper-ore/copper-ore.png",
+		icon_size = 28,
         priority = "extra-high",
         width = 38,
         height = 38,

@@ -4,6 +4,7 @@
     type = "technology",
     name = "lithium-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lithium-plate.png",
+	icon_size = 32,
     prerequisites = {"sulfur-processing"},
     unit =
     {

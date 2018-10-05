@@ -7,16 +7,18 @@ data:extend(
     type = "item",
     name = "asphaltum",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "f[rubber]",
-	fuel_value = "1kJ",
+	fuel_category = "chemical", fuel_value = "1kJ",
     stack_size = 100
   },
   {
     type = "item",
     name = "asphalt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "f[rubber]",
@@ -32,6 +34,7 @@ data:extend(
     type = "recipe",
     name = "asphalt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/rubber.png",
+	icon_size = 32,
     category = "chemistry",
     subgroup = "oil-processing",
     order = "b[fluid-chemistry]-a[coal-cracking]",
@@ -64,24 +67,24 @@ data:extend(
       {
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt1.png",
-          count = 22,
+          count = 16,
           size = 1,
-          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045, 0.005, 0.005, 0.005, 0.005, 0.003, 0.005 }
+          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.040,  }
         },
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt2.png",
-          count = 30,
+          count = 16,
           size = 2,
           probability = 1,
-          weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027, 0.022, 0.032, 0.020, 0.020, 0.030, 0.005, 0.010, 0.002, 0.013, 0.007, 0.007, 0.010, 0.030, 0.030 }
+          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.042,  }
         },
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt4.png",
-          count = 21,
+          count = 16,
           line_length = 11,
           size = 4,
           probability = 1,
-          weights = {0.070, 0.070, 0.070, 0.070, 0.070, 0.070, 0.015, 0.070, 0.070, 0.070, 0.015, 0.050, 0.070, 0.070, 0.065, 0.070, 0.070, 0.050, 0.050, 0.050, 0.050 }
+          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045,  }
         }
       },
       inner_corner =

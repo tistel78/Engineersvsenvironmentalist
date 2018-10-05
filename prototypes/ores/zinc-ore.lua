@@ -4,22 +4,19 @@ data:extend(
     type = "item",
     name = "zinc-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/zinc-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[zinc-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "zinc-ore"
-  },
-  {
+	  {
     type = "autoplace-control",
     name = "zinc-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -36,6 +33,7 @@ data:extend(
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/zinc-ore.png",
+		icon_size = 32,
 		stage_mult = 10,
 		item =
 		{
@@ -56,10 +54,10 @@ data:extend(
 			peaks =
 			{
       {
-        influence = 0.2,
+        influence = 0.15,
       },
       {
-        influence = 0.3,
+        influence = 0.28,
         noise_layer = "zinc-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,

@@ -4,22 +4,19 @@ data:extend(
     type = "item",
     name = "gem-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "gem-processing",
     order = "b-d[gem-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "gem-ore"
-  },
-  {
+ 	{
     type = "autoplace-control",
     name = "gem-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -33,6 +30,7 @@ data:extend(
 		map_color = {r = 0, g = 1, b = 0},
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
+		icon_size = 32,
 		stage_mult = 2,
 		particle = "gem-ore-particle",
 		sprite =
@@ -49,7 +47,7 @@ data:extend(
 			peaks =
 			{
 				{
-        influence = 0.15,
+        influence = 0.10,
       },
       {
         influence = 0.30,

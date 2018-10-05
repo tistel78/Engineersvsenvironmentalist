@@ -10,6 +10,7 @@ data:extend(
     type = "item",
     name = "iron-ore",
     icon = "__base__/graphics/icons/iron-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory","hidden"},
     subgroup = "minerals",
     order = "e[iron-ore]",

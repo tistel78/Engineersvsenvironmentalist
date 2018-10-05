@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "chemical-mixing-furnace-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -33,6 +34,7 @@ data:extend(
     type = "technology",
     name = "chemical-mixing-furnace-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "chemical-plant",
     icon = "__base__/graphics/icons/chemical-plant.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-1]",
@@ -21,6 +22,7 @@ data:extend(
       {"storage-tank",1},
       {"plumbing",5},
       {"iron-gear-wheel",5},
+	  {"stupid-ai",1},
     },
     result= "chemical-plant"
   },
@@ -28,6 +30,7 @@ data:extend(
     type = "assembling-machine",
     name = "chemical-plant",
     icon = "__base__/graphics/icons/chemical-plant.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant"},
     max_health = 300,
@@ -61,6 +64,7 @@ data:extend(
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	fast_replaceable_group = "chemical-plant",
+	
     animation =
     {
       north =
@@ -99,7 +103,11 @@ data:extend(
         shift = {0.5, -0.078125}
       }
     },
-    working_visualisations =
+
+   
+	
+	
+ working_visualisations =
     {
       {
         north_position = {0.94, -0.73},
@@ -142,10 +150,10 @@ data:extend(
           frame_count = 1,
           width = 21,
           height = 10
-        }
-      }
+        },
+      },
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     working_sound =
     {
       sound =
@@ -186,13 +194,17 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         base_level = 1,
         pipe_connections = {{ position = {1, 2} }}
-      }
-    }
-  },
+      },
+    },
+    },
+	
+	
+	
 {
     type = "item",
     name = "chemical-plant-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-2.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-2]",
@@ -210,6 +222,7 @@ data:extend(
       {"storage-tank",5},
       {"plumbing",150},
       {"iron-gear-wheel",250},
+	  {"small-ai",5},
     },
     result = "chemical-plant-2"
   },
@@ -217,6 +230,7 @@ data:extend(
     type = "assembling-machine",
     name = "chemical-plant-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-2.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-2"},
     max_health = 350,
@@ -240,7 +254,7 @@ data:extend(
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
-    animation =
+       animation =
     {
       north =
       {
@@ -276,9 +290,13 @@ data:extend(
         height = 141,
         frame_count = 1,
         shift = {0.5, -0.078125}
-      }
+      },
     },
-    working_visualisations =
+
+    
+	
+	
+ working_visualisations =
     {
       {
         north_position = {0.94, -0.73},
@@ -292,7 +310,7 @@ data:extend(
           width = 17,
           height = 12,
           animation_speed = 0.15
-        }
+        },
       },
       {
         north_position = {1.4, -0.23},
@@ -321,10 +339,10 @@ data:extend(
           frame_count = 1,
           width = 21,
           height = 10
-        }
-      }
+        },
+      },
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     working_sound =
     {
       sound =
@@ -365,14 +383,14 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         base_level = 1,
         pipe_connections = {{ position = {1, 2} }}
-      }
-    }
-  
-  },
+      },
+    },
+    },
   {
     type = "item",
     name = "chemical-plant-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-3.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-3]",
@@ -390,6 +408,7 @@ data:extend(
       {"storage-tank",100},
       {"plumbing",3000},
       {"iron-gear-wheel",3000},
+	   {"medium-ai",5},
     },
     result = "chemical-plant-3"
   },
@@ -397,6 +416,7 @@ data:extend(
     type = "assembling-machine",
     name = "chemical-plant-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-3.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-3"},
     max_health = 400,
@@ -420,7 +440,7 @@ data:extend(
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
-    animation =
+   animation =
     {
       north =
       {
@@ -458,7 +478,11 @@ data:extend(
         shift = {0.5, -0.078125}
       }
     },
-    working_visualisations =
+
+    
+	
+	
+ working_visualisations =
     {
       {
         north_position = {0.94, -0.73},
@@ -501,10 +525,10 @@ data:extend(
           frame_count = 1,
           width = 21,
           height = 10
-        }
-      }
+        },
+      },
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     working_sound =
     {
       sound =
@@ -545,13 +569,14 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         base_level = 1,
         pipe_connections = {{ position = {1, 2} }}
-      }
+      },
     },
-  },
+    },
   {
     type = "item",
     name = "chemical-plant-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-4.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-4]",
@@ -569,6 +594,7 @@ data:extend(
       {"storage-tank",100},
       {"plumbing",60000},
       {"advanced-machine-parts",30000},
+	  {"large-ai",1},
     },
     result = "chemical-plant-4"
   },
@@ -576,6 +602,7 @@ data:extend(
     type = "assembling-machine",
     name = "chemical-plant-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-4.png",
+	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-4"},
     max_health = 500,
@@ -599,7 +626,7 @@ data:extend(
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
-    animation =
+   animation =
     {
       north =
       {
@@ -637,7 +664,11 @@ data:extend(
         shift = {0.5, -0.078125}
       }
     },
-    working_visualisations =
+
+    
+	
+	
+ working_visualisations =
     {
       {
         north_position = {0.94, -0.73},
@@ -680,10 +711,10 @@ data:extend(
           frame_count = 1,
           width = 21,
           height = 10
-        }
-      }
+        },
+      },
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     working_sound =
     {
       sound =
@@ -724,9 +755,10 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         base_level = 1,
         pipe_connections = {{ position = {1, 2} }}
-      }
+      },
+    },
     },
    
-  },
   }
+  
   )

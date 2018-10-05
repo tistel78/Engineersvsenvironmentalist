@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "arithmetic-combinator",
     icon = "__base__/graphics/icons/arithmetic-combinator.png",
+	icon_size = 32,
     flags = { "goes-to-quickbar" },
     subgroup = "logics",
     place_result="arithmetic-combinator",
@@ -17,7 +18,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 5},
-      {"electronic-circuit", 5},
+      {"small-ai", 2},
     },
     result = "arithmetic-combinator"
   },
@@ -25,6 +26,7 @@ data:extend(
     type = "item",
     name = "decider-combinator",
     icon = "__base__/graphics/icons/decider-combinator.png",
+	icon_size = 32,
     flags = { "goes-to-quickbar" },
     subgroup = "logics",
     place_result="decider-combinator",
@@ -38,7 +40,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 5},
-      {"electronic-circuit", 5},
+      {"small-ai", 1},
     },
     result = "decider-combinator"
   },
@@ -46,6 +48,7 @@ data:extend(
     type = "item",
     name = "constant-combinator",
     icon = "__base__/graphics/icons/constant-combinator.png",
+	icon_size = 32,
     flags = { "goes-to-quickbar" },
     subgroup = "logics",
     place_result="constant-combinator",
@@ -59,7 +62,7 @@ data:extend(
     ingredients =
     {
       {"copper-cable", 5},
-      {"electronic-circuit", 2},
+      {"small-ai", 1},
     },
     result = "constant-combinator"
   },

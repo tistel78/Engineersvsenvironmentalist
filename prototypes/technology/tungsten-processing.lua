@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "tungsten-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-plate.png",
+	icon_size = 32,
     prerequisites = {"electrolyser-1"},
     effects =
     {

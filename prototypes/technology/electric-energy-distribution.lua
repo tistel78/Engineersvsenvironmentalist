@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-distribution-1",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -32,6 +33,7 @@ data:extend(
     type = "technology",
     name = "electric-energy-distribution-2",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {

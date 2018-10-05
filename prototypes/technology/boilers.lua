@@ -9,6 +9,7 @@ data:extend(
       "electric-energy-distribution-1",
     },
     icon = "__base__/graphics/icons/boiler.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -40,6 +41,7 @@ data:extend(
       "advanced-material-processing-2"
     },
     icon = "__base__/graphics/icons/boiler.png",
+	icon_size = 32,
     effects =
     {
       {

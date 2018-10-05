@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "titanium-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-plate.png",
+	icon_size = 32,
     prerequisites = {"chemical-plants-2","nickel-processing","electrolyser-2"},
     effects =
     {

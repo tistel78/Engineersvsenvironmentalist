@@ -1,16 +1,13 @@
 data:extend(
 {
-  {
-    type = "noise-layer",
-    name = "sulfur"
-  },
-  {
+ 
+	  {
     type = "autoplace-control",
     name = "sulfur",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -21,12 +18,13 @@ data:extend(
       result = "sulfur"
     },
 		name = "sulfur",
-		tint = {r = 0.8, g = 0.75, b = 0.1},
+		tint = {r = 0.9, g = 0.75, b = 0.1},
 		map_color = {r=0.8, g=0.75, b=0.1},
 		hardness = 0.3,
 		mining_time = 1,
 		enabled = false,
 		icon = "__base__/graphics/icons/sulfur.png",
+		icon_size = 32,
 		stage_mult = 10,
 		items =
 		{
@@ -48,14 +46,14 @@ data:extend(
 			peaks =
 			{
 				{
-        influence = 0.15,
+        influence = 0.19,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "sulfur",
         noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
-        starting_area_weight_optimal = 0,
+        noise_persistence = 0.3,
+        starting_area_weight_optimal = 1,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,
       },

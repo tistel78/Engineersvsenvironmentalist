@@ -3,6 +3,7 @@ data:extend({
     type = "item",
     name = "crusher-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-crushing",
     order = "f",
@@ -15,6 +16,7 @@ data:extend({
     ingredients = {
 	  {"wall", 1},
     {"iron-gear-wheel",4},
+	{"stupid-ai",1},
 		},
 		enabled = true,
     result = "crusher-1"
@@ -23,6 +25,7 @@ data:extend({
     type = "assembling-machine",
 		name = "crusher-1",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+		icon_size = 32,
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "crusher-1"},
 		max_health = 250,
@@ -52,7 +55,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000013740,
+      emissions = 0.0000013740,
       smoke =
       {
         {
@@ -101,6 +104,7 @@ data:extend({
     type = "item",
     name = "crusher-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-crushing",
     order = "f",
@@ -113,6 +117,7 @@ data:extend({
     ingredients = {
 	  {"wall", 500},
     {"iron-gear-wheel",2000},
+	{"small-ai",1},
 		},
 		enabled = false,
     result = "crusher-2"
@@ -121,6 +126,7 @@ data:extend({
     type = "assembling-machine",
 		name = "crusher-2",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+		icon_size = 32,
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "crusher-2"},
 		max_health = 250,
@@ -200,6 +206,7 @@ data:extend({
     type = "item",
     name = "crusher-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-crushing",
     order = "f",
@@ -212,6 +219,7 @@ data:extend({
     ingredients = {
 	  {"wall", 3000},
     {"iron-gear-wheel",20000},
+	{"small-ai",1},
 		},
 		enabled = false,
     result = "crusher-3"
@@ -220,6 +228,7 @@ data:extend({
     type = "assembling-machine",
 		name = "crusher-3",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+		icon_size = 32,
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "crusher-3"},
 		max_health = 250,
@@ -291,6 +300,7 @@ data:extend({
     type = "item",
     name = "crusher-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-crushing",
     order = "f",
@@ -304,6 +314,7 @@ data:extend({
     ingredients = {
 			{"wall", 5000},
       {"advanced-machine-parts",30000},
+	  {"small-ai",1},
 		},
 		enabled = false,
     result = "crusher-4"
@@ -312,6 +323,7 @@ data:extend({
     type = "assembling-machine",
 		name = "crusher-4",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+		icon_size = 32,
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "crusher-3"},
 		max_health = 250,

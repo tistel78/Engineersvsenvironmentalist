@@ -4,11 +4,22 @@ data:extend(
     type = "technology",
     name = "nickel-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
+	icon_size = 32,
     effects =
     {
       {
         type = "unlock-recipe",
         recipe = "nickel-plate"
+      },
+	  
+	   {
+        type = "unlock-recipe",
+        recipe = "nickel-crushed"
+      },
+	  
+	   {
+        type = "unlock-recipe",
+        recipe = "nickel-slurry"
       },
 	        {
         type = "unlock-recipe",

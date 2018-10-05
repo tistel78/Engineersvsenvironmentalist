@@ -4,6 +4,7 @@
     type = "technology",
     name = "plastics",
     icon = "__base__/graphics/technology/plastics.png",
+	icon_size = 32,
     prerequisites = {"oil-processing"},
     effects =
     {

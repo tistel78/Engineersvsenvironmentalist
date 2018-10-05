@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "basic-oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "refinery",
     order = "d[refinery]-1",
@@ -18,7 +19,8 @@ data:extend(
     {
       {"wall", 300},
       {"iron-gear-wheel",150},
-      {"plumbing", 100}
+      {"plumbing", 100},
+	  {"stupid-ai",1},
     },
     result = "basic-oil-refinery",
     enabled = true,
@@ -27,6 +29,7 @@ data:extend(
     type = "assembling-machine",
     name = "basic-oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "basic-oil-refinery"},
     max_health = 100,
@@ -41,7 +44,6 @@ data:extend(
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
     crafting_speed = 0.1,
-    has_backer_name = true,
     energy_source =
     {
       type = "burner",
@@ -62,7 +64,7 @@ data:extend(
     },  
     energy_usage = "55MW",
     ingredient_count = 4,
-    animation =
+  animation =
     {
       north =
       {
@@ -100,6 +102,8 @@ data:extend(
         shift = {2.515625, 0.484375}
       }
     },
+    },
+
     working_visualisations =
     {
       {
@@ -163,8 +167,8 @@ data:extend(
       }
     },
     pipe_covers = pipecoverspictures()
-  },
   }
+  
   )
 data:extend(
 {
@@ -172,6 +176,7 @@ data:extend(
     type = "item",
     name = "oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "refinery",
     order = "d[refinery]-2",
@@ -187,7 +192,8 @@ data:extend(
       {"wall", 2500},
       {"storage-tank", 100},
       {"iron-gear-wheel",4000},
-      {"plumbing", 5000}
+      {"plumbing", 5000},
+	  {"small-ai",50},
     },
     result = "oil-refinery",
     enabled = false
@@ -196,6 +202,7 @@ data:extend(
     type = "assembling-machine",
     name = "oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "oil-refinery"},
     max_health = 300,
@@ -210,7 +217,6 @@ data:extend(
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
     crafting_speed = 2,
-    has_backer_name = true,
     energy_source =
     {
       type = "electric",
@@ -257,6 +263,8 @@ data:extend(
         shift = {2.515625, 0.484375}
       }
     },
+    },
+
     working_visualisations =
     {
       {
@@ -320,8 +328,8 @@ data:extend(
       }
     },
     pipe_covers = pipecoverspictures()
-  },
   }
+  
   )
   data:extend(
 {
@@ -329,6 +337,7 @@ data:extend(
     type = "item",
     name = "advanced-oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "refinery",
     order = "d[refinery]-3",
@@ -344,7 +353,8 @@ data:extend(
       {"wall", 64000},
       {"storage-tank", 80},
       {"iron-gear-wheel",64000},
-      {"plumbing", 64000}
+      {"plumbing", 64000},
+	  {"medium-ai",500},
     },
     result = "advanced-oil-refinery",
     enabled = false
@@ -353,6 +363,7 @@ data:extend(
     type = "assembling-machine",
     name = "advanced-oil-refinery",
     icon = "__base__/graphics/icons/oil-refinery.png",
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "advanced-oil-refinery"},
     max_health = 300,
@@ -414,6 +425,8 @@ data:extend(
         shift = {2.515625, 0.484375}
       }
     },
+    },
+
     working_visualisations =
     {
       {
@@ -477,6 +490,6 @@ data:extend(
       }
     },
     pipe_covers = pipecoverspictures()
-  },
   }
+  
   )

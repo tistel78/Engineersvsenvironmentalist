@@ -4,22 +4,20 @@ data:extend(
     type = "item",
     name = "silver-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/silver-ore.png",
+	icon_size = 29,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[silver-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "silver-ore"
-  },
-  {
+ 
+	  {
     type = "autoplace-control",
     name = "silver-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -36,6 +34,7 @@ data:extend(
 		mining_time = 1.5,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/silver-ore.png",
+		icon_size = 29,
 		stage_mult = 10,
 		item =
 		{
@@ -87,6 +86,7 @@ data:extend(
 			sheet =
 			{
 				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/silver.png",
+				icon_size = 30,
 				priority = "extra-high",
 				width = 38,
 				height = 38,

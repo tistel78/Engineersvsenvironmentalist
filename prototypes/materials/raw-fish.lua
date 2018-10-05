@@ -4,6 +4,7 @@ data:extend(
     type = "capsule",
     name = "raw-fish",
     icon = "__base__/graphics/icons/fish.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fish-base",
     capsule_action =

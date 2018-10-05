@@ -78,11 +78,12 @@ data:extend(
     type = "item",
     name = "fast-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-transport-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-b[fast-transport-belt]",
     place_result = "fast-transport-belt",
-    stack_size = 50,
+    stack_size = 200,
   },
     {
     type = "recipe",
@@ -90,8 +91,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"engine-unit",1},
+     {"steam-unit", 1},
       {"iron-gear-wheel", 10},
+	  {"wall", 10},
+	  {"explosives-analogue", 100},
     },
     results = {{"fast-transport-belt",10}}
   },
@@ -99,6 +102,7 @@ data:extend(
     type = "transport-belt",
     name = "fast-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-transport-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "fast-transport-belt"},
     max_health = 50,
@@ -141,7 +145,7 @@ data:extend(
     starting_side = fast_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
-    speed = 0.0625,
+    speed = 0.0225, 
     connector_frame_sprites = transport_belt_connector_frame_sprites,
     circuit_connector_sprites = transport_belt_circuit_connector_sprites,
     circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
@@ -152,6 +156,7 @@ data:extend(
     type = "item",
     name = "fast-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-underground-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-b[fast-transport-belt-to-ground]",
@@ -164,20 +169,23 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"fast-transport-belt", 10}
+      {"fast-transport-belt", 100},
+	  {"wall", 100},
+	  {"explosives-analogue", 1000},
     },
-    result_count = 2,
+    result_count = 20,
     result = "fast-transport-belt-to-ground"
   },
   {
     type = "underground-belt",
     name = "fast-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-underground-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
-    max_distance = 10,
+    max_distance = 13,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",
@@ -185,6 +193,15 @@ data:extend(
       width = 32,
       height = 32,
       x = 32
+    },
+	underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances =
     {
@@ -205,7 +222,7 @@ data:extend(
     starting_bottom = fast_belt_starting_bottom,
     starting_side = fast_belt_starting_side,
     fast_replaceable_group = "underground-belt",
-    speed = 0.0625,
+    speed = 0.0425,
     structure =
     {
       direction_in =
@@ -217,7 +234,17 @@ data:extend(
           shift = {0.26, 0},
           width = 57,
           height = 43,
-          y = 43
+          y = 43,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure.png",
+            priority = "extra-high",
+            shift = {0.15625, 0.0703125},
+            width = 106,
+            height = 85,
+            y = 85,
+            scale = 0.5
+          }
         }
       },
       direction_out =
@@ -228,7 +255,16 @@ data:extend(
           priority = "extra-high",
           shift = {0.26, 0},
           width = 57,
-          height = 43
+          height = 43,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/fast-underground-belt/hr-fast-underground-belt-structure.png",
+            priority = "extra-high",
+            shift = {0.15625, 0.0703125},
+            width = 106,
+            height = 85,
+            scale = 0.5
+          }
         }
       }
     },
@@ -239,6 +275,7 @@ data:extend(
     type = "item",
     name = "fast-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-splitter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-b[fast-splitter]",
@@ -262,6 +299,7 @@ data:extend(
     type = "splitter",
     name = "fast-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-splitter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "fast-splitter"},
     max_health = 80,

@@ -4,6 +4,7 @@
     type = "technology",
     name = "optics",
     icon = "__base__/graphics/technology/optics.png",
+	icon_size = 32,
     prerequisites = {"electronics"},
     effects =
     {

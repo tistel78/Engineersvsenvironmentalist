@@ -4,6 +4,7 @@ data:extend(
     type = "blueprint",
     name = "blueprint",
     icon = "__base__/graphics/icons/blueprint.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "logics",
     order = "c[automated-construction]-a[blueprint]",
@@ -33,6 +34,7 @@ data:extend(
     type = "deconstruction-item",
     name = "deconstruction-planner",
     icon = "__base__/graphics/icons/deconstruction-planner.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "logics",
     order = "c[automated-construction]-b[deconstruction-planner]",
@@ -55,5 +57,27 @@ data:extend(
     result = "deconstruction-planner",
     enabled = false
   },
-  }
-  )
+  {
+    type = "blueprint-book",
+    name = "blueprint-book",
+    icon = "__base__/graphics/icons/blueprint-book.png",
+	icon_size = 32,
+    flags = {"goes-to-quickbar"},
+    subgroup = "logics",
+    order = "c[automated-construction]-c[blueprint-book]",
+    stack_size = 1,
+    inventory_size = 30
+  },
+  {
+    type = "recipe",
+    name = "blueprint-book",
+    energy_required = 5,
+    subgroup = "logics",
+    ingredients =
+    {
+      {"advanced-circuit", 15}
+    },
+    result = "blueprint-book",
+    enabled = false
+  },
+})

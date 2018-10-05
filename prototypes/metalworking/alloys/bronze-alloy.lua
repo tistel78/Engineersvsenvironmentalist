@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "bronze-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/bronze-plate.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "bronze",

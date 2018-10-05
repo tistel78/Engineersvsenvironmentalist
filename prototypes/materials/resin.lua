@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "resin",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/resin.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "wood-base",
     order = "f[resin]",

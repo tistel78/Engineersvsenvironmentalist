@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "drills-1",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     unit =
@@ -26,6 +27,7 @@ data:extend(
     type = "technology",
     name = "drills-2",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -54,6 +56,7 @@ data:extend(
     type = "technology",
     name = "drills-3",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
+	icon_size = 32,
     order = "d-a-a-2",
     upgrade = "true",
     prerequisites =
@@ -82,6 +85,7 @@ data:extend(
     type = "technology",
     name = "drills-4",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
+	icon_size = 32,
     order = "d-a-a-3",
     upgrade = "true",
     prerequisites =
@@ -111,6 +115,7 @@ data:extend(
     type = "technology",
     name = "drills-5",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
+	icon_size = 32,
     order = "d-a-a-4",
     upgrade = "true",
     prerequisites =

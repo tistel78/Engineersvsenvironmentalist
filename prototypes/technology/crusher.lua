@@ -3,6 +3,7 @@ data:extend({
     type = "technology",
     name = "crusher",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     
     effects = {
       {
@@ -26,6 +27,7 @@ data:extend({
     type = "technology",
     name = "crusher-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     prerequisites = {"electronics","crusher"},
     effects = {
       {
@@ -51,6 +53,7 @@ data:extend({
     type = "technology",
     name = "crusher-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/crusher.png",
+	icon_size = 32,
     prerequisites = {"electronics","crusher"},
     effects = {
       {

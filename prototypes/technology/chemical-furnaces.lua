@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "chemical-boiler",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/stone-chemical-furnace.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     unit =
@@ -38,6 +39,7 @@ data:extend(
     type = "technology",
     name = "chemical-furnace",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-furnace.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

@@ -4,22 +4,19 @@ data:extend(
     type = "item",
     name = "tungsten-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tungsten-ore.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[tungsten-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "tungsten-ore"
-  },
-  {
+   {
     type = "autoplace-control",
     name = "tungsten-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		minable =
@@ -36,6 +33,7 @@ data:extend(
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tungsten-ore.png",
+		icon_size = 32,
 		stage_mult = 10,
 		item =
 		{
@@ -59,13 +57,13 @@ data:extend(
         influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "tungsten-ore",
-        noise_octaves_difference = -3,
-        noise_persistence = 0.4,
+        noise_octaves_difference = -2.4,
+        noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
-        starting_area_weight_max_range = 1,
+        starting_area_weight_max_range = 2,
       },
       
 			},

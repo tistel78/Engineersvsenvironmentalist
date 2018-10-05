@@ -22,7 +22,7 @@ data.raw["resource"]["gem-ore"].minable.results = {
 data.raw["resource"]["chalcopyrite-ore"].minable.result = nil
 data.raw["resource"]["chalcopyrite-ore"].minable.results = {
 	addYield("chalcopyrite-ore",   1, 1, 1),
-	addYield("copper-ore",   1, 2, 0.01),
+	addYield("copper-ore",   1, 2, 0.05),
 	addYield("dirt",       1, 1, 1),
 	addYield("waste-rock",       1, 1, 0.5),
 }
@@ -41,7 +41,7 @@ data.raw["resource"]["hematite"].minable.results = {
 	addYield("iron-oxide-ore",   1, 1, 1),
 	addYield("rutile-ore",     1, 1, 0.04),
 	addYield("quartz",     1, 2, 0.1),
-	addYield("dirt",       1, 1, 1),
+	addYield("dirt",       1, 1, 0.86),
 	addYield("waste-rock",       1, 1, 0.5),
 }
 
@@ -56,8 +56,8 @@ data.raw["resource"]["lead-ore"].minable.results = {
 data.raw["resource"]["nickel-ore"].minable.result = nil
 data.raw["resource"]["nickel-ore"].minable.results = {
 	addYield("nickel-ore",1, 1, 1),
-	addYield("cobalt-ore",1, 1, 0.01),
-	addYield("dirt",      1, 1, 1),
+	addYield("cobalt-ore",1, 1, 0.05),
+	addYield("dirt",      1, 1, 0.95),
 	addYield("waste-rock",     1, 1, 0.5),
 }
 
@@ -141,20 +141,20 @@ data.raw["resource"]["iron-ore"].minable.results = {
 	addYield("waste-rock",     1, 1, 0.5),
 }
 
-data.raw["resource"]["lignite-ore"].minable.result = nil
-data.raw["resource"]["lignite-ore"].minable.results = {
-	addYield("browncoal",    1, 1, 1),
-	addYield("gravel",    1, 4, 0.9),
-	addYield("dirt",      1, 5, 1),
-	addYield("waste-rock",     1, 1, 0.1),
-	addYield("sand",      1, 2, 1)
-}
+--data.raw["resource"]["lignite-ore"].minable.result = nil
+--data.raw["resource"]["lignite-ore"].minable.results = {
+--	addYield("browncoal",    1, 1, 1),
+--	addYield("gravel",    1, 4, 0.9),
+--	addYield("dirt",      1, 5, 1),
+--	addYield("waste-rock",     1, 1, 0.1),
+--	addYield("sand",      1, 2, 1)
+--}
 
 data.raw["resource"]["fluorite"].minable.result = nil
 data.raw["resource"]["fluorite"].minable.results = {
 	addYield("fluorite",    1, 1, 1),
 	addYield("dirt",      1, 1, 1),
-	addYield("waste-rock",     1, 1, 0.5),
+	addYield("waste-rock",     1, 1, 0.1),
 }
 
 data.raw["resource"]["uraninite"].minable.result = nil

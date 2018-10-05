@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "bronze-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/bronze-plate.png",
+	icon_size = 32,
     prerequisites = {"tin-processing","mixing-furnace"},
     effects =
     {

@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "invar-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/invar-plate.png",
+	icon_size = 32,
     prerequisites = {"nickel-processing","mixing-furnace"},
     effects =
     {

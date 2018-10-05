@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "cobalt-steel-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
+	icon_size = 32,
     prerequisites = {"cobalt-processing","steel-processing","mixing-furnace"},
     effects =
     {

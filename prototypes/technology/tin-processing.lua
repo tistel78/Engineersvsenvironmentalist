@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "tin-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-plate.png",
+	icon_size = 32,
     prerequisites = {"chemical-boiler"},
     effects =
     {

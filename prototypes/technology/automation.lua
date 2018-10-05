@@ -4,6 +4,7 @@
     type = "technology",
     name = "automation",
     icon = "__base__/graphics/technology/automation.png",
+	icon_size = 32,
     enabled=false,
     effects =
     {
@@ -20,6 +21,7 @@
     type = "technology",
     name = "automation-1",
     icon = "__base__/graphics/technology/automation.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -43,6 +45,7 @@
     type = "technology",
     name = "automation-2",
     icon = "__base__/graphics/technology/automation.png",
+	icon_size = 32,
     prerequisites = {"electronics","automation-1","steel-processing"},
     effects =
     {
@@ -59,7 +62,7 @@
     unit =
     {
       count = 40,
-      ingredients = {{"science-pack-1", 1},{"science-pack-2", 1}},
+      ingredients = {{"science-pack-1", 1},{"science-pack-2", 1},  { "computing-pack-1",1}, },
       time = 15
     },
     order = "a-b-b",
@@ -68,6 +71,7 @@
     type = "technology",
     name = "automation-3",
     icon = "__base__/graphics/technology/automation.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -80,7 +84,12 @@
     unit =
     {
       count = 100,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1}, 
+	  {"science-pack-3", 1},
+	  {"computing-pack-2",1},
+	  },
       time = 60
     },
     order = "a-b-c"
@@ -89,6 +98,7 @@
     type = "technology",
     name = "automation-4",
     icon = "__base__/graphics/technology/automation.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -113,6 +123,7 @@
         {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"science-pack-4", 1},
+		{"computing-pack-3",1},
       },
       time = 45
     },

@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "furnace-2",
     icon = "__base__/graphics/icons/steel-furnace.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "basic-smelting",
     order = "b[steel-furnace]",
@@ -22,6 +23,7 @@ data:extend(
     type = "assembling-machine",
     name = "furnace-2",
     icon = "__base__/graphics/icons/steel-furnace.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "furnace-2"},
     max_health = 200,
@@ -42,8 +44,8 @@ data:extend(
     selection_box = {{-0.8, -1}, {0.8, 1}},
     crafting_categories = {"smelting"},
     result_inventory_size = 4,
-    energy_usage = "79MW",
-    crafting_speed = 2,
+    energy_usage = "85MW",
+    crafting_speed = 3,
     source_inventory_size = 4,
     ingredient_count = 4,
     energy_source =
@@ -51,29 +53,30 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000045570,
-      smoke =
+      emissions = 0.000011570,
+	smoke =
       {
         {
           name = "smoke",
-          frequency = 10,
-          position = {0.7, -1.2},
+          deviation = {0.1, 0.1},
+          frequency = 5,
+          position = {0.0, -0.8},
           starting_vertical_speed = 0.08,
           starting_frame_deviation = 60
         }
       }
     },
 
-    animation =
+   animation =
     {
-      filename = "__base__/graphics/entity/steel-furnace/steel-furnace.png",
-      priority = "high",
-      width = 140,
-      height = 76,
-      frame_count = 1,
-      shift = {1.21875, -0.125}
-    },
-    working_visualisations =
+        filename = "__base__/graphics/entity/stone-furnace/stone-furnace.png",
+        priority = "extra-high",
+        width = 81,
+        height = 64,
+        frame_count = 1,
+        shift = {0.515625, 0.0625},
+		},
+  working_visualisations =
     {
       {
         north_position = {0.0, 0.0},
@@ -82,55 +85,18 @@ data:extend(
         west_position = {0.0, 0.0},
         animation =
         {
-          filename = "__base__/graphics/entity/steel-furnace/steel-furnace-fire.png",
-          priority = "high",
+          filename = "__base__/graphics/entity/stone-furnace/stone-furnace-fire.png",
+          priority = "extra-high",
           line_length = 8,
-          width = 29,
-          height = 41,
+          width = 22,
+          height = 87,
           frame_count = 48,
           axially_symmetrical = false,
           direction_count = 1,
-          shift = {-0.01563, 0.171875},
+          shift = {0.0625, -0.453125},
         },
         light = {intensity = 1, size = 1}
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        effect = "flicker", -- changes alpha based on energy source light intensity
-        animation =
-        {
-          filename = "__base__/graphics/entity/steel-furnace/steel-furnace-glow.png",
-          priority = "high",
-          width = 60,
-          height = 43,
-          frame_count = 1,
-          shift = {0.03125, 0.640625},
-          blend_mode = "additive"
-        }
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        effect = "flicker", -- changes alpha based on energy source light intensity
-        animation =
-        {
-          filename = "__base__/graphics/entity/steel-furnace/steel-furnace-working-lighting.png",
-          priority = "high",
-          line_length = 8,
-          width = 58,
-          height = 59,
-          frame_count = 1,
-          axially_symmetrical = false,
-          direction_count = 1,
-          shift = {0.09375, 0.046875},
-          blend_mode = "additive"
-        }
-      },
+      }
     },
     fast_replaceable_group = "furnace"
   },

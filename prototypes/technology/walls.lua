@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "stone-walls",
     icon = "__base__/graphics/technology/stone-walls.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -23,6 +24,7 @@ data:extend(
     type = "technology",
     name = "gates",
     icon = "__base__/graphics/technology/gates.png",
+	icon_size = 32,
     effects =
     {
       {

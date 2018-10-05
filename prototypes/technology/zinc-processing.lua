@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "zinc-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-plate.png",
+	icon_size = 32,
     prerequisites = {"lead-processing"},
     effects =
     {

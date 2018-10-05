@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "gem-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
+	icon_size = 32,
     prerequisites = {"steel-processing","silicon-processing"},
     effects =
     {

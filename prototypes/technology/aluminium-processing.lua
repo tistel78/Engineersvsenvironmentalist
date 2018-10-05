@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "aluminium-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
+	icon_size = 32,
     prerequisites = {"silicon-processing","electrolyser-1"},
     effects =
     {
@@ -23,6 +24,11 @@ data:extend(
         type = "unlock-recipe",
         recipe = "cast-aluminium"
       },  
+	    {
+        type = "unlock-recipe",
+        recipe =  "cryolite-2",
+      }, 
+	 
       {
         type = "unlock-recipe",
         recipe = "hydrogen-fluorites"

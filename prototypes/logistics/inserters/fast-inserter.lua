@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "fast-inserter",
     icon = "__base__/graphics/icons/fast-inserter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "b[inserter-2]",
@@ -27,6 +28,7 @@ data:extend(
     type = "inserter",
     name = "fast-inserter",
     icon = "__base__/graphics/icons/fast-inserter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {

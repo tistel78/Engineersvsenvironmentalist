@@ -5,58 +5,99 @@ data:extend(
     type = "item",
     name = "nickel-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-crushed.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "nickel-processing",
     order = "a-1",
     stack_size = 200
   },
- {
+   {
     type = "item",
-    name = "nickel-plate",
-    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
+    name = "nickel-slurry",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-slurry.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "nickel-processing",
     order = "a-2",
     stack_size = 200
   },
+  
+ {
+    type = "item",
+    name = "nickel-plate",
+    icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "nickel-processing",
+    order = "a-3",
+    stack_size = 400
+  },
   {
 	type = "recipe",
   name = "nickel-crushed",
 	icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-crushed.png",
+	icon_size = 32,
   category = "crusher",
 	subgroup = "nickel-processing",
   order = "a-1",
 	enabled = true,
-  energy_required = 1,
-  ingredients = {{"nickel-ore",5}},
+  energy_required = 250,
+  ingredients = {{"nickel-ore",500}},
   results = {
-            {type="item",name="nickel-crushed", probability=1, amount_min=1, amount_max=5},
-            {type="item",name="iron-oxide-crushed", probability=1, amount_min=1, amount_max=5},
-            {"gravel",3},
+            {type="item",name="nickel-crushed", probability=1, amount_min=199, amount_max=200},
+            {type="item",name="iron-oxide-crushed", probability=1, amount_min=199, amount_max=200},
+			{type="item",name="platinum-grain", probability=1, amount_min=1, amount_max=2},
+			{type="item", name="gravel", amount=100},
             },
   },
   {
     type = "recipe",
-    name = "nickel-plate",
+    name = "nickel-slurry",
+	icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-slurry.png",
+	icon_size = 32,
     category = "chemistry",
     subgroup = "nickel-processing",
     order = "a-2",
     enabled = false,
-    energy_required = 3.5,
+    energy_required = 20,
     ingredients =
     {
       {type="item", name="nickel-crushed", amount=1},
-      {type="fluid", name="water", amount=1},
-      {type="fluid", name="oxygen", amount=1.5}
+      {type="fluid", name="sulfuric-acid", amount=2},
+      
     },
     results=
     {
       {type="fluid", name="sulfuric-acid", amount=1},
-      {type="item", name="nickel-plate", amount=1}
+      {type="item", name="nickel-slurry", amount=1},
     },
-    main_product= "nickel-plate",
+    
   },
-
+  {
+    type = "recipe",
+    name = "nickel-plate",
+	icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
+	icon_size = 32,
+    category = "chemistry",
+    subgroup = "nickel-processing",
+    order = "a-3",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    {
+      {type="item", name="nickel-slurry", amount=10},
+      {type="fluid", name="oxygen", amount=1},
+	  {type="fluid", name="nitrogen", amount=4},
+      {type="item", name="calcium-oxide", amount=1},
+    },
+    results=
+    {
+      
+      {type="item", name="nickel-plate", amount=9},
+	  {type="item", name="cobalt-oxide", amount=1},
+    },
+    
+  },
 
 }
 )

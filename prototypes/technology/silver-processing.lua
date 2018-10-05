@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "silver-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
+	icon_size = 32,
     prerequisites = {"advanced-electronics"},
     effects =
     {

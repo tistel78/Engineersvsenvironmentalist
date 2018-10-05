@@ -4,6 +4,7 @@ data:extend(
     type = "module",
     name = "productivity-module",
     icon = "__base__/graphics/icons/productivity-module.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "productivity",
@@ -21,8 +22,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-circuit", 5},
-      {"electronic-circuit", 5}
+     {"small-ai",2},
+     
     },
     energy_required = 15,
     result = "productivity-module"
@@ -31,6 +32,7 @@ data:extend(
     type = "module",
     name = "productivity-module-2",
     icon = "__base__/graphics/icons/productivity-module-2.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "productivity",
@@ -49,8 +51,8 @@ data:extend(
     ingredients =
     {
       {"productivity-module", 4},
-      {"advanced-circuit", 5},
-      {"processing-unit", 5}
+      {"medium-ai",1},
+      
     },
     energy_required = 30,
     result = "productivity-module-2"
@@ -59,6 +61,7 @@ data:extend(
     type = "module",
     name = "productivity-module-3",
     icon = "__base__/graphics/icons/productivity-module-3.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "productivity",
@@ -77,8 +80,8 @@ data:extend(
     ingredients =
     {
       {"productivity-module-2", 5},
-      {"advanced-circuit", 5},
-      {"processing-unit", 5},
+      {"large-ai",1},
+    {"large-ai",3},
       {"alien-artifact", 1}
     },
     energy_required = 60,

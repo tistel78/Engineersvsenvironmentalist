@@ -1,27 +1,27 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "cryolite"
-  },
-  {
-    type = "autoplace-control",
-    name = "cryolite",
-    richness = true,
-    order = "b-e"
-  },
+ 
 	{
 		type = "item",
 		name = "cryolite",
-    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cryolite.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cryolite.png",
+   	    icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "e[cryolite]",
-		stack_size = 50
+		stack_size = 200
 	},
+	 {
+    type = "autoplace-control",
+    name = "cryolite",
+    richness = true,
+    order = "b-e",
+	  category = "resource"
+  },
   {
     type = "resource",
     name = "cryolite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cryolite.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-e",
     minable =
@@ -46,10 +46,10 @@ data:extend({
         influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "cryolite",
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
+        noise_octaves_difference = -1.9,
+        noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
         starting_area_weight_range = 0,
         starting_area_weight_max_range = 2,

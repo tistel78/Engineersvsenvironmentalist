@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "electronics",
     icon = "__base__/graphics/technology/electronics.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -22,6 +23,12 @@ data:extend(
         type = "unlock-recipe",
         recipe = "solder-alloy"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "solder-alloy2"
+      },
+	  
+	  
       {
         type = "unlock-recipe",
         recipe = "solder"

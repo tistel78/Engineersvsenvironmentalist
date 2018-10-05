@@ -4,6 +4,7 @@
     type = "technology",
     name = "advanced-electronics-3",
     icon = "__base__/graphics/technology/advanced-electronics-2.png",
+	icon_size = 32,
     prerequisites = {"advanced-electronics-2","rocketry"},
     effects =
     {
@@ -27,6 +28,11 @@
         type = "unlock-recipe",
         recipe = "alien-science-pack"
       },
+	   {
+        type = "unlock-recipe",
+        recipe = "alien-science-pack2"
+      },
+	 
     },
     unit =
     {
@@ -37,6 +43,7 @@
         {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"science-pack-4", 1},
+		 {"computing-pack-3",1}, 
       },
       time = 30
     },

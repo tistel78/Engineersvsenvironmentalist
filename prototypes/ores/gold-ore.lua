@@ -4,22 +4,20 @@ data:extend(
     type = "item",
     name = "gold-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
+	icon_size = 28,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[gold-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "gold-ore"
-  },
-  {
+   {
     type = "autoplace-control",
     name = "gold-ore",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
+ 	
 	{
 		type = "resource",
 		minable =
@@ -34,6 +32,7 @@ data:extend(
 		map_color = {r=0.9, g=0.63, b=0},
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
+		icon_size = 28,
 		stage_mult = 10,
 		item =
 		{
@@ -85,6 +84,7 @@ data:extend(
 			sheet =
 			{
 				filename = "__Engineersvsenvironmentalist__/graphics/entity/ores/gold.png",
+				icon_size = 28,
 				priority = "extra-high",
 				width = 38,
 				height = 38,

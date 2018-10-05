@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "basic-smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/basic-smart-inserter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "d[smart-inserter-1]",
@@ -16,7 +17,7 @@ data:extend(
     enabled=false,
     ingredients =
     {
-    {"basic-circuit-board", 2},
+    {"stupid-ai", 1},
     {"inserter", 1},
     },
     result = "basic-smart-inserter"
@@ -25,6 +26,7 @@ data:extend(
     type = "inserter",
     name = "basic-smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/basic-smart-inserter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-inserter"},
     max_health = 40,

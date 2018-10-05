@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "void-fluid",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void.png",
+	icon_size = 32,
     unit =
     {
       count = 5,

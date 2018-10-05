@@ -3,25 +3,24 @@ data:extend({
 		type = "item",
 		name = "iron-sulfate-ore",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-sulfate-ore.png",
+		icon_size = 27,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},
-  {
-    type = "noise-layer",
-    name = "iron-ore"
-  },
-  {
+	 {
     type = "autoplace-control",
     name = "iron-ore",
     richness = true,
-    order = "b-a"
+    order = "b-a",
+    category = "resource"
   },
   {
     type = "resource",
     name = "iron-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-sulfate-ore.png",
+	icon_size = 27,
     flags = {"placeable-neutral"},
     order="a-b-b",
     minable =
@@ -65,12 +64,13 @@ data:extend({
         
       },
     },
-    stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
+    stage_counts = {1000, 600, 400, 200, 100, 50, 20, 10},
     stages =
     {
       sheet =
       {
         filename = "__base__/graphics/entity/iron-ore/iron-ore.png",
+		icon_size = 30,
         priority = "extra-high",
         width = 38,
         height = 38,

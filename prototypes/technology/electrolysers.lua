@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "electrolyser-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -46,6 +47,7 @@ data:extend(
     type = "technology",
     name = "electrolyser-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-2.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -86,6 +88,7 @@ data:extend(
     type = "technology",
     name = "electrolyser-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-3.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

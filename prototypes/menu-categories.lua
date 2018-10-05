@@ -7,6 +7,7 @@
     order = "a-a",
     inventory_order = "a-a",
     icon = "__base__/graphics/icons/transport-belt.png",
+	icon_size = 32,
   },
     {
     type = "item-group",
@@ -14,6 +15,7 @@
     order = "a-b",
     inventory_order = "b-a",
     icon = "__base__/graphics/icons/logistic-chest-storage.png",
+	icon_size = 32,
   },
     {
     type = "item-group",
@@ -21,6 +23,7 @@
     order = "a-c",
     inventory_order = "c-a",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
+	icon_size = 32,
   },
       {
     type = "item-group",
@@ -28,6 +31,7 @@
     order = "a-d",
     inventory_order = "d-a",
     icon = "__base__/graphics/icons/iron-axe.png",
+	icon_size = 32,
   },
         {
     type = "item-group",
@@ -35,6 +39,7 @@
     order = "a-e",
     inventory_order = "e-a",
     icon = "__base__/graphics/icons/stone-furnace.png",
+	icon_size = 32,
   },
   {
     type = "item-group",
@@ -42,6 +47,7 @@
     order = "a-f",
     inventory_order = "f-a",
     icon = "__base__/graphics/icons/alien-science-pack.png",
+	icon_size = 29,
   },
   {
     type = "item-group",
@@ -49,6 +55,7 @@
     order = "a-g",
     inventory_order = "g-a",
     icon = "__base__/graphics/icons/raw-wood.png",
+	icon_size = 32,
   },
   {
     type = "item-group",
@@ -56,6 +63,7 @@
     order = "a-h",
     inventory_order = "h-a",
     icon = "__base__/graphics/icons/copper-ore.png",
+	icon_size = 32,
   },
   {
     type = "item-group",
@@ -63,6 +71,7 @@
     order = "a-i",
     inventory_order = "i-a",
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
+	icon_size = 32,
   },
   {
     type = "item-group",
@@ -70,6 +79,7 @@
     order = "a-j",
     inventory_order = "j-a",
     icon = "__base__/graphics/icons/iron-gear-wheel.png",
+	icon_size = 32,
   },
   
   {
@@ -78,6 +88,7 @@
     order = "a-k",
     inventory_order = "k-a",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-electronic-components.png",
+	icon_size = 32,
   },
   
   }
@@ -451,7 +462,12 @@
     group = "ore-processing",
     order = "steel-1"
   },
-  
+          {
+    type = "item-subgroup",
+    name = "steel-0",
+    group = "ore-processing",
+    order = "a-1"
+  },
         {
     type = "item-subgroup",
     name = "steel-1",
@@ -753,7 +769,13 @@
   },
         {
     type = "item-subgroup",
-    name = "pollution-pots",
+    name = "clean-pots",
+    group = "science",
+    order = "i-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "computing-pots",
     group = "science",
     order = "i-a"
   },
@@ -796,9 +818,15 @@ data:extend(
   },
   {
     type = "item-subgroup",
-    name = "advanced-parts",
+    name = "computing-power",
     group = "electronics",
     order = "d-a"
+  },
+  {
+    type = "item-subgroup",
+    name = "advanced-parts",
+    group = "electronics",
+    order = "e-a"
   },
 }
 )

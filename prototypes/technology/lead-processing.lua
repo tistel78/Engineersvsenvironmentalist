@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "lead-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-plate.png",
+	icon_size = 32,
     effects =
     {
       {

@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "gold-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
+	icon_size = 32,
     effects =
     {
       {

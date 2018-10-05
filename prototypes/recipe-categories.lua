@@ -55,6 +55,10 @@ data:extend({
     type = "recipe-category",
     name = "water-pump"
   },
+    {
+    type = "recipe-category",
+    name = "ai-training"
+  },
   {
     type = "recipe-category",
     name = "science-pots"
@@ -63,22 +67,25 @@ data:extend({
     type = "recipe-category",
     name = "coal-pots"
   },
-    {
+  {
     type = "recipe-category",
     name = "sulfuric-acid-pots"
   },
-      {
+   {
+    type = "recipe-category",
+    name = "computing-pots"
+  },
+  {
     type = "recipe-category",
     name = "explosive-pots"
   },
-   {
+  {
     type = "recipe-category",
     name = "steel-pots"
   },
-  
-     {
+  {
     type = "recipe-category",
-    name = "pollution-pots"
+    name = "clean-pots"
   },
   {
     type = "recipe-category",

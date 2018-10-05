@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "electric-chemical-mixing-furnace",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-1]",
@@ -20,6 +21,8 @@ data:extend(
       {"wall", 3600},
       {"iron-gear-wheel",2000},
       {"plumbing",2000},
+	   {"small-ai" ,5},
+	  
     },
     result = "electric-chemical-mixing-furnace"
   },
@@ -27,6 +30,7 @@ data:extend(
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace"},
     max_health = 350,
@@ -111,6 +115,7 @@ data:extend(
     type = "item",
     name = "electric-chemical-mixing-furnace-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "advanced-smelting",
     order = "d[electric-chemical-mixing-furnace-2]",
@@ -127,6 +132,8 @@ data:extend(
       {"wall", 10000},
       {"advanced-machine-parts",5000},
       {"plumbing",20000},
+	  {"medium-ai",5},
+	  
     },
     result = "electric-chemical-mixing-furnace-2"
   },
@@ -134,6 +141,7 @@ data:extend(
     type = "assembling-machine",
     name = "electric-chemical-mixing-furnace-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electric-chemical-mixing-furnace-2.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-chemical-mixing-furnace-2"},
     max_health = 450,

@@ -4,6 +4,7 @@
     type = "technology",
     name = "oil-processing",
     icon = "__base__/graphics/technology/oil-gathering.png",
+	icon_size = 32,
     prerequisites = {"electronics","steel-processing"},
     effects =
     {
@@ -40,6 +41,7 @@
     type = "technology",
     name = "advanced-oil-processing",
     icon = "__base__/graphics/technology/oil-processing.png",
+	icon_size = 32,
     prerequisites = {"oil-processing"},
     effects =
     {

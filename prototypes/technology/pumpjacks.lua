@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "pumpjacks-1",
     icon = "__base__/graphics/icons/pumpjack.png",
+	icon_size = 32,
     order = "d-a-c-1",
     upgrade = "true",
     prerequisites =
@@ -31,6 +32,7 @@ data:extend(
     type = "technology",
     name = "pumpjacks-2",
     icon = "__base__/graphics/icons/pumpjack.png",
+	icon_size = 32,
     order = "d-a-c-2",
     upgrade = "true",
     prerequisites =
@@ -59,6 +61,7 @@ data:extend(
     type = "technology",
     name = "pumpjacks-3",
     icon = "__base__/graphics/icons/pumpjack.png",
+	icon_size = 32,
     order = "d-a-c-3",
     upgrade = "true",
     prerequisites =
@@ -88,6 +91,7 @@ data:extend(
     type = "technology",
     name = "pumpjacks-4",
     icon = "__base__/graphics/icons/pumpjack.png",
+	icon_size = 32,
     order = "d-a-c-4",
     upgrade = "true",
     prerequisites =

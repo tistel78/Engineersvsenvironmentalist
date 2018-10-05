@@ -6,6 +6,7 @@ data:extend({
     type = "item",
     name = "dirt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/dirt.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "stone-base",
     order = "g3[other]",
@@ -33,24 +34,24 @@ data:extend({
       {
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt1.png",
-          count = 22,
+          count = 16,
           size = 1,
-          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045, 0.005, 0.005, 0.005, 0.005, 0.003, 0.005 }
+          weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045, }
         },
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt2.png",
-          count = 30,
+          count = 16,
           size = 2,
           probability = 1,
-          weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027, 0.022, 0.032, 0.020, 0.020, 0.030, 0.005, 0.010, 0.002, 0.013, 0.007, 0.007, 0.010, 0.030, 0.030 }
+          weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027,  }
         },
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt4.png",
-          count = 21,
+          count = 16,
           line_length = 11,
           size = 4,
           probability = 1,
-          weights = {0.070, 0.070, 0.070, 0.070, 0.070, 0.070, 0.015, 0.070, 0.070, 0.070, 0.015, 0.050, 0.070, 0.070, 0.065, 0.070, 0.070, 0.050, 0.050, 0.050, 0.050 }
+          weights = {0.070, 0.070, 0.070, 0.070, 0.070, 0.070, 0.015, 0.070, 0.070, 0.070, 0.015, 0.050, 0.070, 0.070, 0.065, 0.070, }
         }
       },
       inner_corner =

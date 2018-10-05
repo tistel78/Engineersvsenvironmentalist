@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "inserters-1",
     icon = "__base__/graphics/icons/inserter.png",
+	icon_size = 32,
     prerequisites =
     {
       "automation-1",

@@ -4,6 +4,7 @@
     type = "technology",
     name = "battery",
     icon = "__base__/graphics/technology/battery.png",
+	icon_size = 32,
     prerequisites = {"sulfur-processing"},
     unit =
     {
@@ -27,6 +28,7 @@
     type = "technology",
     name = "battery-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/lithium-ion-battery.png",
+	icon_size = 32,
     prerequisites = {"battery","lithium-processing"},
     unit =
     {
@@ -51,6 +53,7 @@
     type = "technology",
     name = "battery-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/silver-zinc-battery.png",
+	icon_size = 32,
     prerequisites = {"battery-2","silver-processing"},
     unit =
     {

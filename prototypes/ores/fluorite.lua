@@ -1,27 +1,27 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "fluorite"
-  },
-  {
-    type = "autoplace-control",
-    name = "fluorite",
-    richness = true,
-    order = "b-f"
-  },
+  
 	{
 		type = "item",
 		name = "fluorite",
-    icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/fluorite.png",
+        icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/fluorite.png",
+	    icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		subgroup = "minerals",
 		order = "e[fluorite]",
 		stack_size = 200
 	},
+	  {
+    type = "autoplace-control",
+    name = "fluorite",
+    richness = true,
+    order = "b-f",
+	  category = "resource"
+  },
   {
     type = "resource",
     name = "fluorite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/fluorite.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-f",
     minable =
@@ -39,14 +39,14 @@ data:extend({
 	  frequency= none,
       sharpness = 1,
       richness_multiplier = 10000,
-      richness_base = 250,
+      richness_base = 1000,
       size_control_multiplier = 0.03,
       peaks = {
         {
         influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "fluorite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,

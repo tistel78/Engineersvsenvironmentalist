@@ -4,6 +4,7 @@ data:extend(
     type = "module",
     name = "speed-module",
     icon = "__base__/graphics/icons/speed-module.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "speed",
@@ -19,8 +20,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-circuit", 5},
-      {"electronic-circuit", 5}
+      {"small-ai",2},
+     
     },
     energy_required = 15,
     result = "speed-module"
@@ -29,6 +30,7 @@ data:extend(
     type = "module",
     name = "speed-module-2",
     icon = "__base__/graphics/icons/speed-module-2.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "speed",
@@ -45,8 +47,8 @@ data:extend(
     ingredients =
     {
       {"speed-module", 4},
-      {"processing-unit", 5},
-      {"advanced-circuit", 5}
+      {"medium-ai",3},
+   
     },
     energy_required = 30,
     result = "speed-module-2"
@@ -55,6 +57,7 @@ data:extend(
     type = "module",
     name = "speed-module-3",
     icon = "__base__/graphics/icons/speed-module-3.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "h-modules",
     category = "speed",
@@ -71,8 +74,7 @@ data:extend(
     ingredients =
     {
       {"speed-module-2", 4},
-      {"advanced-circuit", 5},
-      {"processing-unit", 5},
+	  {"large-ai",2}, 
       {"alien-artifact", 1}
     },
     energy_required = 60,

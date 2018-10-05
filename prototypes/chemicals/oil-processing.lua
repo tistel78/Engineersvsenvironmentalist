@@ -9,6 +9,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/crude-oil.png",
+	icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[crude-oil]"
@@ -23,6 +24,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
+	icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-c[heavy-oil]"
@@ -37,6 +39,7 @@ data:extend(
     flow_color = {r=0.9, g=0.9, b=0.9},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/light-oil.png",
+	icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-d[light-oil]"
@@ -51,6 +54,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/petroleum-gas.png",
+	icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[petroleum-gas]"
@@ -71,12 +75,13 @@ data:extend(
     },
     results=
     {
-      {type="item", name="sulfur", amount=1},
+      {type="item", name="sulfur", amount=4},
       {type="fluid", name="heavy-oil", amount=3},
       {type="fluid", name="light-oil", amount=3},
       {type="fluid", name="petroleum-gas", amount=4}
     },
     icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
+	icon_size = 32,
     subgroup = "oil-processing",
     order = "a[oil-processing]-a[basic-oil-processing]"
   },
@@ -93,12 +98,13 @@ data:extend(
     },
     results=
     {
-      {type="item", name="sulfur", amount=1},
+      {type="item", name="sulfur", amount=5},
       {type="fluid", name="heavy-oil", amount=1},
       {type="fluid", name="light-oil", amount=4.5},
       {type="fluid", name="petroleum-gas", amount=6.5}
     },
     icon = "__base__/graphics/icons/fluid/advanced-oil-processing.png",
+	icon_size = 32,
     subgroup = "oil-processing",
     order = "a[oil-processing]-b[advanced-oil-processing]"
   },
@@ -114,12 +120,13 @@ data:extend(
     },
     results=
     {
-      {type="item", name="sulfur", amount=1},
+      {type="item", name="sulfur", amount=5},
       {type="fluid", name="heavy-oil", amount=5},
       {type="fluid", name="light-oil", amount=2},
       {type="fluid", name="petroleum-gas", amount=4}
     },
     icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
+	icon_size = 32,
     subgroup = "oil-processing",
     order = "a[oil-processing-3]"
   },
@@ -132,14 +139,17 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="water", amount=3},
-      {type="fluid", name="heavy-oil", amount=4}
+      {type="fluid", name="heavy-oil", amount=4},
+	   {type="item", name="catalyst", amount=1},
     },
     results=
     {
-      {type="fluid", name="light-oil", amount=3}
+      {type="fluid", name="light-oil", amount=3},
+	   {type="item", name="catalyst", amount=1},
     },
     main_product= "",
     icon = "__base__/graphics/icons/fluid/heavy-oil-cracking.png",
+	icon_size = 32,
     subgroup = "oil-processing",
     order = "b[fluid-chemistry]-a[heavy-oil-cracking]"
   },
@@ -152,14 +162,17 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="water", amount=3},
-      {type="fluid", name="light-oil", amount=3}
+      {type="fluid", name="light-oil", amount=3},
+	  {type="item", name="catalyst", amount=1},
     },
     results=
     {
-      {type="fluid", name="petroleum-gas", amount=4}
+      {type="fluid", name="petroleum-gas", amount=4},
+	  {type="item", name="catalyst", amount=1},
     },
     main_product= "",
     icon = "__base__/graphics/icons/fluid/light-oil-cracking.png",
+	icon_size = 32,
     subgroup = "oil-processing",
     order = "b[fluid-chemistry]-b[light-oil-cracking]"
   },
@@ -172,15 +185,18 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="petroleum-gas", amount=10},
+	  {type="item", name="catalyst", amount=1},
     },
     results=
     {
       {type="fluid", name="ammonia", amount=1},
 	  {type="fluid", name="petroleum-gas", amount=8},
+	  {type="item", name="catalyst", amount=1},
     },
     subgroup = "AN-FO",
 	order= "a-1",	
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/petrolium-gas-cracking.png",
+	icon_size = 32,
   },
    {
     type = "recipe",
@@ -191,14 +207,19 @@ data:extend(
     ingredients =
     {
       {type="item", name="coal", amount=2},
-      {type="fluid", name="water", amount=1.5}
+	  {type="item", name="iron-plate", amount=2},
+      {type="fluid", name="water", amount=1.5},
+	  {type="fluid", name="hydrogen", amount=1},
+	  
     },
     results=
     {
-      {type="fluid", name="heavy-oil", amount=1.2}
+      {type="fluid", name="heavy-oil", amount=1.2},
+	  {type="item", name="iron-plate", amount=2},
     },
     subgroup = "oil-processing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/coal-cracking.png",
+	icon_size = 32,
     order = "b[fluid-chemistry]-a[coal-cracking]"
   },
 }

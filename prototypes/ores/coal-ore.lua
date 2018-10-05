@@ -4,27 +4,27 @@ data:extend(
     type = "item",
     name = "coal",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/coal.png",
+	icon_size = 32,
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    fuel_value = "2.4GJ",
+    fuel_category = "chemical", fuel_value = "4GJ",
     subgroup = "coal-base",
     order = "a-2",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "coal"
-  },
-  {
+   {
     type = "autoplace-control",
     name = "coal",
     richness = true,
-    order = "b-d"
+    order = "b-d",
+	  category = "resource"
   },
   {
     type = "resource",
     name = "coal",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/coal.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-c",
     minable =
@@ -40,18 +40,18 @@ data:extend(
     {
       control = "coal",
       sharpness = 1,
-      richness_multiplier = 5000,
+      richness_multiplier = 10000,
       richness_base = 5000,
       size_control_multiplier = 0.1,
       peaks = {
         {
-          influence = 0.12,
+          influence = 0.2,
           starting_area_weight_optimal = 0,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.4,
+          influence = 0.3,
           noise_layer = "coal",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.35,
@@ -60,13 +60,13 @@ data:extend(
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.4,
+          influence = 0.3,
           starting_area_weight_optimal = 1,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.4,
+          influence = 0.3,
           noise_layer = "coal",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.4,

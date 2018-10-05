@@ -1,9 +1,10 @@
-data:extend(
-{
+--data:extend(
+--{
 {
     type = "item",
     name = "void",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory", "hidden"},
     subgroup = "void",
     order = "void",
@@ -26,6 +27,7 @@ data:extend(
     },
     subgroup = "void",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-oxygen.png",
+	 icon_size = 32,
     order = "oxygen"
   },
 
@@ -46,6 +48,7 @@ data:extend(
     },
     subgroup = "void",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-hydrogen.png",
+	 icon_size = 32,
     order = "hydrogen"
   },
 
@@ -66,6 +69,7 @@ data:extend(
     },
     subgroup = "void",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-nitrogen.png",
+	 icon_size = 32,
     order = "nitrogen"
   },
 
@@ -85,6 +89,7 @@ data:extend(
       {type="item", name="void", amount=1, probability=0},
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void-chlorine.png",
+	 icon_size = 32,
     subgroup = "void",
     order = "chlorine"
   },

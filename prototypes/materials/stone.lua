@@ -4,6 +4,7 @@ data:extend(
     type = "recipe",
     name = "stone-crushing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/gravel.png",
+	icon_size = 31,
     category = "crusher",
     subgroup = "basic-processing",
     order ="a-2",

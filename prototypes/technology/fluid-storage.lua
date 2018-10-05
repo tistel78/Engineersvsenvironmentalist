@@ -4,6 +4,7 @@
     type = "technology",
     name = "fluid-storage-1",
     icon = "__base__/graphics/icons/storage-tank.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -23,6 +24,7 @@
     type = "technology",
     name = "fluid-storage-2",
     icon = "__base__/graphics/icons/storage-tank.png",
+	icon_size = 32,
     prerequisites = {"fluid-storage-1"},
     effects =
     {
@@ -43,6 +45,7 @@
     type = "technology",
     name = "fluid-storage-3",
     icon = "__base__/graphics/icons/storage-tank.png",
+	icon_size = 32,
     prerequisites = {"fluid-storage-2"},    
     effects =
     {

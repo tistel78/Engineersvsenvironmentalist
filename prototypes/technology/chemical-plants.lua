@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "chemical-plants-1",
     icon = "__base__/graphics/icons/chemical-plant.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     unit =
@@ -35,6 +36,7 @@ data:extend(
     type = "technology",
     name = "chemical-plants-2",
     icon = "__base__/graphics/icons/chemical-plant.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =
@@ -79,6 +81,7 @@ data:extend(
     type = "technology",
     name = "chemical-plants-3",
     icon = "__base__/graphics/icons/chemical-plant.png",
+	icon_size = 32,
     order = "d-a-a-1",
     upgrade = "true",
     prerequisites =

@@ -4,22 +4,19 @@ data:extend(
     type = "item",
     name = "quartz",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/quartz-ore.png",
+	icon_size = 31,
     flags = {"goes-to-main-inventory"},
     subgroup = "minerals",
     order = "b-d[quartz]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "quartz"
-  },
-  {
+ 	 {
     type = "autoplace-control",
     name = "quartz",
     richness = true,
-    order = "b-f"
+    order = "b-f",
+	  category = "resource"
   },
-	
 	{
 		type = "resource",
 		name = "quartz",
@@ -27,6 +24,7 @@ data:extend(
 		map_color = {r = 1, g = 1, b = 1},
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/quartz-ore.png",
+		icon_size = 31,
 		stage_mult = 10,
 		minable =
     {
@@ -56,10 +54,10 @@ data:extend(
 			peaks =
 			{
 				{
-        influence = 0.2,
+        influence = 0.15,
       },
       {
-        influence = 0.30,
+        influence = 0.28,
         noise_layer = "quartz",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,

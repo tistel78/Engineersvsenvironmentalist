@@ -4,10 +4,11 @@ data:extend(
     type = "item",
     name = "sulfur",
     icon = "__base__/graphics/icons/sulfur.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "sulfurates",
     order = "f[sulfur]",
-    stack_size = 50
+    stack_size = 500
   },
    {
     type = "recipe",

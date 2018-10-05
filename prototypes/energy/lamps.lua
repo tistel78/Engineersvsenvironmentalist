@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "small-lamp",
     icon = "__base__/graphics/icons/small-lamp.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "lighting",
     order = "c[light]-a[small-lamp]",
@@ -25,6 +26,7 @@ data:extend(
     type = "lamp",
     name = "small-lamp",
     icon = "__base__/graphics/icons/small-lamp.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "small-lamp"},
     max_health = 55,
@@ -37,8 +39,8 @@ data:extend(
       type = "electric",
       usage_priority = "secondary-input"
     },
-    energy_usage_per_tick = "5KW",
-    light = {intensity = 0.9, size = 80},
+    energy_usage_per_tick = "500KW",
+    light = {intensity = 0.9, size = 800},
     picture_off =
     {
       filename = "__base__/graphics/entity/small-lamp/light-off.png",
@@ -78,5 +80,8 @@ data:extend(
 
     circuit_wire_max_distance = 7.5
   },
+  
+ 
+  
   }
   )

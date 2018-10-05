@@ -4,10 +4,11 @@ data:extend(
     type = "technology",
     name = "toolbelt",
     icon = "__base__/graphics/technology/toolbelt.png",
+	icon_size = 32,
     effects =
     {
       {
-        type = "num-quick-bars",
+        type = "quick-bar-count",
         modifier = 1
       }
     },
@@ -26,11 +27,12 @@ data:extend(
     type = "technology",
     name = "toolbelt-2",
     icon = "__base__/graphics/technology/toolbelt.png",
+	icon_size = 32,
     prerequisites = {"toolbelt","electronics"},
     effects =
     {
       {
-        type = "num-quick-bars",
+        type = "quick-bar-count",
         modifier = 1
       }
     },
@@ -50,17 +52,18 @@ data:extend(
     type = "technology",
     name = "toolbelt-3",
     icon = "__base__/graphics/technology/toolbelt.png",
+	icon_size = 32,
     prerequisites = {"toolbelt-2","advanced-electronics"},
     effects =
     {
       {
-        type = "num-quick-bars",
-        modifier = 1
+        type = "quick-bar-count",
+        modifier = 2
       }
     },
     unit =
     {
-      count = 100,
+      count = 1000,
       ingredients =
       {
         {"science-pack-1", 1},

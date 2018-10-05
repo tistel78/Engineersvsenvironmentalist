@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "iron-gear-wheel",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/gear-wheels.png",
+	icon_size = 24,
     flags = {"goes-to-main-inventory"},
     subgroup = "gears",
     

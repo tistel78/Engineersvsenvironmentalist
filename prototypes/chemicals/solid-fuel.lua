@@ -4,8 +4,9 @@ data:extend(
     type = "item",
     name = "solid-fuel",
     icon = "__base__/graphics/icons/solid-fuel.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    fuel_value = "5GJ",
+    fuel_category = "chemical", fuel_value = "5GJ",
     subgroup = "fuel-processing",
     order = "c[solid-fuel]",
     stack_size = 50
@@ -25,6 +26,7 @@ data:extend(
       {type="item", name="solid-fuel", amount=1}
     },
     icon = "__base__/graphics/icons/solid-fuel-from-light-oil.png",
+	icon_size = 32,
     subgroup = "fuel-processing",
     enabled = true,
     order = "b[fluid-chemistry]-c[solid-fuel-from-light-oil]"
@@ -43,6 +45,7 @@ data:extend(
       {type="item", name="solid-fuel", amount=1}
     },
     icon = "__base__/graphics/icons/solid-fuel-from-petroleum-gas.png",
+	icon_size = 32,
     subgroup = "fuel-processing",
     enabled = true,
     order = "b[fluid-chemistry]-d[solid-fuel-from-petroleum-gas]"
@@ -62,6 +65,7 @@ data:extend(
       {type="item", name="solid-fuel", amount=1}
     },
     icon = "__base__/graphics/icons/solid-fuel-from-heavy-oil.png",
+	icon_size = 32,
     subgroup = "fuel-processing",
     enabled = true,
     order = "b[fluid-chemistry]-e[solid-fuel-from-heavy-oil]"

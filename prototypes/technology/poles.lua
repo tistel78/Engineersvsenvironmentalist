@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "electric-pole-2",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -25,7 +26,6 @@ data:extend(
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
       },
       time = 30
     },
@@ -37,6 +37,7 @@ data:extend(
     type = "technology",
     name = "electric-pole-3",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -71,6 +72,7 @@ data:extend(
     type = "technology",
     name = "electric-pole-4",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -107,6 +109,7 @@ data:extend(
     type = "technology",
     name = "electric-substation-2",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -138,6 +141,7 @@ data:extend(
     type = "technology",
     name = "electric-substation-3",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -169,6 +173,7 @@ data:extend(
     type = "technology",
     name = "electric-substation-4",
     icon = "__base__/graphics/technology/electric-energy-distribution.png",
+	icon_size = 32,
     effects =
     {
       {

@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "fluid-handling",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/heavy-oil-barrel.png",
+	icon_size = 32,
     prerequisites = {"oil-processing"},
     effects =
     {

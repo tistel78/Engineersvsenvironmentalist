@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "advanced-machine-parts",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/advanced-machine-parts.png",
+	icon_size = 28,
     flags = {"goes-to-main-inventory"},
     subgroup = "bearings",
     

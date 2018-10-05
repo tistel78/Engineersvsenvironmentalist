@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "smart-long-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-long-inserter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "d[smart-inserter-3]",
@@ -18,7 +19,7 @@ data:extend(
     ingredients =
     {
       {"fast-long-inserter", 1},
-      {"electronic-circuit", 4},
+      {"small-ai", 1},
     },
     result = "smart-long-inserter"
   },
@@ -27,6 +28,7 @@ data:extend(
     type = "inserter",
     name = "smart-long-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-long-inserter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "smart-long-inserter"},
     max_health = 40,

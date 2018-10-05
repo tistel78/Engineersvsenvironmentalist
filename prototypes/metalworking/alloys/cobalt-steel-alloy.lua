@@ -4,6 +4,7 @@ data:extend(
     type = "item",
     name = "cobalt-steel-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "alloy-processing",
     order = "cobalt",
@@ -14,6 +15,8 @@ data:extend(
     name = "cobalt-steel-alloy",
     enabled = false,
     category = "mixing-furnace",
+	 subgroup = "cobalt-processing",
+    order="a-4",
     energy_required = 35,
     ingredients =
     {

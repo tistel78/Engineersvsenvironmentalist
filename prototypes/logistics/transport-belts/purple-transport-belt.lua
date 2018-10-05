@@ -80,21 +80,26 @@ data:extend(
     type = "item",
     name = "purple-transport-belt",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-transport-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-e[purple-transport-belt]",
     place_result = "purple-transport-belt",
-    stack_size = 50
+    stack_size = 200
   },
   {
     type = "recipe",
     name = "purple-transport-belt",
+	category = "crafting-with-fluid",
     enabled = "false",
     ingredients =
     {
-      {"electric-engine-unit",1},
-      {"iron-gear-wheel", 10},
-      {"advanced-machine-parts", 10},
+      {"electric-engine-unit",10},
+      {"iron-gear-wheel", 10000},
+      {"advanced-machine-parts", 10000},
+	  {"wall", 1000},
+	  {"explosives-analogue", 64000},
+	  {type="fluid",name="lubricant",amount=2000},
     },
     results = {{"purple-transport-belt",5}}
   },
@@ -102,6 +107,7 @@ data:extend(
     type = "transport-belt",
     name = "purple-transport-belt",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-transport-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "purple-transport-belt"},
     max_health = 50,
@@ -144,7 +150,7 @@ data:extend(
     starting_side = purple_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "transport-belt",
-    speed = 0.15625,
+    speed = 0.35625,
     connector_frame_sprites = transport_belt_connector_frame_sprites,
     circuit_connector_sprites = transport_belt_circuit_connector_sprites,
     circuit_wire_connection_point = transport_belt_circuit_wire_connection_point,
@@ -155,6 +161,7 @@ data:extend(
     type = "item",
     name = "purple-transport-belt-to-ground",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-transport-belt-to-ground.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-e[purple-transport-belt-to-ground]",
@@ -176,6 +183,7 @@ data:extend(
     type = "underground-belt",
     name = "purple-transport-belt-to-ground",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-transport-belt-to-ground.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "purple-transport-belt-to-ground"},
     max_health = 60,
@@ -187,6 +195,15 @@ data:extend(
       width = 32,
       height = 32,
       x = 32
+    },
+	  underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances = 
     {
@@ -209,8 +226,8 @@ data:extend(
     starting_side = purple_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "underground-belt",
-    speed = 0.15625,
-    max_distance = 25,
+    speed = 0.85625,
+    max_distance = 99,
     structure =
     {
       direction_in =
@@ -243,6 +260,7 @@ data:extend(
     type = "item",
     name = "purple-splitter",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-splitter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-e[purple-splitter]",
@@ -267,6 +285,7 @@ data:extend(
     type = "splitter",
     name = "purple-splitter",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/purple-splitter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "purple-splitter"},
     max_health = 80,
@@ -293,7 +312,7 @@ data:extend(
     starting_side = purple_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "splitter",
-    speed = 0.15625,
+    speed = 0.85625,
     structure =
     {
       north =

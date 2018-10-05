@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "solar-energy",
     icon = "__base__/graphics/technology/solar-energy.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -38,6 +39,7 @@ data:extend(
     type = "technology",
     name = "solar-energy-2",
     icon = "__base__/graphics/technology/solar-energy.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -73,6 +75,7 @@ data:extend(
     type = "technology",
     name = "solar-energy-3",
     icon = "__base__/graphics/technology/solar-energy.png",
+	icon_size = 32,
     effects =
     {
       {

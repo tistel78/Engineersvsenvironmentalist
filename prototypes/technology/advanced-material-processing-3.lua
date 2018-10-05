@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "advanced-material-processing-3",
     icon = "__base__/graphics/technology/advanced-material-processing.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -19,6 +20,7 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
+		{"computing-pack-2",1},
       },
       time = 30
     },

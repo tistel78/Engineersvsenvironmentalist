@@ -6,6 +6,7 @@ data:extend(
     type = "item",
     name = "gold-grain",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-grain.png",
+	icon_size = 29,
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
@@ -15,6 +16,7 @@ data:extend(
     type = "item",
     name = "gold-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-crushed.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
@@ -24,6 +26,7 @@ data:extend(
     type = "item",
     name = "gold-sifted",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-sifted.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
@@ -33,6 +36,7 @@ data:extend(
     type = "item",
     name = "gold-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
@@ -43,6 +47,7 @@ data:extend(
     type = "recipe",
     name = "gold-crushing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-crushed.png",
+	icon_size = 32,
     category = "crusher",
     subgroup = "gold-processing",
     order ="a-1",
@@ -50,11 +55,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type="item", name="gold-ore", amount=5},
+      {type="item", name="gold-ore", amount=9},
     },
     results=
     {
-      {type="item", name="gold-crushed", amount=5},
+      {type="item", name="gold-crushed", amount=1},
       {type="item", name="gravel", amount=3},
     }
  },
@@ -62,6 +67,7 @@ data:extend(
     type = "recipe",
     name = "gold-sifting",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-sifted.png",
+	icon_size = 32,
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-2",
@@ -69,7 +75,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type="item", name="gold-crushed", amount=1},
+      {type="item", name="gold-crushed", amount=2},
     },
     results=
     {
@@ -81,6 +87,7 @@ data:extend(
     type = "recipe",
     name = "gold-flotation",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
+	icon_size = 32,
     category = "chemistry",
     subgroup = "gold-processing",
     order ="a-3",
@@ -95,7 +102,7 @@ data:extend(
     },
     results=
     {
-      {type="item", name="gold-plate", amount=10},
+      {type="item", name="gold-plate", amount=5},
     }
  },
  
@@ -104,6 +111,7 @@ data:extend(
     type = "recipe",
     name = "gold-grain",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-grain.png",
+	icon_size = 29,
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-4",
@@ -124,6 +132,7 @@ data:extend(
     type = "recipe",
     name = "gold-plate|grains",
         icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
+		icon_size = 32,
     category = "crafting",
     subgroup = "gold-processing",
     order ="a-5",

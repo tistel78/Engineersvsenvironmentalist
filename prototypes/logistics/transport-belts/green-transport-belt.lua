@@ -79,21 +79,25 @@ data:extend(
     type = "item",
     name = "green-transport-belt",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "a[transport-belt]-d[green-transport-belt]",
     place_result = "green-transport-belt",
-    stack_size = 50
+    stack_size = 200
   },
    {
     type = "recipe",
     name = "green-transport-belt",
+	category = "crafting-with-fluid",
     enabled = "false",
     ingredients =
     {
       {"electric-engine-unit",1},
-      {"iron-gear-wheel", 10},
-      {"advanced-machine-parts", 10},
+      {"iron-gear-wheel", 1000},
+      {"advanced-machine-parts", 1000},	     
+	  {"explosives-analogue", 10000},
+	   {type="fluid",name="lubricant",amount=200},
     },
     results = {{"green-transport-belt",10}}
   },
@@ -101,6 +105,7 @@ data:extend(
     type = "transport-belt",
     name = "green-transport-belt",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "green-transport-belt"},
     max_health = 50,
@@ -154,6 +159,7 @@ data:extend(
     type = "item",
     name = "green-transport-belt-to-ground",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "b[transport-belt-to-ground]-d[green-transport-belt-to-ground]",
@@ -175,6 +181,7 @@ data:extend(
     type = "underground-belt",
     name = "green-transport-belt-to-ground",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "green-transport-belt-to-ground"},
     max_health = 60,
@@ -186,6 +193,15 @@ data:extend(
       width = 32,
       height = 32,
       x = 32
+    },
+	  underground_remove_belts_sprite =
+    {
+      filename = "__core__/graphics/arrows/underground-lines-remove.png",
+      priority = "high",
+      width = 64,
+      height = 64,
+      x = 64,
+      scale = 0.5
     },
     resistances = 
     {
@@ -208,8 +224,8 @@ data:extend(
     starting_side = green_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "underground-belt",
-    speed = 0.125,
-    max_distance = 20,
+    speed = 0.325,
+    max_distance = 40,
     structure =
     {
       direction_in =
@@ -242,6 +258,7 @@ data:extend(
     type = "item",
     name = "green-splitter",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-splitter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "belts",
     order = "c[splitter]-d[green-splitter]",
@@ -266,6 +283,7 @@ data:extend(
     type = "splitter",
     name = "green-splitter",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-splitter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "green-splitter"},
     max_health = 80,
@@ -292,7 +310,7 @@ data:extend(
     starting_side = green_belt_starting_side,
     ending_patch = ending_patch_prototype,
     fast_replaceable_group = "splitter",
-    speed = 0.125,
+    speed = 0.325,
     structure =
     {
       north =

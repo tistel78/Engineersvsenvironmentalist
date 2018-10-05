@@ -4,9 +4,14 @@
     type = "technology",
     name = "advanced-electronics-2",
     icon = "__base__/graphics/technology/advanced-electronics-2.png",
+	icon_size = 32,
     prerequisites = {"advanced-electronics","gold-processing"},
     effects =
     {
+	  {
+        type = "unlock-recipe",
+        recipe = "processing-unit"
+      },
       {
         type = "unlock-recipe",
         recipe = "processing-unit"
@@ -39,7 +44,8 @@
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+		 {"computing-pack-2",1},
       },
       time = 30
     },

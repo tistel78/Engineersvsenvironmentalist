@@ -4,6 +4,7 @@
     type = "item",
     name = "smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "inserters",
     order = "d[smart-inserter-2]",
@@ -17,7 +18,7 @@
     ingredients =
     {
       {"fast-inserter", 1},
-      {"electronic-circuit", 4},
+      {"small-ai", 1},
 	  
     },
     result = "smart-inserter"
@@ -26,6 +27,7 @@
     type = "inserter",
     name = "smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "smart-inserter"},
     max_health = 40,

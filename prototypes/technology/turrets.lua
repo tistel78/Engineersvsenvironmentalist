@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "turrets",
     icon = "__base__/graphics/technology/turrets.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -23,6 +24,7 @@ data:extend(
     type = "technology",
     name = "laser-turrets",
     icon = "__base__/graphics/technology/laser-turrets.png",
+	icon_size = 32,
     effects =
     {
       {

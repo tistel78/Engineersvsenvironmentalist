@@ -4,6 +4,7 @@
     type = "technology",
     name = "engine",
     icon = "__base__/graphics/technology/engine.png",
+	icon_size = 32,
     enabled=false,
     unit =
     {
@@ -23,6 +24,7 @@
     type = "technology",
     name = "electric-engine",
     icon = "__base__/graphics/technology/electric-engine.png",
+	icon_size = 32,
     enabled=false,
     unit =
     {
