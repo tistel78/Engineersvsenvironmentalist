@@ -1,9 +1,11 @@
 {
-  "name": "Henrikshell",
-  "version": "0.1.2",
-  "title": "Henriks' Hell",
-  "author": "Henrik and Henrik",
-  "contact": "-",
+  "name": "Engineersvsenvironmentalist",
+  "version": "0.1.3",
+  "factorio_version": "0.13",
+  "title": "Engineersvsenvironmentalist",
+
+  "author": "Alreadyaccounderfor AB, Commander_Swagnington, Murmeldjuret",
+  "contact": "Fredrik Fly (facebuuk)",
   "homepage": "-",
   "description": "Fun is Mandatory"
 }
